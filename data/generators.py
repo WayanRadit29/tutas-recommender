@@ -1,11 +1,9 @@
 import pandas as pd
 import random
-from faker import Faker
-from datetime import datetime
 from config import NUM_DATA, GAYA_BELAJAR, METODE_BELAJAR, TOPIK, LOCALE, START_DT, END_DT, FLEX_RATE
 from utils import get_faker, random_window, random_choice_weighted
 
-faker = Faker(LOCALE)
+faker = get_faker(LOCALE)
 
 def generate_murid():
     rows = []
@@ -72,4 +70,26 @@ def generate_tutor():
 def generate_interaksi(df_murid, df_tutor):
     rows = []
 
-    
+    '''Untuk kita membuat data interaksi tutor dan murid , berarti kita perlu untuk memakai data dari generate murid dan tutor, '''
+    for _ in range(NUM_DATA * 2):
+        murid = df_murid.sample(1).iloc[0]
+        tutor = df_tutor.sample(1).iloc[0]
+
+        tanggal = faker.date_time_between(start_date=START_DT, end_date=END_DT)
+        durasi = random.choice([30, 45, 60, 90, 120, 180])
+        feedback = random.randint(1, 5)
+
+        rows.append(
+            {
+
+            'id_murid':  murid['id_murid'],
+            'id_tutor':  tutor['id_tutor'],
+            'tanggal':   tanggal.strftime('%Y-%m-%d %H:%M'),
+            'durasi':    durasi,
+            'feedback':  feedback
+
+
+            }
+        )
+    return pd.DataFrame(rows)
+
