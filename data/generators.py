@@ -24,7 +24,7 @@ def generate_murid():
         # 4) Bangun record
         rows.append({
                 'id_murid':         f'M{i:04d}',
-                'nama':             faker.name(),
+                'nama':             f"{faker.first_name()}  {faker.last_name()}",
                 'gaya_belajar':     gaya,
                 'metode_belajar':   metode,
                 'preferensi_topik': topik_,
@@ -53,7 +53,7 @@ def generate_tutor():
 
         rows.append({
             'id_tutor':         f'T{i:04d}',
-            'nama':             faker.name(),
+            'nama':             f"{faker.first_name()}  {faker.last_name()}",
             'gaya_belajar':     gaya,
             'metode_belajar':   metode,
             'keahlian_topik':   keahlian,
