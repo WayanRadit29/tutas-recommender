@@ -15,3 +15,6 @@ def random_window(faker, start, end, max_span_hours= 3):
 
 def random_choice_weighted(options, weights=None):
     return random.choices(options, weights=weights, k=1)[0]
+
+def has_overlap(m_start, m_end, t_start, t_end):
+    return (m_start < t_end) and (m_end > t_start)

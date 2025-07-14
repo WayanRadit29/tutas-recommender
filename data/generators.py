@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 from config import NUM_DATA, GAYA_BELAJAR, METODE_BELAJAR, TOPIK, LOCALE, START_DT, END_DT, FLEX_RATE
-from utils import get_faker, random_window, random_choice_weighted
+from utils import get_faker, random_window, random_choice_weighted, has_overlap
 from datetime import datetime, timedelta
 
 faker = get_faker(LOCALE)
@@ -53,7 +53,7 @@ def generate_tutor(df_murid):
         murid = df_murid.sample(1).iloc[0]
         # parse available_start string jadi datetime
         murid_start = datetime.strptime(murid['available_start'], "%Y-%m-%d %H:%M")
-        murid_end   = datetime.strptime(murid['available_end'],   "%Y-%m-%d %H:%M")
+        
 
         # 2) Tentukan apakah overlap (70%) atau random (30%)
         if random.random() < 0.7:
@@ -93,29 +93,24 @@ def generate_tutor(df_murid):
     return pd.DataFrame(rows)
 
 
-def generate_interaksi(df_murid, df_tutor):
+'''
+Kita akan membuat data yang variasi dan positif dan negatif agar bisa dipelajari oleh model nantinya
+    
+Parameter fungsi :
+1. ratio positif
+2. jumlah data
+3. 
+'''
+def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio = 0.5):
     rows = []
+    num_pos = total_row * pos_ratio
+    num_neg = total_row - num_pos
 
-    '''Untuk kita membuat data interaksi tutor dan murid , berarti kita perlu untuk memakai data dari generate murid dan tutor, '''
-    for _ in range(NUM_DATA * 2):
-        murid = df_murid.sample(1).iloc[0]
-        tutor = df_tutor.sample(1).iloc[0]
-
-        tanggal = faker.date_time_between(start_date=START_DT, end_date=END_DT)
-        durasi = random.choice([30, 45, 60, 90, 120, 180])
-        feedback = random.randint(1, 5)
-
-        rows.append(
-            {
-
-            'id_murid':  murid['id_murid'],
-            'id_tutor':  tutor['id_tutor'],
-            'tanggal':   tanggal.strftime('%Y-%m-%d %H:%M'),
-            'durasi':    durasi,
-            'feedback':  feedback
+    # Sekarang buat untuk data yang positif
+    
 
 
-            }
-        )
-    return pd.DataFrame(rows)
 
+
+
+    
