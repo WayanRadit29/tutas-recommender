@@ -101,16 +101,126 @@ Parameter fungsi :
 2. jumlah data
 3. 
 '''
-def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio = 0.5):
+def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
+    """
+    Generate synthetic interaction records for training.
+    
+    Positive (label=1):  topik, gaya, metode all match AND
+                         (time overlap OR either is flexible)
+    Negative (label=0):  two types, split evenly among negatives
+      1) all features mismatch
+      2) topik, gaya, metode match AND time mismatch AND neither flexible
+    """
     rows = []
-    num_pos = total_row * pos_ratio
+    # 1. hitung jumlah positif & negatif
+    num_pos = int(total_row * pos_ratio)
     num_neg = total_row - num_pos
+    num_neg_all = num_neg // 2
+    num_neg_time = num_neg - num_neg_all
 
-    # Sekarang buat untuk data yang positif
-    
+    # 2. buat interaksi positif
+    pos_count = 0
+    while pos_count < num_pos:
+        murid = df_murid.sample(1).iloc[0]
+        tutor = df_tutor.sample(1).iloc[0]
 
+        # cek match fitur
+        match_fitur = (
+            murid['preferensi_topik'] == tutor['keahlian_topik'] and
+            murid['gaya_belajar']       == tutor['gaya_belajar'] and
+            murid['metode_belajar']     == tutor['metode_belajar']
+        )
+        if not match_fitur:
+            continue
 
+        # parse waktu
+        m_start = datetime.strptime(murid['available_start'], "%Y-%m-%d %H:%M")
+        m_end   = datetime.strptime(murid['available_end'],   "%Y-%m-%d %H:%M")
+        t_start = datetime.strptime(tutor['available_start'], "%Y-%m-%d %H:%M")
+        t_end   = datetime.strptime(tutor['available_end'],   "%Y-%m-%d %H:%M")
 
+        # cek overlap atau fleksibel
+        overlap = has_overlap(m_start, m_end, t_start, t_end)
+        fleksibel = murid['is_flexible'] or tutor['is_flexible']
+        if not (overlap or fleksibel):
+            continue
 
+        # simpan record positif
+        rows.append({
+            'id_murid':           murid['id_murid'],
+            'id_tutor':           tutor['id_tutor'],
+            'topik_match':        True,
+            'gaya_match':         True,
+            'metode_match':       True,
+            'time_overlap':       overlap,
+            'murid_flexible':     murid['is_flexible'],
+            'tutor_flexible':     tutor['is_flexible'],
+            'label':              1
+        })
+        pos_count += 1
 
-    
+    # 3a. buat interaksi negatif: semua fitur mismatch
+    neg_all_count = 0
+    while neg_all_count < num_neg_all:
+        murid = df_murid.sample(1).iloc[0]
+        tutor = df_tutor.sample(1).iloc[0]
+
+        # pastikan semua fitur mismatch
+        if (
+            murid['preferensi_topik'] != tutor['keahlian_topik'] and
+            murid['gaya_belajar']       != tutor['gaya_belajar'] and
+            murid['metode_belajar']     != tutor['metode_belajar']
+        ):
+            rows.append({
+                'id_murid':           murid['id_murid'],
+                'id_tutor':           tutor['id_tutor'],
+                'topik_match':        False,
+                'gaya_match':         False,
+                'metode_match':       False,
+                'time_overlap':       None,
+                'murid_flexible':     murid['is_flexible'],
+                'tutor_flexible':     tutor['is_flexible'],
+                'label':              0
+            })
+            neg_all_count += 1
+
+    # 3b. buat interaksi negatif: fitur match tapi waktu mismatch & tidak fleksibel
+    neg_time_count = 0
+    while neg_time_count < num_neg_time:
+        murid = df_murid.sample(1).iloc[0]
+        tutor = df_tutor.sample(1).iloc[0]
+
+        # fitur harus match
+        if not (
+            murid['preferensi_topik'] == tutor['keahlian_topik'] and
+            murid['gaya_belajar']       == tutor['gaya_belajar'] and
+            murid['metode_belajar']     == tutor['metode_belajar']
+        ):
+            continue
+
+        # parse waktu
+        m_start = datetime.strptime(murid['available_start'], "%Y-%m-%d %H:%M")
+        m_end   = datetime.strptime(murid['available_end'],   "%Y-%m-%d %H:%M")
+        t_start = datetime.strptime(tutor['available_start'], "%Y-%m-%d %H:%M")
+        t_end   = datetime.strptime(tutor['available_end'],   "%Y-%m-%d %H:%M")
+
+        # harus mismatch waktu & keduanya tidak fleksibel
+        if has_overlap(m_start, m_end, t_start, t_end):
+            continue
+        if murid['is_flexible'] or tutor['is_flexible']:
+            continue
+
+        rows.append({
+            'id_murid':           murid['id_murid'],
+            'id_tutor':           tutor['id_tutor'],
+            'topik_match':        True,
+            'gaya_match':         True,
+            'metode_match':       True,
+            'time_overlap':       False,
+            'murid_flexible':     False,
+            'tutor_flexible':     False,
+            'label':              0
+        })
+        neg_time_count += 1
+
+    return pd.DataFrame(rows)

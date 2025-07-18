@@ -3,7 +3,7 @@ from generators import generate_murid, generate_tutor, generate_interaksi
 def main():
     # 1) Generate data
     df_murid     = generate_murid()
-    df_tutor     = generate_tutor()
+    df_tutor     = generate_tutor(df_murid)
     df_interaksi = generate_interaksi(df_murid, df_tutor)
     
     # 2) Simpan ke file CSV

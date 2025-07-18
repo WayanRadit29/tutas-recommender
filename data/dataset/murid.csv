@@ -1,0 +1,1001 @@
+id_murid,nama,gaya_belajar,metode_belajar,preferensi_topik,available_start,available_end,is_flexible,whatsapp
+M0001,Winda  Widodo,Auditori,Online,Fisika Magnet,2025-09-18 21:12,2025-09-19 00:12,True,+62 (74) 851-2650
+M0002,Mustika  Dongoran,Kinestetik,Online,Kimia Murni,2025-10-15 03:55,2025-10-15 05:55,False,+62-040-619-1536
+M0003,Luthfi  Haryanti,Auditori,Offline,Kalkulus 2,2025-10-06 14:38,2025-10-06 15:38,False,+62-64-889-9027
+M0004,Zelaya  Tamba,Auditori,Online,Probabilitas & Statistika,2025-08-22 07:01,2025-08-22 08:01,True,+62 (0017) 820-2483
+M0005,Virman  Melani,Auditori,Online,Fisika Listrik,2025-12-08 13:42,2025-12-08 15:42,False,+62 (01) 722-5536
+M0006,Wadi  Usamah,Auditori,Online,Fisika Listrik,2025-08-01 09:56,2025-08-01 11:56,False,+62 (058) 313-8106
+M0007,Adhiarja  Nashiruddin,Auditori,Offline,Matematika 2,2025-12-07 12:51,2025-12-07 15:51,False,+62 (0329) 750-3725
+M0008,Atma  Winarno,Kinestetik,Offline,Fisika Magnet,2025-10-04 09:28,2025-10-04 10:28,True,+62-0233-241-1262
+M0009,Nova  Tamba,Visual,Online,Kimia Murni,2025-09-12 03:51,2025-09-12 05:51,True,086 817 3248
+M0010,Capa  Wulandari,Visual,Online,Fisika Magnet,2025-12-29 08:20,2025-12-29 10:20,False,+62 (035) 928 3803
+M0011,Mahdi  Utama,Visual,Offline,Pengantar AI,2025-10-29 23:48,2025-10-30 02:48,True,089 301 1644
+M0012,Yusuf  Mahendra,Kinestetik,Online,Fisika Listrik,2025-10-19 12:17,2025-10-19 13:17,False,+62 (0528) 664 3062
+M0013,Prabu  Adriansyah,Auditori,Offline,Probabilitas & Statistika,2025-10-05 03:01,2025-10-05 06:01,False,+62 (085) 197 2767
+M0014,Darmaji  Namaga,Visual,Offline,Fisika Listrik,2025-10-25 21:03,2025-10-25 23:03,False,(088) 156-3366
+M0015,Ina  Sirait,Visual,Online,Fisika Listrik,2025-11-30 11:16,2025-11-30 12:16,False,081 303 9172
+M0016,Salimah  Dabukke,Visual,Online,Logika Matematika,2025-12-17 05:08,2025-12-17 07:08,True,(0169) 347-0064
+M0017,Dartono  Andriani,Kinestetik,Offline,Logika Matematika,2025-08-01 18:22,2025-08-01 21:22,False,+62 (076) 579-6959
+M0018,Ika  Hutasoit,Visual,Offline,Analisis Numerik,2025-08-13 00:59,2025-08-13 03:59,False,+62 (069) 444 3894
+M0019,Kasiran  Hardiansyah,Kinestetik,Offline,Logika Matematika,2025-09-27 21:05,2025-09-27 23:05,True,+62-0329-354-9514
+M0020,Raihan  Zulkarnain,Kinestetik,Online,Fisika Listrik,2025-11-25 00:24,2025-11-25 01:24,True,(026) 128-1315
+M0021,Virman  Jailani,Visual,Offline,Basis Data,2025-07-15 06:46,2025-07-15 09:46,True,+62 (37) 095-0693
+M0022,Hasna  Widiastuti,Kinestetik,Online,Basis Data,2025-12-18 02:12,2025-12-18 03:12,True,0828487846
+M0023,Yosef  Nainggolan,Visual,Offline,Fisika Magnet,2025-10-09 06:19,2025-10-09 07:19,False,+62 (70) 640-5678
+M0024,Eli  Yuliarti,Kinestetik,Online,Matematika 2,2025-11-09 22:03,2025-11-10 01:03,False,+62 (92) 857 8859
+M0025,Prayogo  Sudiati,Auditori,Online,Kimia Murni,2025-10-21 19:30,2025-10-21 21:30,False,+62 (008) 229 4127
+M0026,Harsaya  Suwarno,Visual,Offline,Aljabar Linier,2025-11-18 02:02,2025-11-18 03:02,True,+62 (021) 356-7020
+M0027,Aslijan  Rajata,Kinestetik,Offline,Logika Matematika,2025-11-19 03:44,2025-11-19 06:44,True,+62 (0323) 431-9177
+M0028,Nadia  Hassanah,Auditori,Online,Aljabar Linier,2025-11-08 11:22,2025-11-08 13:22,False,0849605315
+M0029,Kenes  Sinaga,Visual,Offline,Fisika Listrik,2025-08-10 15:39,2025-08-10 18:39,False,+62 (618) 325-4358
+M0030,Yunita  Pranowo,Kinestetik,Online,Fisika Dasar,2025-09-28 04:48,2025-09-28 06:48,True,+62-229-027-0551
+M0031,Cemeti  Wulandari,Auditori,Offline,Logika Matematika,2025-08-04 23:28,2025-08-05 02:28,False,(058) 366 7493
+M0032,Damar  Wulandari,Auditori,Online,Kalkulus 2,2025-12-16 16:42,2025-12-16 19:42,False,084 695 8161
+M0033,Ega  Haryanto,Visual,Online,Fisika Listrik,2025-10-04 19:40,2025-10-04 21:40,False,+62 (0680) 932-8991
+M0034,Cemani  Prayoga,Visual,Online,Fisika Dasar,2025-09-16 00:28,2025-09-16 03:28,False,082 068 4738
+M0035,Jarwadi  Pudjiastuti,Auditori,Online,Kimia Murni,2025-10-18 22:30,2025-10-19 01:30,False,+62 (06) 270-2672
+M0036,Rahmi  Kurniawan,Auditori,Online,Probabilitas & Statistika,2025-09-29 10:40,2025-09-29 11:40,False,(0491) 928-6579
+M0037,Jaswadi  Susanti,Auditori,Online,Aljabar Linier,2025-09-11 18:40,2025-09-11 19:40,False,+62 (90) 188 5411
+M0038,Cakrajiya  Purwanti,Visual,Online,Struktur Data,2025-11-01 05:23,2025-11-01 06:23,False,+62-05-760-9770
+M0039,Hesti  Habibi,Kinestetik,Offline,Pengantar AI,2025-08-21 04:34,2025-08-21 07:34,True,(015) 718 6749
+M0040,Zulaikha  Mayasari,Visual,Offline,Aljabar Linier,2025-10-04 00:52,2025-10-04 01:52,False,+62 (052) 834 6239
+M0041,Kemba  Setiawan,Kinestetik,Offline,Analisis Numerik,2025-09-02 23:12,2025-09-03 01:12,False,(090) 592-0917
+M0042,Septi  Yuniar,Visual,Online,Matematika 2,2025-08-20 04:33,2025-08-20 05:33,True,+62 (061) 778 1002
+M0043,Hasim  Sihombing,Visual,Online,Pengantar AI,2025-08-28 09:48,2025-08-28 12:48,False,+62 (28) 129-4245
+M0044,Tasnim  Maulana,Kinestetik,Online,Fisika Listrik,2025-10-29 20:59,2025-10-29 23:59,True,+62 (0173) 049 9436
+M0045,Aris  Wastuti,Visual,Offline,Kalkulus 2,2025-12-09 17:10,2025-12-09 19:10,False,+62 (084) 928-1934
+M0046,Ika  Safitri,Kinestetik,Online,Logika Matematika,2025-07-03 02:17,2025-07-03 03:17,True,0843117218
+M0047,Halim  Lailasari,Visual,Online,Fisika Listrik,2025-11-22 23:24,2025-11-23 01:24,False,+62 (0075) 829-4451
+M0048,Jatmiko  Hastuti,Auditori,Offline,Fisika Listrik,2025-12-25 14:55,2025-12-25 16:55,False,+62-0702-374-4853
+M0049,Anita  Tamba,Kinestetik,Offline,Fisika Listrik,2025-07-30 19:57,2025-07-30 22:57,False,+62-279-842-2896
+M0050,Hesti  Lestari,Visual,Offline,Metode Statistik,2025-09-25 07:12,2025-09-25 10:12,False,+62 (276) 086 3804
+M0051,Rachel  Hasanah,Kinestetik,Offline,Matematika 2,2025-10-22 15:35,2025-10-22 17:35,True,+62 (14) 036 5271
+M0052,Zalindra  Haryanti,Kinestetik,Offline,Metode Statistik,2025-11-24 18:26,2025-11-24 19:26,False,+62-90-553-4531
+M0053,Capa  Lestari,Auditori,Online,Aljabar Linier,2025-08-28 03:11,2025-08-28 04:11,True,(0738) 964-4487
+M0054,Malik  Firgantoro,Auditori,Online,Kimia Murni,2025-09-29 16:41,2025-09-29 18:41,False,+62-763-929-5762
+M0055,Cahya  Prakasa,Kinestetik,Online,Aljabar Linier,2025-09-07 03:32,2025-09-07 06:32,False,+62-0043-308-2130
+M0056,Edison  Sihombing,Auditori,Offline,Matematika 2,2025-08-01 23:18,2025-08-02 01:18,False,(051) 047 4851
+M0057,Luwes  Rahayu,Visual,Offline,Kalkulus 2,2025-09-16 04:04,2025-09-16 06:04,True,+62 (062) 364 3733
+M0058,Ayu  Situmorang,Visual,Online,Kalkulus 2,2025-07-01 05:52,2025-07-01 08:52,False,+62 (698) 400-4875
+M0059,Ihsan  Maheswara,Visual,Online,Kalkulus 2,2025-09-12 14:27,2025-09-12 17:27,True,+62 (0885) 917 5395
+M0060,Balidin  Budiman,Kinestetik,Online,Probabilitas & Statistika,2025-09-11 06:28,2025-09-11 07:28,False,+62 (68) 208-6782
+M0061,Tri  Nababan,Auditori,Offline,Basis Data,2025-07-10 11:15,2025-07-10 14:15,True,082 992 6880
+M0062,Ajeng  Anggraini,Visual,Online,Logika Matematika,2025-07-13 06:36,2025-07-13 07:36,True,+62 (290) 711 7114
+M0063,Gara  Rahmawati,Kinestetik,Offline,Matematika 2,2025-07-01 08:16,2025-07-01 11:16,False,(0138) 669 3435
+M0064,Usyi  Ramadan,Kinestetik,Online,Pengantar AI,2025-11-12 14:35,2025-11-12 15:35,True,+62-08-597-4032
+M0065,Eli  Utama,Visual,Offline,Logika Matematika,2025-10-09 22:59,2025-10-10 01:59,False,+62 (13) 161-7930
+M0066,Endah  Kuswandari,Kinestetik,Offline,Fisika Listrik,2025-09-29 23:06,2025-09-30 01:06,False,+62-051-882-5639
+M0067,Cengkal  Uwais,Visual,Online,Logika Matematika,2025-11-19 20:12,2025-11-19 21:12,True,+62 (52) 970 4553
+M0068,Karja  Mangunsong,Visual,Offline,Aljabar Linier,2025-12-17 22:58,2025-12-17 23:58,True,081 550 7333
+M0069,Wardi  Rahmawati,Auditori,Offline,Fisika Dasar,2025-07-09 00:21,2025-07-09 03:21,False,+62 (041) 144 3313
+M0070,Gantar  Ramadan,Visual,Offline,Basis Data,2025-08-10 17:36,2025-08-10 18:36,False,(034) 115-1813
+M0071,Cindy  Zulkarnain,Kinestetik,Offline,Logika Matematika,2025-07-16 12:14,2025-07-16 15:14,False,+62-52-984-8061
+M0072,Unjani  Januar,Kinestetik,Offline,Matematika 2,2025-09-25 00:16,2025-09-25 01:16,False,+62-0611-964-3410
+M0073,Asmadi  Tarihoran,Visual,Offline,Fisika Listrik,2025-09-08 05:39,2025-09-08 06:39,True,+62 (0343) 265-7968
+M0074,Fathonah  Hastuti,Kinestetik,Offline,Aljabar Linier,2025-11-30 07:27,2025-11-30 08:27,True,+62-099-316-7332
+M0075,Bahuraksa  Mulyani,Kinestetik,Offline,Kimia Murni,2025-08-20 04:31,2025-08-20 06:31,False,+62 (32) 921-6712
+M0076,Kani  Hardiansyah,Kinestetik,Online,Kalkulus 2,2025-12-01 21:54,2025-12-01 22:54,False,(0951) 048-7840
+M0077,Galuh  Hasanah,Kinestetik,Online,Basis Data,2025-08-08 10:33,2025-08-08 11:33,False,(059) 003 6707
+M0078,Kadir  Kuswoyo,Kinestetik,Online,Matematika 2,2025-10-11 22:10,2025-10-12 01:10,False,(0791) 482-4176
+M0079,Cici  Yuniar,Auditori,Offline,Fisika Listrik,2025-09-16 08:43,2025-09-16 10:43,False,+62 (42) 202-0529
+M0080,Puji  Pertiwi,Auditori,Online,Pengantar AI,2025-10-12 07:49,2025-10-12 10:49,False,+62-073-611-5629
+M0081,Bagus  Ardianto,Kinestetik,Offline,Aljabar Linier,2025-11-25 01:55,2025-11-25 03:55,True,+62-0078-851-8497
+M0082,Dartono  Latupono,Kinestetik,Offline,Basis Data,2025-09-03 05:36,2025-09-03 06:36,True,+62 (50) 748-3402
+M0083,Mujur  Prasetyo,Auditori,Online,Metode Statistik,2025-08-24 04:06,2025-08-24 06:06,False,(045) 435 9798
+M0084,Septi  Pertiwi,Auditori,Online,Metode Statistik,2025-12-15 19:20,2025-12-15 20:20,False,+62-055-282-9330
+M0085,Gabriella  Uyainah,Kinestetik,Online,Basis Data,2025-09-23 08:37,2025-09-23 09:37,False,(0498) 537-6933
+M0086,Gaman  Najmudin,Auditori,Online,Pengantar AI,2025-12-19 06:43,2025-12-19 09:43,False,+62 (770) 178 9630
+M0087,Gading  Yolanda,Auditori,Offline,Kalkulus 2,2025-10-31 05:10,2025-10-31 07:10,True,(0490) 129-8400
+M0088,Ajeng  Nasyidah,Kinestetik,Offline,Fisika Magnet,2025-09-07 17:57,2025-09-07 18:57,False,+62-077-813-7084
+M0089,Caket  Permata,Visual,Online,Metode Statistik,2025-10-31 15:23,2025-10-31 17:23,True,+62 (086) 712-1724
+M0090,Bakda  Dongoran,Auditori,Offline,Struktur Data,2025-07-19 10:25,2025-07-19 13:25,False,+62 (78) 916-3146
+M0091,Gara  Sudiati,Kinestetik,Offline,Fisika Magnet,2025-07-18 20:21,2025-07-18 21:21,False,(054) 276 8983
+M0092,Candra  Saptono,Kinestetik,Online,Dasar Pemrograman,2025-07-19 11:26,2025-07-19 13:26,False,+62 (218) 416 2436
+M0093,Lasmanto  Hariyah,Kinestetik,Online,Analisis Numerik,2025-07-01 23:32,2025-07-02 02:32,False,0883935662
+M0094,Lili  Puspita,Visual,Offline,Dasar Pemrograman,2025-12-06 14:02,2025-12-06 16:02,True,+62 (0362) 651-9287
+M0095,Ana  Utami,Auditori,Offline,Fisika Magnet,2025-09-29 15:20,2025-09-29 16:20,True,+62 (049) 782-4762
+M0096,Raden  Kurniawan,Visual,Offline,Kalkulus 2,2025-12-30 13:00,2025-12-30 15:00,False,+62-10-186-1667
+M0097,Gara  Astuti,Auditori,Online,Logika Matematika,2025-07-21 08:12,2025-07-21 09:12,True,081 487 0572
+M0098,Usman  Sudiati,Kinestetik,Online,Fisika Magnet,2025-10-09 11:28,2025-10-09 14:28,False,(0619) 374 9081
+M0099,Unggul  Pratiwi,Visual,Online,Metode Statistik,2025-10-26 01:43,2025-10-26 03:43,False,+62 (87) 627-6802
+M0100,Pardi  Suwarno,Kinestetik,Online,Fisika Dasar,2025-10-07 12:50,2025-10-07 13:50,True,(0375) 794 2557
+M0101,Raina  Yuliarti,Kinestetik,Online,Fisika Dasar,2025-09-02 13:24,2025-09-02 14:24,False,+62-37-857-3260
+M0102,Wardaya  Andriani,Kinestetik,Online,Kalkulus 2,2025-11-20 07:41,2025-11-20 08:41,False,(077) 071-5794
+M0103,Amalia  Yolanda,Visual,Online,Basis Data,2025-09-09 22:09,2025-09-10 00:09,False,0867855956
+M0104,Jayeng  Maryati,Auditori,Online,Logika Matematika,2025-08-10 13:15,2025-08-10 14:15,False,(0700) 048-6108
+M0105,Darijan  Saputra,Kinestetik,Offline,Aljabar Linier,2025-08-03 17:00,2025-08-03 20:00,False,(0043) 251-9262
+M0106,Mala  Prastuti,Auditori,Offline,Fisika Magnet,2025-07-16 14:30,2025-07-16 15:30,False,+62-0154-588-4744
+M0107,Elma  Winarsih,Auditori,Offline,Aljabar Linier,2025-12-27 18:23,2025-12-27 21:23,False,(074) 309 1684
+M0108,Nabila  Thamrin,Kinestetik,Offline,Pengantar AI,2025-10-10 02:01,2025-10-10 04:01,False,+62 (66) 597 3023
+M0109,Samsul  Pudjiastuti,Kinestetik,Online,Dasar Pemrograman,2025-08-18 08:32,2025-08-18 10:32,True,(089) 157-7650
+M0110,Nyoman  Budiman,Auditori,Online,Fisika Dasar,2025-11-04 09:36,2025-11-04 12:36,True,+62-87-085-3759
+M0111,Jayadi  Halimah,Kinestetik,Offline,Matematika 2,2025-07-10 00:43,2025-07-10 02:43,False,+62 (03) 657 2258
+M0112,Ratih  Laksmiwati,Auditori,Offline,Fisika Magnet,2025-09-15 16:50,2025-09-15 17:50,True,+62 (0194) 112 5605
+M0113,Unjani  Mahendra,Visual,Offline,Aljabar Linier,2025-07-28 13:10,2025-07-28 16:10,False,+62 (68) 923-5098
+M0114,Martani  Nashiruddin,Auditori,Offline,Aljabar Linier,2025-09-07 04:18,2025-09-07 07:18,False,+62-0360-499-9737
+M0115,Kamaria  Susanti,Auditori,Online,Aljabar Linier,2025-11-25 11:28,2025-11-25 13:28,False,+62 (21) 390 4321
+M0116,Eman  Wijayanti,Kinestetik,Online,Fisika Magnet,2025-11-01 23:28,2025-11-02 00:28,False,+62 (035) 564 8521
+M0117,Sabrina  Ramadan,Visual,Offline,Metode Statistik,2025-12-21 05:30,2025-12-21 06:30,True,(0220) 341 3798
+M0118,Daruna  Suartini,Auditori,Online,Matematika 2,2025-12-02 06:29,2025-12-02 09:29,False,+62 (036) 638 8045
+M0119,Harjasa  Rahmawati,Kinestetik,Offline,Matematika 2,2025-11-08 02:16,2025-11-08 05:16,False,+62 (060) 577 2315
+M0120,Dagel  Adriansyah,Kinestetik,Offline,Basis Data,2025-08-10 10:22,2025-08-10 13:22,False,+62-95-104-3921
+M0121,Cawuk  Hastuti,Visual,Online,Matematika 2,2025-10-03 19:45,2025-10-03 21:45,True,+62 (254) 404-7487
+M0122,Lukman  Wulandari,Visual,Offline,Kimia Murni,2025-08-09 07:19,2025-08-09 10:19,False,(0584) 932 3905
+M0123,Balapati  Firmansyah,Kinestetik,Online,Logika Matematika,2025-07-14 22:15,2025-07-15 01:15,True,+62 (37) 596 7913
+M0124,Cawisono  Fujiati,Kinestetik,Online,Aljabar Linier,2025-08-04 22:14,2025-08-05 01:14,False,+62 (17) 586-1565
+M0125,Lanjar  Gunarto,Auditori,Offline,Probabilitas & Statistika,2025-11-20 08:15,2025-11-20 11:15,False,+62-0061-663-7141
+M0126,Pandu  Purwanti,Auditori,Offline,Pengantar AI,2025-07-27 23:14,2025-07-28 02:14,False,+62 (073) 887-9293
+M0127,Galak  Gunawan,Visual,Online,Logika Matematika,2025-09-02 03:01,2025-09-02 05:01,False,+62 (200) 144-2580
+M0128,Ridwan  Siregar,Visual,Online,Kalkulus 2,2025-08-20 06:28,2025-08-20 09:28,True,+62 (303) 051 1689
+M0129,Sadina  Damanik,Auditori,Online,Kalkulus 2,2025-08-01 19:02,2025-08-01 20:02,False,+62 (0524) 268 2483
+M0130,Nasab  Siregar,Kinestetik,Offline,Kimia Murni,2025-10-04 01:00,2025-10-04 03:00,False,+62 (0275) 776 6048
+M0131,Kacung  Najmudin,Auditori,Offline,Logika Matematika,2025-11-12 15:35,2025-11-12 18:35,False,+62-409-463-1401
+M0132,Ani  Nashiruddin,Kinestetik,Online,Fisika Dasar,2025-09-13 01:21,2025-09-13 02:21,True,+62 (57) 240-7743
+M0133,Rahmi  Mandala,Auditori,Offline,Fisika Listrik,2025-11-05 11:56,2025-11-05 13:56,True,+62-14-730-8916
+M0134,Zelda  Simanjuntak,Auditori,Offline,Struktur Data,2025-09-24 20:10,2025-09-24 21:10,False,+62-091-837-4773
+M0135,Sabar  Sihombing,Auditori,Offline,Fisika Listrik,2025-10-28 12:16,2025-10-28 13:16,False,(0372) 935 2206
+M0136,Bakidin  Marpaung,Auditori,Offline,Kimia Murni,2025-09-14 05:43,2025-09-14 07:43,False,082 729 6807
+M0137,Martaka  Saragih,Auditori,Online,Matematika 2,2025-11-26 18:27,2025-11-26 20:27,False,(066) 250-0679
+M0138,Dasa  Sudiati,Visual,Online,Kimia Murni,2025-12-17 14:06,2025-12-17 16:06,False,+62-018-640-8056
+M0139,Irma  Pertiwi,Auditori,Online,Kimia Murni,2025-07-30 23:17,2025-07-31 02:17,False,+62 (0811) 607-5758
+M0140,Gatot  Rahmawati,Auditori,Offline,Fisika Dasar,2025-08-08 09:03,2025-08-08 12:03,False,+62 (0198) 000-1653
+M0141,Himawan  Tarihoran,Visual,Online,Struktur Data,2025-09-10 08:55,2025-09-10 11:55,True,+62 (0805) 920 4704
+M0142,Dalimin  Firmansyah,Auditori,Online,Fisika Dasar,2025-07-16 10:52,2025-07-16 11:52,False,+62 (568) 573 2706
+M0143,Mursinin  Suryono,Kinestetik,Offline,Fisika Dasar,2025-08-25 07:52,2025-08-25 08:52,False,(0147) 036-7694
+M0144,Ulya  Saputra,Visual,Online,Fisika Dasar,2025-08-12 08:21,2025-08-12 09:21,False,+62 (84) 273 4262
+M0145,Panji  Hardiansyah,Auditori,Offline,Fisika Magnet,2025-08-27 05:18,2025-08-27 08:18,False,+62 (072) 739-0157
+M0146,Darmana  Megantara,Kinestetik,Online,Fisika Dasar,2025-09-30 00:25,2025-09-30 02:25,False,+62-63-868-6549
+M0147,Xanana  Wacana,Visual,Offline,Aljabar Linier,2025-08-12 14:39,2025-08-12 17:39,False,+62 (61) 816 3494
+M0148,Tirtayasa  Halimah,Auditori,Online,Pengantar AI,2025-09-15 06:20,2025-09-15 07:20,False,+62-580-411-5765
+M0149,Bagya  Tamba,Visual,Offline,Metode Statistik,2025-12-01 19:54,2025-12-01 20:54,False,(0508) 663-8115
+M0150,Wasis  Wahyuni,Auditori,Offline,Metode Statistik,2025-09-13 06:30,2025-09-13 09:30,False,+62 (560) 344-8349
+M0151,Mahesa  Utami,Auditori,Online,Basis Data,2025-10-23 13:12,2025-10-23 16:12,True,+62 (0707) 976 9931
+M0152,Kusuma  Purnawati,Auditori,Online,Logika Matematika,2025-11-25 00:14,2025-11-25 03:14,False,+62-66-330-5235
+M0153,Kunthara  Melani,Kinestetik,Offline,Probabilitas & Statistika,2025-11-23 17:51,2025-11-23 19:51,False,+62 (39) 300 8235
+M0154,Asman  Najmudin,Kinestetik,Online,Kalkulus 2,2025-10-12 11:53,2025-10-12 14:53,True,088 298 7160
+M0155,Ibrani  Hardiansyah,Visual,Online,Struktur Data,2025-09-22 07:25,2025-09-22 10:25,True,+62-027-957-6075
+M0156,Wisnu  Hassanah,Auditori,Offline,Kimia Murni,2025-07-18 11:10,2025-07-18 14:10,False,(075) 652-1680
+M0157,Maman  Dabukke,Kinestetik,Offline,Fisika Dasar,2025-09-27 19:09,2025-09-27 20:09,False,+62 (040) 409 0285
+M0158,Luwar  Waskita,Auditori,Offline,Fisika Magnet,2025-07-05 02:44,2025-07-05 03:44,False,+62-834-083-6351
+M0159,Julia  Wijayanti,Visual,Offline,Fisika Magnet,2025-10-21 00:27,2025-10-21 02:27,False,(059) 380-0633
+M0160,Vivi  Usada,Kinestetik,Offline,Kimia Murni,2025-09-05 08:10,2025-09-05 09:10,True,082 829 3687
+M0161,Gasti  Haryanto,Visual,Online,Dasar Pemrograman,2025-10-22 07:22,2025-10-22 09:22,True,(021) 906 4806
+M0162,Surya  Palastri,Auditori,Offline,Dasar Pemrograman,2025-07-10 08:57,2025-07-10 10:57,True,+62 (80) 948-4242
+M0163,Restu  Mustofa,Kinestetik,Offline,Basis Data,2025-10-27 06:02,2025-10-27 07:02,False,+62 (129) 946 3855
+M0164,Eli  Mandala,Kinestetik,Online,Probabilitas & Statistika,2025-11-17 08:51,2025-11-17 10:51,False,+62 (099) 672-7263
+M0165,Wasis  Sudiati,Auditori,Offline,Analisis Numerik,2025-11-13 23:01,2025-11-14 02:01,True,+62 (303) 678-2799
+M0166,Vinsen  Aryani,Visual,Online,Fisika Listrik,2025-12-18 19:24,2025-12-18 20:24,False,+62-567-711-7120
+M0167,Yoga  Wasita,Auditori,Offline,Logika Matematika,2025-11-26 09:42,2025-11-26 12:42,False,+62 (0592) 231 2954
+M0168,Titin  Melani,Visual,Online,Metode Statistik,2025-07-23 03:16,2025-07-23 06:16,False,+62 (034) 085 0745
+M0169,Edi  Santoso,Visual,Online,Fisika Dasar,2025-08-23 00:41,2025-08-23 03:41,False,+62-0142-706-6204
+M0170,Damar  Yolanda,Kinestetik,Offline,Fisika Listrik,2025-08-17 06:22,2025-08-17 07:22,False,+62 (0016) 734 4742
+M0171,Omar  Samosir,Visual,Offline,Aljabar Linier,2025-12-27 05:51,2025-12-27 06:51,True,+62 (06) 982-4355
+M0172,Eka  Hidayanto,Auditori,Online,Matematika 2,2025-11-29 21:00,2025-11-30 00:00,False,+62 (0312) 681 2876
+M0173,Vino  Winarno,Visual,Online,Probabilitas & Statistika,2025-10-11 01:33,2025-10-11 02:33,False,(078) 321 5832
+M0174,Ophelia  Mustofa,Kinestetik,Offline,Fisika Magnet,2025-10-20 00:51,2025-10-20 02:51,False,+62 (758) 402-2773
+M0175,Tirtayasa  Agustina,Kinestetik,Online,Fisika Listrik,2025-11-13 05:01,2025-11-13 07:01,False,+62 (626) 160 3297
+M0176,Reksa  Suwarno,Visual,Offline,Dasar Pemrograman,2025-08-16 14:59,2025-08-16 16:59,False,+62 (660) 079 2636
+M0177,Samiah  Januar,Visual,Online,Kalkulus 2,2025-12-11 08:51,2025-12-11 10:51,False,+62 (034) 704 1628
+M0178,Irfan  Mangunsong,Kinestetik,Online,Struktur Data,2025-07-20 19:56,2025-07-20 20:56,False,+62 (810) 476 4853
+M0179,Olga  Pudjiastuti,Kinestetik,Offline,Kimia Murni,2025-10-10 03:00,2025-10-10 05:00,False,+62 (426) 202 4905
+M0180,Luthfi  Mahendra,Kinestetik,Offline,Metode Statistik,2025-09-05 00:52,2025-09-05 03:52,True,+62 (76) 188-4916
+M0181,Prayoga  Agustina,Visual,Online,Aljabar Linier,2025-10-04 13:40,2025-10-04 16:40,False,+62 (035) 783 7642
+M0182,Kalim  Maheswara,Kinestetik,Offline,Kimia Murni,2025-12-02 18:30,2025-12-02 19:30,False,0884707518
+M0183,Rahmi  Prasasta,Auditori,Online,Kimia Murni,2025-10-04 19:45,2025-10-04 20:45,False,(000) 006-7707
+M0184,Sari  Prakasa,Kinestetik,Online,Metode Statistik,2025-11-06 01:54,2025-11-06 02:54,True,+62-0693-704-5343
+M0185,Endra  Nugroho,Auditori,Offline,Aljabar Linier,2025-11-27 11:50,2025-11-27 12:50,False,+62 (0158) 197 8660
+M0186,Wira  Hutapea,Kinestetik,Online,Fisika Magnet,2025-12-06 12:58,2025-12-06 14:58,False,(0454) 429 8795
+M0187,Latika  Hassanah,Kinestetik,Online,Analisis Numerik,2025-10-06 05:30,2025-10-06 06:30,False,(096) 376 8584
+M0188,Kariman  Purnawati,Visual,Offline,Fisika Listrik,2025-07-12 16:46,2025-07-12 19:46,False,(0352) 105 9301
+M0189,Lala  Prayoga,Kinestetik,Offline,Metode Statistik,2025-09-10 02:22,2025-09-10 04:22,False,+62 (0256) 649 8764
+M0190,Yulia  Farida,Kinestetik,Online,Kalkulus 2,2025-12-01 06:45,2025-12-01 07:45,False,0840432018
+M0191,Wirda  Wacana,Visual,Offline,Dasar Pemrograman,2025-10-14 23:38,2025-10-15 02:38,False,+62-256-798-7334
+M0192,Ghaliyati  Pranowo,Auditori,Online,Fisika Magnet,2025-07-21 17:39,2025-07-21 20:39,True,+62-067-336-7551
+M0193,Darman  Pradana,Auditori,Offline,Fisika Dasar,2025-10-27 22:00,2025-10-27 23:00,True,+62-043-004-1895
+M0194,Harsanto  Ramadan,Kinestetik,Offline,Matematika 2,2025-09-01 19:07,2025-09-01 20:07,False,+62 (25) 688-7868
+M0195,Estiono  Budiman,Visual,Online,Fisika Magnet,2025-11-16 06:15,2025-11-16 07:15,False,+62 (23) 741 2072
+M0196,Diah  Permadi,Auditori,Offline,Aljabar Linier,2025-10-12 19:49,2025-10-12 22:49,False,(004) 559-9534
+M0197,Asirwada  Sudiati,Auditori,Online,Probabilitas & Statistika,2025-11-14 00:41,2025-11-14 02:41,False,+62-997-949-2857
+M0198,Dartono  Tampubolon,Kinestetik,Offline,Struktur Data,2025-10-15 17:19,2025-10-15 20:19,False,+62-812-392-3988
+M0199,Viman  Marpaung,Auditori,Offline,Kalkulus 2,2025-10-28 20:51,2025-10-28 22:51,False,0867063553
+M0200,Rafid  Setiawan,Visual,Online,Kimia Murni,2025-11-14 18:16,2025-11-14 21:16,False,+62 (001) 082-4005
+M0201,Asirwanda  Usada,Auditori,Offline,Kimia Murni,2025-12-16 20:36,2025-12-16 21:36,False,0844404596
+M0202,Bahuwirya  Hidayanto,Kinestetik,Offline,Metode Statistik,2025-09-04 13:34,2025-09-04 16:34,True,+62 (14) 448-6375
+M0203,Maman  Rahimah,Kinestetik,Online,Pengantar AI,2025-07-04 04:24,2025-07-04 05:24,False,(0942) 637 5490
+M0204,Bakidin  Wasita,Visual,Online,Pengantar AI,2025-11-25 17:01,2025-11-25 20:01,False,+62 (032) 897-0089
+M0205,Gangsa  Samosir,Auditori,Offline,Basis Data,2025-09-02 19:04,2025-09-02 22:04,False,+62 (087) 315-2397
+M0206,Aslijan  Hastuti,Auditori,Online,Kimia Murni,2025-09-03 05:09,2025-09-03 07:09,False,+62 (0305) 937-3391
+M0207,Okto  Prayoga,Auditori,Online,Kalkulus 2,2025-12-30 15:02,2025-12-30 18:02,False,(031) 707-8728
+M0208,Virman  Nasyiah,Auditori,Online,Fisika Listrik,2025-12-11 12:23,2025-12-11 13:23,True,+62 (58) 148-7229
+M0209,Cagak  Namaga,Auditori,Offline,Struktur Data,2025-10-19 02:14,2025-10-19 05:14,False,0899883923
+M0210,Ajeng  Saragih,Visual,Offline,Matematika 2,2025-11-06 15:55,2025-11-06 17:55,False,+62-0529-570-5393
+M0211,Jagaraga  Namaga,Kinestetik,Online,Matematika 2,2025-12-24 15:24,2025-12-24 18:24,False,+62 (94) 041-1512
+M0212,Raharja  Zulkarnain,Visual,Online,Pengantar AI,2025-09-28 04:49,2025-09-28 07:49,False,+62 (017) 169-6212
+M0213,Ihsan  Sinaga,Kinestetik,Offline,Metode Statistik,2025-10-12 17:26,2025-10-12 18:26,False,(0273) 106 2487
+M0214,Karen  Dabukke,Auditori,Offline,Fisika Dasar,2025-07-16 00:08,2025-07-16 01:08,False,+62 (27) 768 1046
+M0215,Lamar  Rajasa,Auditori,Online,Struktur Data,2025-07-16 20:21,2025-07-16 22:21,False,(0985) 050-4561
+M0216,Ghani  Rajata,Auditori,Offline,Kalkulus 2,2025-08-08 11:46,2025-08-08 13:46,False,080 055 6341
+M0217,Naradi  Hastuti,Auditori,Online,Logika Matematika,2025-10-22 18:31,2025-10-22 19:31,True,+62 (693) 592-2898
+M0218,Rama  Sitorus,Visual,Offline,Aljabar Linier,2025-10-25 18:30,2025-10-25 20:30,False,+62 (0643) 924-0903
+M0219,Kani  Putra,Visual,Online,Pengantar AI,2025-07-06 10:04,2025-07-06 13:04,True,+62 (51) 466 9852
+M0220,Janet  Narpati,Auditori,Offline,Kimia Murni,2025-09-10 17:10,2025-09-10 18:10,True,+62-0235-043-6975
+M0221,Sakti  Sirait,Kinestetik,Offline,Struktur Data,2025-10-06 11:20,2025-10-06 13:20,False,+62 (0523) 058 7822
+M0222,Bambang  Hidayanto,Kinestetik,Online,Pengantar AI,2025-11-14 22:12,2025-11-15 01:12,True,+62-370-273-9750
+M0223,Pardi  Najmudin,Kinestetik,Online,Fisika Listrik,2025-12-12 18:09,2025-12-12 19:09,True,+62 (90) 766-1024
+M0224,Kiandra  Adriansyah,Visual,Offline,Pengantar AI,2025-09-27 23:42,2025-09-28 00:42,False,+62 (0799) 688 5873
+M0225,Cayadi  Wahyudin,Auditori,Offline,Logika Matematika,2025-07-08 05:27,2025-07-08 06:27,False,(0431) 886 2424
+M0226,Bala  Winarno,Kinestetik,Offline,Analisis Numerik,2025-11-09 18:08,2025-11-09 20:08,False,+62 (524) 832-6241
+M0227,Maida  Saragih,Auditori,Offline,Pengantar AI,2025-09-06 05:59,2025-09-06 06:59,False,087 547 2129
+M0228,Nardi  Sihotang,Auditori,Offline,Basis Data,2025-08-22 12:11,2025-08-22 13:11,False,(070) 710-8580
+M0229,Paris  Halimah,Visual,Online,Kimia Murni,2025-11-09 05:28,2025-11-09 06:28,False,+62 (0454) 644-9921
+M0230,Safina  Dongoran,Kinestetik,Offline,Metode Statistik,2025-09-02 07:30,2025-09-02 08:30,False,(023) 812 3959
+M0231,Hartaka  Nuraini,Auditori,Offline,Metode Statistik,2025-11-09 04:56,2025-11-09 07:56,False,080 518 9082
+M0232,Ilsa  Rajata,Auditori,Offline,Aljabar Linier,2025-09-05 11:51,2025-09-05 13:51,False,+62 (409) 250 6545
+M0233,Kasiyah  Mayasari,Auditori,Online,Fisika Dasar,2025-10-04 11:09,2025-10-04 12:09,False,+62 (783) 845 9533
+M0234,Gaduh  Latupono,Visual,Offline,Analisis Numerik,2025-07-21 09:20,2025-07-21 11:20,False,(095) 073 2170
+M0235,Maria  Utama,Kinestetik,Offline,Aljabar Linier,2025-08-31 17:26,2025-08-31 20:26,False,+62 (002) 769 8250
+M0236,Irwan  Halim,Kinestetik,Online,Fisika Dasar,2025-07-07 05:57,2025-07-07 08:57,True,+62-0156-526-8783
+M0237,Hartaka  Tarihoran,Visual,Offline,Fisika Listrik,2025-11-18 05:29,2025-11-18 06:29,False,+62 (0949) 322 4176
+M0238,Dodo  Putra,Kinestetik,Offline,Probabilitas & Statistika,2025-09-21 09:56,2025-09-21 10:56,False,+62-581-586-7571
+M0239,Kemba  Yuliarti,Kinestetik,Online,Metode Statistik,2025-07-25 07:15,2025-07-25 08:15,False,+62-074-574-6944
+M0240,Daru  Zulkarnain,Kinestetik,Offline,Matematika 2,2025-09-29 15:37,2025-09-29 16:37,False,+62-668-925-2004
+M0241,Bambang  Dongoran,Visual,Online,Kalkulus 2,2025-09-19 23:54,2025-09-20 00:54,True,+62 (020) 422-1345
+M0242,Halima  Napitupulu,Auditori,Offline,Struktur Data,2025-12-29 10:25,2025-12-29 11:25,False,(047) 889-2311
+M0243,Rahmat  Mandasari,Visual,Offline,Fisika Dasar,2025-08-10 09:42,2025-08-10 10:42,False,+62-383-337-3106
+M0244,Satya  Gunawan,Auditori,Offline,Analisis Numerik,2025-10-16 17:28,2025-10-16 19:28,False,+62-077-778-6906
+M0245,Umi  Hastuti,Visual,Online,Probabilitas & Statistika,2025-11-03 17:03,2025-11-03 18:03,True,+62 (827) 188 6761
+M0246,Among  Haryanti,Auditori,Online,Pengantar AI,2025-08-17 23:26,2025-08-18 02:26,True,0880371650
+M0247,Hani  Sitompul,Visual,Offline,Dasar Pemrograman,2025-10-27 19:56,2025-10-27 20:56,True,(0427) 803-8523
+M0248,Kenari  Hasanah,Kinestetik,Online,Dasar Pemrograman,2025-07-04 04:45,2025-07-04 06:45,False,+62 (559) 902-9261
+M0249,Eja  Nababan,Auditori,Online,Pengantar AI,2025-09-06 12:25,2025-09-06 15:25,False,(0287) 416-3020
+M0250,Heryanto  Pertiwi,Kinestetik,Offline,Aljabar Linier,2025-12-04 11:49,2025-12-04 13:49,False,+62 (124) 454 5051
+M0251,Arta  Mustofa,Auditori,Offline,Kimia Murni,2025-11-09 04:36,2025-11-09 07:36,True,+62-0514-700-3280
+M0252,Irwan  Rajasa,Visual,Online,Probabilitas & Statistika,2025-08-31 03:52,2025-08-31 05:52,False,+62-0969-933-8761
+M0253,Atmaja  Ardianto,Auditori,Online,Probabilitas & Statistika,2025-12-11 12:17,2025-12-11 13:17,True,(071) 330-7416
+M0254,Jessica  Prakasa,Kinestetik,Online,Dasar Pemrograman,2025-12-23 02:56,2025-12-23 03:56,False,(0819) 565-4835
+M0255,Dartono  Dongoran,Auditori,Online,Metode Statistik,2025-08-13 08:35,2025-08-13 10:35,False,+62-029-161-5878
+M0256,Bagas  Nurdiyanti,Auditori,Online,Struktur Data,2025-08-09 14:21,2025-08-09 15:21,False,+62 (60) 764 9752
+M0257,Raharja  Hartati,Visual,Online,Basis Data,2025-07-28 07:58,2025-07-28 09:58,True,(0200) 240 0109
+M0258,Ophelia  Mandasari,Visual,Online,Kalkulus 2,2025-10-01 03:51,2025-10-01 06:51,False,(0767) 625-8018
+M0259,Rafid  Sihombing,Visual,Online,Logika Matematika,2025-09-06 11:06,2025-09-06 12:06,False,(0034) 845-8722
+M0260,Maria  Permadi,Kinestetik,Offline,Kimia Murni,2025-12-26 04:20,2025-12-26 06:20,False,0879190552
+M0261,Bagiya  Irawan,Auditori,Online,Pengantar AI,2025-12-28 18:48,2025-12-28 21:48,True,+62 (0264) 632-8943
+M0262,Jamal  Halim,Visual,Online,Fisika Dasar,2025-07-20 10:05,2025-07-20 12:05,False,(0176) 337-7242
+M0263,Yosef  Najmudin,Kinestetik,Offline,Fisika Magnet,2025-07-09 14:45,2025-07-09 17:45,True,+62 (75) 058-0520
+M0264,Hilda  Hakim,Auditori,Online,Fisika Magnet,2025-09-15 06:13,2025-09-15 08:13,False,+62 (0572) 130-4269
+M0265,Olga  Susanti,Kinestetik,Online,Logika Matematika,2025-07-07 19:55,2025-07-07 20:55,False,+62-873-357-3846
+M0266,Cemplunk  Pratiwi,Visual,Online,Logika Matematika,2025-09-26 12:39,2025-09-26 14:39,True,+62 (09) 882-9547
+M0267,Nasim  Ramadan,Auditori,Online,Pengantar AI,2025-12-09 17:05,2025-12-09 19:05,False,+62-644-453-2064
+M0268,Gilda  Pudjiastuti,Visual,Online,Fisika Magnet,2025-11-22 15:20,2025-11-22 17:20,True,+62 (35) 139-4435
+M0269,Legawa  Rahmawati,Auditori,Online,Kimia Murni,2025-10-02 06:31,2025-10-02 09:31,False,081 568 6072
+M0270,Septi  Maulana,Auditori,Online,Metode Statistik,2025-11-02 18:24,2025-11-02 20:24,False,+62 (025) 276-7481
+M0271,Johan  Firgantoro,Visual,Offline,Metode Statistik,2025-09-22 08:45,2025-09-22 10:45,False,+62-006-768-2909
+M0272,Hadi  Agustina,Kinestetik,Offline,Fisika Magnet,2025-11-10 17:52,2025-11-10 18:52,True,(0664) 014 0434
+M0273,Artawan  Halimah,Visual,Online,Logika Matematika,2025-12-07 14:51,2025-12-07 17:51,False,+62 (463) 018-9347
+M0274,Lanang  Wastuti,Kinestetik,Offline,Dasar Pemrograman,2025-07-03 06:31,2025-07-03 09:31,False,+62 (0668) 823-6916
+M0275,Zamira  Tarihoran,Auditori,Online,Fisika Dasar,2025-08-18 06:57,2025-08-18 07:57,False,0892421313
+M0276,Bagus  Suwarno,Kinestetik,Offline,Fisika Listrik,2025-07-10 03:00,2025-07-10 05:00,False,0806294911
+M0277,Cahyanto  Saptono,Auditori,Offline,Fisika Magnet,2025-08-01 09:39,2025-08-01 12:39,False,+62 (0725) 501-8824
+M0278,Mitra  Wasita,Visual,Offline,Matematika 2,2025-11-28 06:02,2025-11-28 09:02,True,+62-0269-312-7537
+M0279,Queen  Wahyuni,Kinestetik,Offline,Fisika Magnet,2025-11-29 17:31,2025-11-29 19:31,False,+62 (0680) 168-7047
+M0280,Mustika  Suartini,Visual,Online,Struktur Data,2025-12-30 01:38,2025-12-30 03:38,False,+62 (032) 162 4163
+M0281,Parman  Firgantoro,Visual,Offline,Metode Statistik,2025-11-26 04:36,2025-11-26 07:36,False,(0643) 875 7786
+M0282,Raditya  Suwarno,Kinestetik,Online,Kalkulus 2,2025-11-27 03:06,2025-11-27 05:06,False,+62-031-638-2107
+M0283,Cecep  Oktaviani,Kinestetik,Online,Analisis Numerik,2025-07-02 19:04,2025-07-02 20:04,False,+62 (044) 771 8331
+M0284,Liman  Prabowo,Visual,Offline,Analisis Numerik,2025-10-06 07:51,2025-10-06 09:51,True,+62 (090) 478 3733
+M0285,Jono  Situmorang,Kinestetik,Online,Probabilitas & Statistika,2025-10-12 16:55,2025-10-12 19:55,False,+62-078-288-0539
+M0286,Galak  Utami,Visual,Offline,Kimia Murni,2025-07-27 07:01,2025-07-27 09:01,False,+62 (210) 553 3512
+M0287,Wulan  Latupono,Visual,Online,Basis Data,2025-07-14 23:57,2025-07-15 01:57,False,(076) 824-2725
+M0288,Cahyadi  Kurniawan,Visual,Online,Metode Statistik,2025-08-13 22:03,2025-08-14 01:03,False,+62-054-045-0678
+M0289,Karja  Namaga,Auditori,Online,Pengantar AI,2025-09-10 16:51,2025-09-10 17:51,False,+62-703-357-4200
+M0290,Asirwada  Gunarto,Auditori,Online,Fisika Dasar,2025-11-11 13:27,2025-11-11 16:27,False,+62-0047-061-7904
+M0291,Lala  Pranowo,Visual,Offline,Dasar Pemrograman,2025-09-04 01:27,2025-09-04 02:27,False,(0901) 049 7005
+M0292,Ibrahim  Saragih,Visual,Online,Logika Matematika,2025-09-21 21:14,2025-09-22 00:14,False,(032) 585-3208
+M0293,Jamal  Dabukke,Kinestetik,Offline,Fisika Magnet,2025-07-14 08:10,2025-07-14 10:10,True,(0795) 624 4772
+M0294,Danuja  Budiman,Visual,Online,Fisika Magnet,2025-07-22 06:23,2025-07-22 09:23,False,+62-0665-296-6289
+M0295,Daryani  Marbun,Kinestetik,Offline,Kalkulus 2,2025-09-06 02:19,2025-09-06 05:19,True,(032) 479-3846
+M0296,Lasmanto  Halimah,Visual,Offline,Metode Statistik,2025-08-23 15:11,2025-08-23 16:11,False,+62 (772) 892 1839
+M0297,Rahman  Mardhiyah,Kinestetik,Offline,Struktur Data,2025-08-13 23:00,2025-08-14 01:00,True,+62 (846) 644 8273
+M0298,Samiah  Widodo,Visual,Online,Logika Matematika,2025-10-31 02:14,2025-10-31 03:14,False,+62 (0384) 011-5372
+M0299,Ibrahim  Andriani,Auditori,Offline,Matematika 2,2025-10-24 15:25,2025-10-24 16:25,False,+62 (0987) 272 5985
+M0300,Zizi  Hassanah,Auditori,Online,Struktur Data,2025-07-13 19:26,2025-07-13 20:26,True,+62 (0724) 889-4974
+M0301,Anggabaya  Utami,Visual,Offline,Struktur Data,2025-12-01 22:23,2025-12-02 01:23,False,+62 (083) 273-5816
+M0302,Zizi  Wahyudin,Visual,Offline,Kimia Murni,2025-08-04 04:45,2025-08-04 05:45,False,+62-077-526-1245
+M0303,Lukman  Ardianto,Auditori,Online,Struktur Data,2025-08-10 07:13,2025-08-10 10:13,True,+62 (0543) 057 2444
+M0304,Perkasa  Dabukke,Visual,Offline,Struktur Data,2025-10-07 22:11,2025-10-08 00:11,False,+62 (907) 994 4333
+M0305,Balidin  Wibisono,Auditori,Offline,Logika Matematika,2025-09-13 05:26,2025-09-13 07:26,False,+62-0136-446-5881
+M0306,Bahuwarna  Hidayanto,Kinestetik,Offline,Dasar Pemrograman,2025-10-06 11:10,2025-10-06 14:10,False,+62 (035) 628-3624
+M0307,Rama  Wahyudin,Auditori,Online,Logika Matematika,2025-12-29 09:25,2025-12-29 12:25,False,(0165) 725-2178
+M0308,Kamila  Farida,Auditori,Offline,Kimia Murni,2025-08-28 09:32,2025-08-28 11:32,False,+62-0917-622-1859
+M0309,Mutia  Rahayu,Visual,Offline,Fisika Magnet,2025-12-05 03:42,2025-12-05 06:42,True,082 311 2977
+M0310,Parman  Usada,Kinestetik,Offline,Matematika 2,2025-09-18 17:46,2025-09-18 18:46,True,081 014 6181
+M0311,Cakrabuana  Narpati,Visual,Online,Struktur Data,2025-09-02 10:21,2025-09-02 11:21,False,+62 (160) 285 4349
+M0312,Bakiman  Hutasoit,Auditori,Online,Fisika Magnet,2025-09-30 18:04,2025-09-30 21:04,True,(019) 113-4069
+M0313,Jane  Mansur,Visual,Offline,Basis Data,2025-12-08 20:30,2025-12-08 21:30,True,(0737) 405-0422
+M0314,Ivan  Usamah,Visual,Offline,Analisis Numerik,2025-07-11 12:12,2025-07-11 15:12,True,+62 (31) 035 3854
+M0315,Suci  Dongoran,Kinestetik,Offline,Metode Statistik,2025-07-18 03:17,2025-07-18 05:17,True,+62 (0706) 690-5980
+M0316,Raisa  Mandasari,Kinestetik,Offline,Pengantar AI,2025-07-26 04:38,2025-07-26 06:38,False,+62 (342) 189 4067
+M0317,Olga  Riyanti,Visual,Online,Dasar Pemrograman,2025-10-06 19:07,2025-10-06 20:07,True,+62-98-865-2548
+M0318,Cakrabirawa  Samosir,Auditori,Offline,Logika Matematika,2025-11-21 09:37,2025-11-21 12:37,False,+62-0808-693-7176
+M0319,Malik  Rahimah,Visual,Offline,Aljabar Linier,2025-07-01 03:53,2025-07-01 05:53,False,+62 (02) 650-8269
+M0320,Bagas  Saputra,Visual,Offline,Struktur Data,2025-09-01 14:32,2025-09-01 15:32,False,+62 (069) 554 0758
+M0321,Utama  Anggraini,Auditori,Offline,Kimia Murni,2025-07-22 18:02,2025-07-22 20:02,True,+62 (037) 617-3297
+M0322,Estiono  Yuliarti,Auditori,Offline,Analisis Numerik,2025-11-20 10:47,2025-11-20 11:47,False,+62 (980) 153-6553
+M0323,Rudi  Januar,Visual,Offline,Probabilitas & Statistika,2025-09-23 05:02,2025-09-23 06:02,False,+62 (002) 829 0026
+M0324,Nyana  Sihotang,Visual,Online,Aljabar Linier,2025-08-26 04:24,2025-08-26 07:24,False,+62 (018) 158-1593
+M0325,Kenzie  Yulianti,Visual,Online,Metode Statistik,2025-08-18 21:39,2025-08-19 00:39,False,(0617) 993-0309
+M0326,Diana  Adriansyah,Auditori,Offline,Basis Data,2025-07-26 02:47,2025-07-26 04:47,True,+62-47-005-4111
+M0327,Elisa  Susanti,Kinestetik,Online,Dasar Pemrograman,2025-11-23 16:13,2025-11-23 17:13,True,+62 (086) 591-4783
+M0328,Panji  Santoso,Kinestetik,Online,Metode Statistik,2025-11-09 18:50,2025-11-09 21:50,False,0822504211
+M0329,Ega  Saefullah,Auditori,Offline,Pengantar AI,2025-11-18 13:04,2025-11-18 14:04,False,(013) 421-2044
+M0330,Raditya  Wahyuni,Visual,Offline,Kimia Murni,2025-11-07 19:51,2025-11-07 21:51,False,(0944) 944 0745
+M0331,Wisnu  Simbolon,Visual,Offline,Kimia Murni,2025-11-29 08:11,2025-11-29 11:11,True,(0914) 146 0910
+M0332,Akarsana  Nuraini,Auditori,Offline,Kalkulus 2,2025-07-18 12:29,2025-07-18 13:29,False,+62-08-082-4369
+M0333,Rina  Agustina,Visual,Online,Kalkulus 2,2025-12-04 09:33,2025-12-04 10:33,True,+62-0183-759-4694
+M0334,Gada  Narpati,Visual,Online,Logika Matematika,2025-09-15 01:12,2025-09-15 03:12,True,(051) 215-5755
+M0335,Tira  Budiyanto,Kinestetik,Offline,Fisika Dasar,2025-10-29 13:56,2025-10-29 14:56,False,088 529 5192
+M0336,Panji  Palastri,Auditori,Offline,Probabilitas & Statistika,2025-09-06 07:49,2025-09-06 09:49,False,+62-097-899-1987
+M0337,Daniswara  Uyainah,Visual,Offline,Metode Statistik,2025-08-08 13:02,2025-08-08 14:02,False,086 801 9470
+M0338,Candra  Mangunsong,Auditori,Offline,Fisika Magnet,2025-09-05 03:23,2025-09-05 05:23,False,+62 (099) 080-3344
+M0339,Karimah  Yulianti,Kinestetik,Offline,Basis Data,2025-09-23 15:29,2025-09-23 16:29,False,+62 (094) 363-5096
+M0340,Ophelia  Hutagalung,Auditori,Online,Aljabar Linier,2025-07-11 17:42,2025-07-11 20:42,True,+62 (0936) 504 0294
+M0341,Janet  Wahyuni,Auditori,Offline,Probabilitas & Statistika,2025-08-22 04:38,2025-08-22 07:38,False,+62 (66) 955 4872
+M0342,Laras  Irawan,Auditori,Online,Matematika 2,2025-08-26 06:10,2025-08-26 08:10,False,(083) 084-9693
+M0343,Eka  Manullang,Visual,Offline,Basis Data,2025-12-09 23:10,2025-12-10 00:10,False,+62-58-308-3360
+M0344,Ihsan  Prakasa,Auditori,Offline,Dasar Pemrograman,2025-12-22 03:26,2025-12-22 05:26,False,+62 (25) 274 8945
+M0345,Galak  Sihombing,Visual,Online,Fisika Listrik,2025-12-13 15:38,2025-12-13 16:38,True,+62 (57) 613-6050
+M0346,Prabowo  Purnawati,Visual,Offline,Fisika Listrik,2025-07-10 08:04,2025-07-10 10:04,False,+62-0175-485-8629
+M0347,Koko  Nasyidah,Kinestetik,Online,Analisis Numerik,2025-07-13 02:25,2025-07-13 03:25,False,(0954) 754 0527
+M0348,Laswi  Thamrin,Auditori,Offline,Pengantar AI,2025-08-25 04:26,2025-08-25 05:26,False,088 449 2572
+M0349,Fitria  Damanik,Auditori,Online,Fisika Dasar,2025-10-19 04:32,2025-10-19 05:32,False,+62 (098) 669 8109
+M0350,Cawisadi  Narpati,Visual,Online,Dasar Pemrograman,2025-07-08 07:58,2025-07-08 08:58,False,+62-485-126-8022
+M0351,Galak  Rajata,Kinestetik,Online,Matematika 2,2025-09-17 01:13,2025-09-17 03:13,False,+62 (211) 959 1157
+M0352,Kezia  Utama,Visual,Offline,Probabilitas & Statistika,2025-07-10 05:29,2025-07-10 08:29,False,+62-032-692-6042
+M0353,Praba  Dabukke,Kinestetik,Online,Fisika Magnet,2025-08-14 19:44,2025-08-14 22:44,False,+62 (227) 418 7091
+M0354,Enteng  Wibowo,Visual,Offline,Metode Statistik,2025-10-07 21:25,2025-10-07 22:25,False,+62 (638) 718-6611
+M0355,Ibrahim  Wibowo,Kinestetik,Online,Matematika 2,2025-10-22 06:26,2025-10-22 07:26,False,(029) 715-0917
+M0356,Narji  Tamba,Visual,Offline,Kalkulus 2,2025-11-22 17:43,2025-11-22 18:43,False,+62 (021) 627 0663
+M0357,Kenari  Saefullah,Kinestetik,Online,Dasar Pemrograman,2025-12-26 18:09,2025-12-26 20:09,True,+62 (030) 517-0468
+M0358,Asmianto  Situmorang,Auditori,Online,Kalkulus 2,2025-08-13 05:12,2025-08-13 07:12,False,+62-078-761-8352
+M0359,Salimah  Lailasari,Visual,Offline,Probabilitas & Statistika,2025-11-27 15:32,2025-11-27 17:32,True,+62 (018) 828 4171
+M0360,Restu  Megantara,Visual,Offline,Kimia Murni,2025-09-19 09:37,2025-09-19 10:37,True,(0223) 318-0073
+M0361,Icha  Wibisono,Visual,Offline,Kalkulus 2,2025-10-03 20:17,2025-10-03 22:17,False,(020) 985-9942
+M0362,Jessica  Putra,Auditori,Online,Logika Matematika,2025-08-03 08:55,2025-08-03 09:55,False,+62 (52) 146 3361
+M0363,Bakiono  Utama,Visual,Offline,Matematika 2,2025-08-26 11:35,2025-08-26 13:35,False,+62 (26) 872-8537
+M0364,Erik  Kuswandari,Auditori,Online,Fisika Dasar,2025-09-12 00:12,2025-09-12 03:12,False,+62-0290-050-8430
+M0365,Fitria  Dongoran,Kinestetik,Online,Basis Data,2025-07-10 08:53,2025-07-10 09:53,False,+62 (0256) 029-0262
+M0366,Reza  Habibi,Auditori,Online,Analisis Numerik,2025-12-17 22:44,2025-12-18 01:44,False,(077) 297 0154
+M0367,Marsito  Hardiansyah,Auditori,Offline,Struktur Data,2025-11-03 11:50,2025-11-03 14:50,True,0896855629
+M0368,Vero  Sihombing,Visual,Offline,Dasar Pemrograman,2025-11-30 09:47,2025-11-30 12:47,False,0801506138
+M0369,Violet  Oktaviani,Auditori,Online,Fisika Listrik,2025-10-15 23:57,2025-10-16 00:57,False,(014) 939-5031
+M0370,Intan  Hartati,Kinestetik,Online,Pengantar AI,2025-11-11 22:39,2025-11-12 01:39,False,+62 (15) 433 8779
+M0371,Panca  Hakim,Kinestetik,Offline,Kimia Murni,2025-11-06 07:12,2025-11-06 10:12,True,+62 (0152) 575-8289
+M0372,Ajiono  Maryati,Auditori,Offline,Metode Statistik,2025-10-23 22:12,2025-10-24 01:12,False,+62 (090) 711-7119
+M0373,Zaenab  Pranowo,Kinestetik,Online,Struktur Data,2025-10-29 03:03,2025-10-29 04:03,False,+62 (0212) 039 7838
+M0374,Muhammad  Yolanda,Kinestetik,Online,Kalkulus 2,2025-07-22 11:09,2025-07-22 12:09,False,+62 (0925) 682-1355
+M0375,Wasis  Susanti,Kinestetik,Online,Probabilitas & Statistika,2025-08-20 09:24,2025-08-20 11:24,False,+62-96-748-9157
+M0376,Ina  Nababan,Auditori,Offline,Dasar Pemrograman,2025-12-08 06:26,2025-12-08 09:26,False,+62 (040) 001 6871
+M0377,Asmuni  Kuswandari,Auditori,Offline,Fisika Magnet,2025-07-02 23:25,2025-07-03 01:25,False,+62 (0234) 390-4250
+M0378,Ilyas  Hassanah,Auditori,Online,Matematika 2,2025-11-23 05:59,2025-11-23 07:59,False,+62 (058) 932 3631
+M0379,Slamet  Winarsih,Visual,Offline,Kimia Murni,2025-10-30 06:46,2025-10-30 09:46,False,+62-27-539-9368
+M0380,Harto  Anggraini,Visual,Online,Kalkulus 2,2025-11-03 02:09,2025-11-03 03:09,False,(0493) 425-8934
+M0381,Nasab  Fujiati,Visual,Online,Metode Statistik,2025-12-14 05:09,2025-12-14 08:09,False,+62 (973) 975-2017
+M0382,Malika  Suartini,Auditori,Online,Metode Statistik,2025-07-30 23:45,2025-07-31 00:45,False,(0682) 721 4554
+M0383,Makuta  Nababan,Auditori,Offline,Probabilitas & Statistika,2025-08-12 00:44,2025-08-12 02:44,False,+62 (0574) 728 7597
+M0384,Darmaji  Mayasari,Kinestetik,Offline,Fisika Listrik,2025-11-30 04:28,2025-11-30 06:28,False,0840463908
+M0385,Olivia  Siregar,Auditori,Offline,Struktur Data,2025-07-30 06:05,2025-07-30 09:05,True,+62-088-009-1549
+M0386,Kayla  Yuliarti,Visual,Online,Kalkulus 2,2025-11-21 22:53,2025-11-22 01:53,True,+62 (608) 509 9712
+M0387,Laras  Sudiati,Auditori,Online,Fisika Listrik,2025-07-05 15:57,2025-07-05 17:57,False,+62 (000) 369-1278
+M0388,Salman  Iswahyudi,Kinestetik,Offline,Pengantar AI,2025-07-29 17:14,2025-07-29 18:14,True,+62 (536) 173 8977
+M0389,Reksa  Situmorang,Kinestetik,Online,Dasar Pemrograman,2025-10-15 02:23,2025-10-15 05:23,False,+62 (0813) 847 7878
+M0390,Oman  Maulana,Auditori,Offline,Basis Data,2025-12-26 09:09,2025-12-26 10:09,True,+62 (0027) 331-1550
+M0391,Siti  Sudiati,Auditori,Online,Aljabar Linier,2025-11-22 08:08,2025-11-22 09:08,False,+62 (012) 693-0061
+M0392,Cahyono  Mandasari,Visual,Online,Pengantar AI,2025-11-09 11:32,2025-11-09 14:32,False,+62 (548) 071 2524
+M0393,Gandi  Kusumo,Visual,Offline,Dasar Pemrograman,2025-11-04 18:44,2025-11-04 21:44,False,+62-266-269-4019
+M0394,Ulya  Pradipta,Visual,Online,Kimia Murni,2025-08-24 22:37,2025-08-25 01:37,False,(022) 420-8271
+M0395,Cinthia  Permata,Visual,Online,Fisika Listrik,2025-08-30 10:19,2025-08-30 12:19,False,(048) 213-6800
+M0396,Asirwada  Wulandari,Auditori,Offline,Logika Matematika,2025-08-06 16:25,2025-08-06 19:25,False,+62 (0741) 523-6309
+M0397,Slamet  Putra,Kinestetik,Online,Struktur Data,2025-09-28 08:29,2025-09-28 11:29,False,+62 (0218) 981 4060
+M0398,Rosman  Marbun,Visual,Online,Matematika 2,2025-10-07 05:07,2025-10-07 07:07,False,+62-17-920-3492
+M0399,Tina  Saputra,Auditori,Online,Probabilitas & Statistika,2025-12-13 23:35,2025-12-14 01:35,False,+62 (036) 777-3653
+M0400,Ulva  Saragih,Auditori,Offline,Matematika 2,2025-08-08 09:59,2025-08-08 10:59,False,+62 (08) 744-9073
+M0401,Queen  Hariyah,Auditori,Online,Fisika Dasar,2025-10-05 04:47,2025-10-05 06:47,False,+62-092-848-0013
+M0402,Tasdik  Tamba,Auditori,Online,Analisis Numerik,2025-09-11 10:52,2025-09-11 11:52,True,+62 (15) 390-2777
+M0403,Darsirah  Lestari,Auditori,Offline,Probabilitas & Statistika,2025-12-21 10:37,2025-12-21 12:37,True,(093) 007-0964
+M0404,Dipa  Rahimah,Auditori,Online,Basis Data,2025-10-02 05:46,2025-10-02 06:46,False,(0658) 022 6538
+M0405,Sabar  Susanti,Auditori,Online,Logika Matematika,2025-12-06 19:10,2025-12-06 21:10,False,(0623) 866-2639
+M0406,Rizki  Hassanah,Auditori,Online,Fisika Listrik,2025-12-10 07:37,2025-12-10 09:37,True,+62 (0203) 125-8712
+M0407,Makuta  Nashiruddin,Kinestetik,Offline,Basis Data,2025-11-27 12:01,2025-11-27 15:01,True,0864654909
+M0408,Mila  Sitorus,Kinestetik,Offline,Basis Data,2025-11-08 06:50,2025-11-08 08:50,False,+62 (0512) 899 8576
+M0409,Hamima  Budiyanto,Visual,Offline,Aljabar Linier,2025-09-01 08:11,2025-09-01 09:11,False,+62 (0221) 646 1536
+M0410,Zelaya  Santoso,Kinestetik,Online,Struktur Data,2025-09-23 19:06,2025-09-23 21:06,False,+62 (77) 533 9528
+M0411,Galang  Oktaviani,Auditori,Offline,Logika Matematika,2025-08-25 10:28,2025-08-25 11:28,False,(014) 635-5530
+M0412,Nalar  Sudiati,Kinestetik,Offline,Basis Data,2025-10-01 00:23,2025-10-01 03:23,False,(021) 049-7316
+M0413,Almira  Kurniawan,Visual,Online,Fisika Listrik,2025-07-16 01:59,2025-07-16 04:59,True,+62-061-583-3788
+M0414,Maras  Riyanti,Visual,Offline,Basis Data,2025-11-03 15:36,2025-11-03 16:36,False,(0639) 238-5446
+M0415,Victoria  Fujiati,Visual,Online,Basis Data,2025-10-18 06:25,2025-10-18 07:25,False,+62 (0283) 343-4409
+M0416,Latif  Suryono,Auditori,Online,Fisika Dasar,2025-12-24 11:47,2025-12-24 13:47,False,+62 (39) 687-8506
+M0417,Lukman  Budiyanto,Kinestetik,Online,Dasar Pemrograman,2025-08-11 17:52,2025-08-11 18:52,False,0892482607
+M0418,Hamima  Puspita,Kinestetik,Online,Probabilitas & Statistika,2025-08-25 14:36,2025-08-25 15:36,False,(072) 347 9427
+M0419,Irma  Marpaung,Auditori,Online,Matematika 2,2025-12-22 02:19,2025-12-22 03:19,True,+62 (020) 580-7946
+M0420,Mariadi  Melani,Visual,Online,Kalkulus 2,2025-08-03 12:45,2025-08-03 13:45,False,(0314) 837-3404
+M0421,Winda  Putra,Auditori,Online,Metode Statistik,2025-07-08 14:21,2025-07-08 16:21,False,(018) 565-7705
+M0422,Soleh  Novitasari,Auditori,Online,Logika Matematika,2025-08-23 17:47,2025-08-23 19:47,False,(0290) 519 5887
+M0423,Tasnim  Mahendra,Visual,Offline,Matematika 2,2025-10-27 03:39,2025-10-27 06:39,False,+62 (00) 303-5263
+M0424,Luthfi  Prabowo,Auditori,Offline,Analisis Numerik,2025-08-22 11:55,2025-08-22 12:55,False,(070) 196-7073
+M0425,Daryani  Melani,Auditori,Online,Aljabar Linier,2025-10-29 07:24,2025-10-29 08:24,False,+62-977-610-5135
+M0426,Warsa  Yuniar,Visual,Online,Matematika 2,2025-11-10 21:35,2025-11-10 22:35,False,(021) 767 5995
+M0427,Bajragin  Sitorus,Visual,Online,Kalkulus 2,2025-08-13 22:52,2025-08-13 23:52,False,+62-005-361-8371
+M0428,Wardaya  Dabukke,Auditori,Offline,Kimia Murni,2025-08-24 09:25,2025-08-24 12:25,False,(070) 069-3391
+M0429,Sakura  Tampubolon,Visual,Offline,Aljabar Linier,2025-10-17 16:42,2025-10-17 19:42,False,(0118) 083-0081
+M0430,Ami  Wijayanti,Kinestetik,Online,Kimia Murni,2025-09-14 16:16,2025-09-14 19:16,False,(005) 923-4797
+M0431,Harja  Manullang,Auditori,Offline,Kalkulus 2,2025-07-07 03:28,2025-07-07 04:28,False,+62-0362-558-1059
+M0432,Lalita  Waluyo,Visual,Online,Struktur Data,2025-08-05 04:58,2025-08-05 05:58,False,+62-434-584-7647
+M0433,Gamani  Kurniawan,Visual,Offline,Probabilitas & Statistika,2025-09-19 02:22,2025-09-19 03:22,False,088 347 8802
+M0434,Gamanto  Budiyanto,Visual,Online,Fisika Listrik,2025-07-22 17:57,2025-07-22 20:57,False,+62 (504) 510 6933
+M0435,Edison  Nurdiyanti,Visual,Online,Pengantar AI,2025-12-27 22:26,2025-12-28 01:26,True,+62-046-208-4417
+M0436,Artanto  Suwarno,Kinestetik,Online,Basis Data,2025-11-06 19:23,2025-11-06 22:23,False,+62 (30) 685-6604
+M0437,Lanjar  Namaga,Auditori,Offline,Struktur Data,2025-12-09 01:07,2025-12-09 04:07,True,084 019 0677
+M0438,Viman  Andriani,Visual,Offline,Metode Statistik,2025-11-03 06:54,2025-11-03 07:54,False,+62-281-994-2979
+M0439,Muni  Sihombing,Auditori,Offline,Kimia Murni,2025-11-07 04:49,2025-11-07 07:49,False,(0122) 874 2045
+M0440,Febi  Lailasari,Visual,Offline,Kalkulus 2,2025-07-13 12:52,2025-07-13 13:52,False,+62 (0465) 526 0251
+M0441,Dirja  Susanti,Auditori,Offline,Fisika Listrik,2025-09-03 13:51,2025-09-03 14:51,False,0860954458
+M0442,Iriana  Simbolon,Kinestetik,Online,Fisika Dasar,2025-12-20 11:24,2025-12-20 14:24,False,083 300 0685
+M0443,Kania  Thamrin,Visual,Offline,Kimia Murni,2025-11-21 07:50,2025-11-21 10:50,False,+62-068-132-2516
+M0444,Praba  Uwais,Visual,Offline,Matematika 2,2025-09-23 06:26,2025-09-23 08:26,False,+62 (61) 271 0572
+M0445,Reksa  Hakim,Auditori,Online,Metode Statistik,2025-11-07 17:40,2025-11-07 20:40,False,+62 (0263) 268 6782
+M0446,Darimin  Situmorang,Kinestetik,Offline,Basis Data,2025-08-28 14:27,2025-08-28 16:27,False,(0209) 211 5401
+M0447,Lulut  Natsir,Auditori,Offline,Matematika 2,2025-12-30 13:18,2025-12-30 16:18,True,+62 (098) 463 4213
+M0448,Uda  Laksita,Auditori,Online,Fisika Dasar,2025-08-16 11:47,2025-08-16 12:47,True,083 756 8953
+M0449,Jindra  Zulkarnain,Visual,Online,Fisika Listrik,2025-09-25 09:07,2025-09-25 11:07,False,084 401 4622
+M0450,Najwa  Saragih,Kinestetik,Online,Dasar Pemrograman,2025-09-05 21:43,2025-09-05 23:43,False,+62-918-716-2335
+M0451,Anita  Hidayanto,Kinestetik,Offline,Basis Data,2025-11-11 17:02,2025-11-11 20:02,False,(016) 031-9873
+M0452,Yance  Aryani,Auditori,Online,Kimia Murni,2025-08-02 16:54,2025-08-02 19:54,False,+62 (704) 944 8737
+M0453,Samsul  Lazuardi,Auditori,Online,Struktur Data,2025-09-08 10:52,2025-09-08 12:52,True,+62 (90) 245 1505
+M0454,Jasmin  Prastuti,Visual,Offline,Analisis Numerik,2025-09-09 17:47,2025-09-09 20:47,True,+62 (039) 334 4666
+M0455,Bakijan  Maryadi,Visual,Online,Metode Statistik,2025-09-15 04:45,2025-09-15 05:45,False,+62-862-139-5751
+M0456,Ciaobella  Rahayu,Kinestetik,Offline,Metode Statistik,2025-07-03 02:29,2025-07-03 05:29,False,(051) 673-0425
+M0457,Gamani  Kuswoyo,Visual,Offline,Logika Matematika,2025-12-04 07:16,2025-12-04 10:16,False,080 807 3184
+M0458,Mustika  Padmasari,Visual,Offline,Fisika Listrik,2025-12-20 18:01,2025-12-20 21:01,False,(0595) 838-8076
+M0459,Ihsan  Habibi,Auditori,Offline,Analisis Numerik,2025-10-21 14:22,2025-10-21 15:22,False,+62 (0232) 903-4693
+M0460,Jane  Adriansyah,Auditori,Online,Fisika Listrik,2025-11-12 08:17,2025-11-12 11:17,True,0847396368
+M0461,Kemba  Suryono,Auditori,Offline,Probabilitas & Statistika,2025-07-07 18:34,2025-07-07 19:34,True,+62 (067) 416-6218
+M0462,Humaira  Utami,Auditori,Online,Fisika Listrik,2025-11-16 15:31,2025-11-16 16:31,False,+62-45-460-5300
+M0463,Hafshah  Siregar,Auditori,Online,Basis Data,2025-12-02 21:13,2025-12-02 23:13,False,(048) 386 9331
+M0464,Pandu  Megantara,Visual,Offline,Basis Data,2025-08-19 23:25,2025-08-20 01:25,True,(014) 291 5773
+M0465,Bakiono  Widiastuti,Visual,Offline,Pengantar AI,2025-10-14 13:34,2025-10-14 16:34,True,+62 (77) 623 2669
+M0466,Danang  Santoso,Visual,Online,Kimia Murni,2025-12-15 08:40,2025-12-15 11:40,False,080 013 2786
+M0467,Viman  Suryono,Auditori,Online,Logika Matematika,2025-07-23 03:14,2025-07-23 04:14,False,+62-798-944-6197
+M0468,Damu  Sihombing,Kinestetik,Offline,Dasar Pemrograman,2025-08-11 21:08,2025-08-12 00:08,False,+62 (058) 340 5395
+M0469,Bakianto  Hartati,Kinestetik,Offline,Fisika Magnet,2025-11-15 18:34,2025-11-15 21:34,False,+62-089-898-6130
+M0470,Suci  Adriansyah,Kinestetik,Offline,Logika Matematika,2025-08-17 09:12,2025-08-17 12:12,False,+62-0970-111-5106
+M0471,Bahuraksa  Fujiati,Visual,Offline,Analisis Numerik,2025-07-01 08:44,2025-07-01 11:44,False,+62 (073) 312 9631
+M0472,Kadir  Waluyo,Kinestetik,Online,Fisika Dasar,2025-09-26 18:29,2025-09-26 19:29,True,+62-92-507-1308
+M0473,Atmaja  Novitasari,Auditori,Offline,Kimia Murni,2025-09-07 07:49,2025-09-07 08:49,True,(038) 850-3922
+M0474,Puti  Pertiwi,Visual,Offline,Probabilitas & Statistika,2025-08-24 02:24,2025-08-24 05:24,False,+62 (642) 722 8365
+M0475,Leo  Hakim,Kinestetik,Online,Probabilitas & Statistika,2025-09-18 13:09,2025-09-18 16:09,False,+62 (840) 192 0615
+M0476,Cahyanto  Mandala,Kinestetik,Online,Logika Matematika,2025-12-04 02:06,2025-12-04 05:06,True,+62 (0874) 435 5468
+M0477,Nurul  Saefullah,Auditori,Online,Fisika Dasar,2025-07-04 01:20,2025-07-04 04:20,True,+62 (770) 439-8109
+M0478,Hadi  Astuti,Visual,Online,Matematika 2,2025-10-07 07:49,2025-10-07 08:49,True,+62 (003) 458 9175
+M0479,Cinta  Natsir,Kinestetik,Offline,Struktur Data,2025-11-01 01:44,2025-11-01 02:44,False,+62 (035) 016-4819
+M0480,Almira  Sitompul,Visual,Online,Analisis Numerik,2025-12-26 22:28,2025-12-27 00:28,False,+62 (0103) 165 7584
+M0481,Caraka  Prasasta,Visual,Offline,Aljabar Linier,2025-07-03 00:28,2025-07-03 02:28,False,+62-086-682-6822
+M0482,Adhiarja  Susanti,Kinestetik,Online,Kimia Murni,2025-07-27 04:54,2025-07-27 06:54,False,+62 (0186) 801-7608
+M0483,Shakila  Anggraini,Auditori,Online,Fisika Magnet,2025-10-28 16:11,2025-10-28 19:11,True,+62 (09) 580 1060
+M0484,Eman  Lazuardi,Kinestetik,Offline,Aljabar Linier,2025-09-16 20:35,2025-09-16 21:35,False,(0876) 523 6939
+M0485,Timbul  Novitasari,Auditori,Online,Fisika Magnet,2025-10-07 05:11,2025-10-07 08:11,False,087 500 2166
+M0486,Umi  Januar,Kinestetik,Offline,Pengantar AI,2025-09-29 02:28,2025-09-29 04:28,False,(001) 763-8690
+M0487,Balapati  Namaga,Auditori,Online,Logika Matematika,2025-07-05 22:08,2025-07-05 23:08,False,(0435) 328-6895
+M0488,Septi  Kuswoyo,Kinestetik,Online,Kalkulus 2,2025-09-13 03:08,2025-09-13 05:08,False,+62 (39) 068-0152
+M0489,Eka  Situmorang,Visual,Offline,Logika Matematika,2025-10-19 16:44,2025-10-19 19:44,True,(0241) 035-7090
+M0490,Bakidin  Sihotang,Kinestetik,Offline,Matematika 2,2025-11-01 13:54,2025-11-01 16:54,False,+62-0248-521-3193
+M0491,Tiara  Nugroho,Kinestetik,Offline,Pengantar AI,2025-11-08 02:15,2025-11-08 03:15,False,+62-41-218-2783
+M0492,Margana  Sinaga,Visual,Online,Basis Data,2025-09-01 19:06,2025-09-01 22:06,False,+62 (0930) 140 7200
+M0493,Patricia  Wahyudin,Auditori,Online,Fisika Magnet,2025-07-05 20:25,2025-07-05 21:25,False,+62 (836) 098 5781
+M0494,Victoria  Wastuti,Visual,Offline,Basis Data,2025-08-17 12:06,2025-08-17 13:06,False,+62 (0090) 432 1513
+M0495,Latika  Situmorang,Auditori,Online,Kalkulus 2,2025-11-09 22:58,2025-11-10 01:58,False,+62 (910) 827 8698
+M0496,Bagas  Hardiansyah,Kinestetik,Online,Pengantar AI,2025-09-09 22:48,2025-09-10 00:48,True,0815891007
+M0497,Nadine  Tarihoran,Auditori,Offline,Logika Matematika,2025-07-06 17:52,2025-07-06 18:52,False,(0861) 715-5237
+M0498,Eli  Mulyani,Kinestetik,Offline,Fisika Listrik,2025-08-04 05:15,2025-08-04 07:15,False,(071) 174-7271
+M0499,Cawisadi  Utama,Kinestetik,Online,Matematika 2,2025-10-16 15:07,2025-10-16 16:07,True,+62 (45) 818-2963
+M0500,Maria  Fujiati,Visual,Offline,Kimia Murni,2025-10-11 05:53,2025-10-11 07:53,True,+62-0076-776-1585
+M0501,Hamzah  Oktaviani,Kinestetik,Offline,Dasar Pemrograman,2025-11-25 00:44,2025-11-25 03:44,False,(035) 536-4481
+M0502,Warsita  Oktaviani,Auditori,Online,Dasar Pemrograman,2025-08-01 23:23,2025-08-02 01:23,False,+62-371-186-1358
+M0503,Talia  Mardhiyah,Kinestetik,Online,Fisika Listrik,2025-11-02 14:59,2025-11-02 17:59,False,+62 (016) 302-8149
+M0504,Edison  Permadi,Kinestetik,Online,Matematika 2,2025-07-20 18:11,2025-07-20 20:11,False,0842833722
+M0505,Wadi  Safitri,Visual,Online,Matematika 2,2025-11-13 14:56,2025-11-13 17:56,False,0882391130
+M0506,Cahyanto  Fujiati,Auditori,Offline,Matematika 2,2025-08-12 11:24,2025-08-12 14:24,False,+62 (308) 993-5805
+M0507,Elvin  Ramadan,Visual,Offline,Fisika Listrik,2025-12-12 00:12,2025-12-12 02:12,True,+62 (0954) 753-6026
+M0508,Laila  Namaga,Kinestetik,Online,Fisika Magnet,2025-07-20 04:46,2025-07-20 05:46,False,+62 (0304) 957-4525
+M0509,Salman  Mandala,Kinestetik,Online,Kalkulus 2,2025-10-12 09:37,2025-10-12 12:37,False,+62 (986) 881-2834
+M0510,Gadang  Kuswoyo,Visual,Online,Probabilitas & Statistika,2025-11-27 20:26,2025-11-27 22:26,False,+62-311-921-7294
+M0511,Lanang  Wibisono,Kinestetik,Offline,Metode Statistik,2025-09-22 11:24,2025-09-22 14:24,True,(081) 956-4161
+M0512,Karja  Jailani,Kinestetik,Online,Kimia Murni,2025-07-30 00:18,2025-07-30 02:18,True,(038) 430 8077
+M0513,Dalimin  Purwanti,Visual,Online,Probabilitas & Statistika,2025-08-29 12:16,2025-08-29 15:16,True,+62-06-221-0629
+M0514,Bakiadi  Sihotang,Kinestetik,Offline,Basis Data,2025-08-05 04:49,2025-08-05 05:49,True,0801626124
+M0515,Endah  Zulkarnain,Kinestetik,Online,Kimia Murni,2025-12-25 23:38,2025-12-26 01:38,True,+62 (773) 540 9868
+M0516,Gangsar  Simbolon,Visual,Offline,Metode Statistik,2025-12-05 20:43,2025-12-05 22:43,True,(0373) 086-4677
+M0517,Bagiya  Rahmawati,Auditori,Online,Analisis Numerik,2025-08-07 15:57,2025-08-07 16:57,True,+62 (045) 961-0951
+M0518,Murti  Rajata,Auditori,Offline,Basis Data,2025-09-15 08:43,2025-09-15 09:43,False,(045) 377 7791
+M0519,Sidiq  Farida,Kinestetik,Offline,Fisika Dasar,2025-11-20 01:48,2025-11-20 04:48,False,(070) 332 8211
+M0520,Kanda  Wasita,Kinestetik,Online,Logika Matematika,2025-07-30 11:18,2025-07-30 12:18,False,0804097188
+M0521,Ibrahim  Mandala,Kinestetik,Online,Fisika Dasar,2025-09-04 01:04,2025-09-04 02:04,False,+62-047-332-2325
+M0522,Waluyo  Astuti,Kinestetik,Offline,Basis Data,2025-11-28 13:18,2025-11-28 15:18,False,+62-14-933-7376
+M0523,Rini  Rajasa,Visual,Offline,Probabilitas & Statistika,2025-07-26 05:16,2025-07-26 06:16,False,+62 (854) 969 0900
+M0524,Warsita  Suwarno,Kinestetik,Offline,Probabilitas & Statistika,2025-08-13 08:29,2025-08-13 10:29,True,+62-111-847-8963
+M0525,Rachel  Hastuti,Kinestetik,Offline,Fisika Listrik,2025-08-20 01:43,2025-08-20 03:43,True,+62 (038) 689 3400
+M0526,Zelda  Maulana,Visual,Offline,Basis Data,2025-10-07 03:08,2025-10-07 06:08,False,+62 (0561) 974-3477
+M0527,Baktiono  Nashiruddin,Auditori,Online,Metode Statistik,2025-08-26 19:01,2025-08-26 20:01,False,+62-0557-228-0928
+M0528,Harsanto  Mulyani,Visual,Offline,Fisika Dasar,2025-12-25 18:40,2025-12-25 20:40,True,+62 (476) 272-5255
+M0529,Saiful  Nababan,Kinestetik,Online,Struktur Data,2025-09-18 09:25,2025-09-18 11:25,True,+62-88-014-2520
+M0530,Yoga  Suryono,Auditori,Offline,Kalkulus 2,2025-08-31 22:53,2025-09-01 01:53,False,+62-041-163-6270
+M0531,Yahya  Maheswara,Visual,Online,Kimia Murni,2025-10-17 16:37,2025-10-17 18:37,False,(0457) 083 7637
+M0532,Margana  Mangunsong,Kinestetik,Online,Analisis Numerik,2025-12-01 03:07,2025-12-01 04:07,False,+62-094-240-9748
+M0533,Wadi  Tamba,Kinestetik,Offline,Analisis Numerik,2025-07-23 16:20,2025-07-23 17:20,True,(050) 969-7848
+M0534,Elvina  Widiastuti,Kinestetik,Offline,Kalkulus 2,2025-10-27 17:56,2025-10-27 18:56,False,084 752 2844
+M0535,Kenzie  Napitupulu,Kinestetik,Offline,Dasar Pemrograman,2025-07-30 23:39,2025-07-31 02:39,False,+62 (055) 681 6707
+M0536,Jarwa  Uwais,Kinestetik,Offline,Fisika Dasar,2025-12-17 12:02,2025-12-17 13:02,False,+62 (71) 334 9964
+M0537,Jaka  Pudjiastuti,Auditori,Online,Analisis Numerik,2025-11-21 07:26,2025-11-21 10:26,False,+62 (844) 610 2697
+M0538,Enteng  Kuswandari,Visual,Online,Basis Data,2025-07-07 00:47,2025-07-07 01:47,True,+62-037-405-6913
+M0539,Jaeman  Saputra,Visual,Online,Probabilitas & Statistika,2025-08-26 11:51,2025-08-26 13:51,True,(055) 915-5913
+M0540,Dwi  Suryatmi,Visual,Offline,Basis Data,2025-11-11 03:45,2025-11-11 04:45,False,+62-058-501-0315
+M0541,Farah  Purnawati,Auditori,Online,Probabilitas & Statistika,2025-11-24 11:36,2025-11-24 14:36,False,+62 (0798) 629-1966
+M0542,Rudi  Rajata,Kinestetik,Online,Fisika Listrik,2025-07-03 09:51,2025-07-03 11:51,True,(020) 181 5784
+M0543,Cakrajiya  Marbun,Visual,Offline,Analisis Numerik,2025-09-19 16:29,2025-09-19 19:29,False,+62 (070) 258 4567
+M0544,Ratna  Jailani,Kinestetik,Online,Analisis Numerik,2025-10-15 03:53,2025-10-15 04:53,False,+62-052-431-6259
+M0545,Restu  Kusumo,Visual,Offline,Fisika Dasar,2025-11-18 08:58,2025-11-18 09:58,True,(0665) 113 4096
+M0546,Luhung  Riyanti,Kinestetik,Offline,Logika Matematika,2025-12-03 13:43,2025-12-03 16:43,True,+62 (000) 273 0104
+M0547,Alambana  Halimah,Auditori,Online,Dasar Pemrograman,2025-07-25 18:44,2025-07-25 20:44,False,(0248) 723-3567
+M0548,Setya  Waskita,Kinestetik,Online,Probabilitas & Statistika,2025-09-14 07:24,2025-09-14 09:24,True,+62-680-548-4402
+M0549,Amalia  Uwais,Auditori,Online,Probabilitas & Statistika,2025-07-22 07:03,2025-07-22 10:03,False,+62 (0618) 541 9215
+M0550,Cakrawangsa  Widiastuti,Kinestetik,Online,Probabilitas & Statistika,2025-08-10 15:31,2025-08-10 18:31,False,+62 (14) 106 8295
+M0551,Vanesa  Handayani,Visual,Online,Kimia Murni,2025-09-28 02:01,2025-09-28 04:01,False,+62 (026) 234-9999
+M0552,Vera  Megantara,Kinestetik,Offline,Fisika Dasar,2025-10-30 20:42,2025-10-30 23:42,False,0883175018
+M0553,Nasrullah  Setiawan,Visual,Offline,Dasar Pemrograman,2025-10-27 19:20,2025-10-27 21:20,True,+62 (52) 419 3801
+M0554,Cagak  Zulkarnain,Kinestetik,Online,Pengantar AI,2025-12-07 13:29,2025-12-07 14:29,True,+62-053-477-9131
+M0555,Rahmi  Halimah,Kinestetik,Online,Dasar Pemrograman,2025-07-02 15:14,2025-07-02 18:14,False,+62 (0328) 587-1487
+M0556,Galak  Santoso,Auditori,Offline,Probabilitas & Statistika,2025-10-29 15:32,2025-10-29 18:32,False,0852429541
+M0557,Eli  Maheswara,Kinestetik,Online,Kimia Murni,2025-08-09 03:14,2025-08-09 06:14,False,0837550623
+M0558,Abyasa  Nugroho,Visual,Offline,Metode Statistik,2025-07-04 17:21,2025-07-04 19:21,False,(046) 220-2896
+M0559,Jayadi  Wijayanti,Visual,Online,Kimia Murni,2025-07-04 04:23,2025-07-04 07:23,False,+62-0779-005-0143
+M0560,Akarsana  Prasetyo,Visual,Online,Kimia Murni,2025-12-13 18:28,2025-12-13 21:28,False,(0724) 386-2423
+M0561,Fitriani  Siregar,Kinestetik,Online,Aljabar Linier,2025-12-30 11:20,2025-12-30 14:20,False,+62 (0373) 468 3236
+M0562,Yuni  Wijaya,Auditori,Offline,Kimia Murni,2025-09-06 08:58,2025-09-06 09:58,False,+62 (061) 051 3971
+M0563,Sari  Suryono,Kinestetik,Offline,Dasar Pemrograman,2025-09-28 22:31,2025-09-29 00:31,False,+62 (44) 250 1267
+M0564,Kasiyah  Hassanah,Visual,Online,Basis Data,2025-11-02 07:17,2025-11-02 10:17,False,+62-714-356-8357
+M0565,Dartono  Wahyudin,Auditori,Offline,Fisika Listrik,2025-11-08 19:07,2025-11-08 21:07,False,(002) 654-6883
+M0566,Pandu  Prasetya,Kinestetik,Offline,Kalkulus 2,2025-09-24 15:40,2025-09-24 18:40,True,(052) 658-1422
+M0567,Lasmanto  Zulaika,Auditori,Offline,Matematika 2,2025-11-11 19:09,2025-11-11 22:09,True,+62-096-602-7089
+M0568,Raden  Wijaya,Visual,Online,Pengantar AI,2025-09-09 07:17,2025-09-09 08:17,False,+62 (30) 000 8475
+M0569,Dewi  Wasita,Auditori,Offline,Aljabar Linier,2025-08-24 11:22,2025-08-24 13:22,False,+62 (0178) 919 3989
+M0570,Mulya  Zulaika,Kinestetik,Online,Basis Data,2025-10-30 06:46,2025-10-30 08:46,False,085 798 1632
+M0571,Gamanto  Hakim,Auditori,Online,Fisika Dasar,2025-10-06 23:52,2025-10-07 00:52,False,+62-033-755-5797
+M0572,Karsana  Sitorus,Kinestetik,Offline,Fisika Listrik,2025-07-07 19:06,2025-07-07 22:06,True,+62 (999) 306 9036
+M0573,Fathonah  Firmansyah,Auditori,Offline,Kalkulus 2,2025-11-12 07:28,2025-11-12 09:28,True,0878235213
+M0574,Fitriani  Gunawan,Visual,Online,Probabilitas & Statistika,2025-12-18 07:18,2025-12-18 10:18,False,(0339) 191-7589
+M0575,Arsipatra  Hidayanto,Auditori,Online,Aljabar Linier,2025-10-01 21:25,2025-10-01 22:25,False,+62-062-615-9511
+M0576,Kamidin  Namaga,Visual,Online,Fisika Magnet,2025-12-04 07:51,2025-12-04 10:51,False,+62 (279) 889-9213
+M0577,Gabriella  Pangestu,Kinestetik,Offline,Struktur Data,2025-08-07 14:45,2025-08-07 16:45,False,(0571) 836-2385
+M0578,Daru  Novitasari,Kinestetik,Offline,Fisika Listrik,2025-08-02 18:34,2025-08-02 19:34,False,+62-00-941-8173
+M0579,Mila  Nugroho,Auditori,Offline,Kimia Murni,2025-07-24 23:59,2025-07-25 00:59,False,(0265) 857-4944
+M0580,Jayeng  Anggraini,Auditori,Online,Analisis Numerik,2025-11-03 07:15,2025-11-03 09:15,True,+62-692-777-0132
+M0581,Ira  Pudjiastuti,Visual,Offline,Aljabar Linier,2025-11-19 01:19,2025-11-19 02:19,True,(0164) 930-9540
+M0582,Kadir  Dabukke,Kinestetik,Online,Struktur Data,2025-11-12 09:26,2025-11-12 10:26,False,+62-57-579-7775
+M0583,Rachel  Mustofa,Visual,Offline,Pengantar AI,2025-11-24 05:38,2025-11-24 08:38,True,+62-0105-110-1453
+M0584,Mahesa  Aryani,Kinestetik,Online,Probabilitas & Statistika,2025-10-17 05:31,2025-10-17 06:31,False,0838906411
+M0585,Yani  Suartini,Auditori,Online,Fisika Dasar,2025-08-09 07:52,2025-08-09 08:52,False,0822950304
+M0586,Salman  Nasyiah,Kinestetik,Online,Matematika 2,2025-10-24 13:15,2025-10-24 14:15,False,+62 (70) 048-1793
+M0587,Asmianto  Uwais,Auditori,Online,Matematika 2,2025-12-25 04:50,2025-12-25 07:50,False,+62 (47) 793-5394
+M0588,Banawa  Siregar,Visual,Offline,Basis Data,2025-11-10 23:35,2025-11-11 01:35,True,0832018591
+M0589,Erik  Sinaga,Visual,Offline,Matematika 2,2025-11-26 08:30,2025-11-26 09:30,False,+62-055-547-3439
+M0590,Darsirah  Najmudin,Kinestetik,Online,Analisis Numerik,2025-11-09 20:02,2025-11-09 21:02,False,+62 (0254) 154-0386
+M0591,Ghani  Hutagalung,Kinestetik,Online,Logika Matematika,2025-09-01 00:15,2025-09-01 01:15,False,+62 (0155) 192-6553
+M0592,Rachel  Hasanah,Kinestetik,Offline,Probabilitas & Statistika,2025-08-07 08:44,2025-08-07 11:44,False,0807903153
+M0593,Galak  Kusmawati,Kinestetik,Offline,Aljabar Linier,2025-11-29 11:18,2025-11-29 12:18,False,+62 (594) 866 7347
+M0594,Cengkal  Dabukke,Visual,Offline,Fisika Listrik,2025-11-21 03:56,2025-11-21 06:56,False,(096) 275 3342
+M0595,Kania  Pranowo,Auditori,Offline,Struktur Data,2025-07-06 20:06,2025-07-06 21:06,True,+62 (99) 458 4231
+M0596,Nrima  Sinaga,Auditori,Offline,Pengantar AI,2025-11-10 12:56,2025-11-10 14:56,True,+62-40-056-6519
+M0597,Dian  Widiastuti,Auditori,Online,Basis Data,2025-07-22 11:10,2025-07-22 14:10,False,(030) 187 1117
+M0598,Darman  Firgantoro,Auditori,Online,Basis Data,2025-10-10 09:06,2025-10-10 12:06,True,+62 (0103) 713 4449
+M0599,Najib  Halimah,Auditori,Offline,Probabilitas & Statistika,2025-12-16 16:14,2025-12-16 19:14,False,(080) 179-1638
+M0600,Maya  Wulandari,Auditori,Offline,Matematika 2,2025-08-06 12:11,2025-08-06 14:11,False,+62 (0730) 264 4098
+M0601,Endra  Prastuti,Visual,Online,Fisika Magnet,2025-12-13 15:55,2025-12-13 17:55,True,+62 (52) 512-1452
+M0602,Hendri  Nurdiyanti,Visual,Offline,Pengantar AI,2025-12-12 08:25,2025-12-12 11:25,True,+62-797-054-6111
+M0603,Gamblang  Zulaika,Kinestetik,Online,Struktur Data,2025-07-17 06:19,2025-07-17 08:19,False,0865120717
+M0604,Pranawa  Mandala,Auditori,Offline,Kalkulus 2,2025-07-20 01:00,2025-07-20 02:00,False,+62 (87) 362-2365
+M0605,Carub  Nasyidah,Kinestetik,Offline,Kimia Murni,2025-10-27 11:38,2025-10-27 13:38,False,+62-45-579-9100
+M0606,Asmuni  Halimah,Auditori,Online,Logika Matematika,2025-10-23 10:06,2025-10-23 12:06,True,+62 (0543) 098 1159
+M0607,Heryanto  Padmasari,Visual,Offline,Fisika Dasar,2025-12-17 00:21,2025-12-17 03:21,False,+62 (0975) 387 8761
+M0608,Among  Zulaika,Visual,Online,Kalkulus 2,2025-12-29 02:01,2025-12-29 05:01,False,(0149) 144 4186
+M0609,Raharja  Wahyuni,Visual,Online,Aljabar Linier,2025-08-27 02:16,2025-08-27 03:16,True,0825506808
+M0610,Eluh  Thamrin,Auditori,Online,Matematika 2,2025-07-28 08:35,2025-07-28 11:35,True,+62-30-773-4194
+M0611,Rika  Puspita,Visual,Offline,Basis Data,2025-07-06 04:44,2025-07-06 05:44,False,+62 (599) 710 3822
+M0612,Dina  Maryadi,Visual,Offline,Fisika Listrik,2025-07-04 19:42,2025-07-04 21:42,False,+62 (611) 673-3675
+M0613,Carub  Hutasoit,Kinestetik,Online,Dasar Pemrograman,2025-10-27 20:34,2025-10-27 23:34,True,+62 (0153) 692 9658
+M0614,Wani  Yolanda,Kinestetik,Online,Metode Statistik,2025-08-19 04:00,2025-08-19 07:00,False,+62 (31) 847-8398
+M0615,Ade  Dabukke,Visual,Online,Probabilitas & Statistika,2025-12-30 00:01,2025-12-30 01:01,False,+62 (021) 555-4636
+M0616,Candrakanta  Saragih,Auditori,Offline,Fisika Listrik,2025-10-17 09:55,2025-10-17 12:55,False,+62 (004) 926-9136
+M0617,Dariati  Rahmawati,Auditori,Online,Analisis Numerik,2025-09-06 11:18,2025-09-06 13:18,False,081 630 0259
+M0618,Kamal  Zulaika,Kinestetik,Offline,Probabilitas & Statistika,2025-07-23 04:51,2025-07-23 06:51,False,084 697 1928
+M0619,Ayu  Pudjiastuti,Visual,Online,Fisika Listrik,2025-12-09 09:52,2025-12-09 12:52,False,(055) 526 2321
+M0620,Heryanto  Haryanti,Visual,Offline,Aljabar Linier,2025-11-12 11:19,2025-11-12 13:19,False,+62-0414-536-1077
+M0621,Purwa  Puspita,Visual,Online,Struktur Data,2025-11-23 11:13,2025-11-23 13:13,False,+62 (0443) 566 3476
+M0622,Teguh  Anggraini,Auditori,Offline,Kimia Murni,2025-08-17 23:07,2025-08-18 02:07,False,+62 (31) 856 5399
+M0623,Bakti  Tarihoran,Kinestetik,Online,Basis Data,2025-08-05 13:27,2025-08-05 15:27,True,+62-043-178-4816
+M0624,Kemal  Budiman,Kinestetik,Offline,Basis Data,2025-12-10 18:17,2025-12-10 20:17,False,(052) 424-8418
+M0625,Lutfan  Mulyani,Visual,Offline,Dasar Pemrograman,2025-10-20 08:18,2025-10-20 09:18,True,+62 (10) 466-9704
+M0626,Limar  Rahimah,Visual,Offline,Probabilitas & Statistika,2025-09-26 02:54,2025-09-26 05:54,False,(0204) 727 9864
+M0627,Kamal  Januar,Kinestetik,Online,Analisis Numerik,2025-09-11 04:36,2025-09-11 05:36,True,+62 (14) 753 4737
+M0628,Damu  Laksita,Kinestetik,Online,Pengantar AI,2025-12-26 00:32,2025-12-26 03:32,False,+62 (0564) 860 0674
+M0629,Kardi  Prakasa,Auditori,Offline,Aljabar Linier,2025-09-15 01:04,2025-09-15 03:04,False,+62 (002) 012 3012
+M0630,Asirwanda  Kuswoyo,Kinestetik,Offline,Aljabar Linier,2025-10-24 02:51,2025-10-24 05:51,True,+62 (96) 721-5658
+M0631,Caturangga  Namaga,Auditori,Online,Fisika Dasar,2025-12-10 07:44,2025-12-10 09:44,False,0826744324
+M0632,Waluyo  Simanjuntak,Auditori,Online,Kimia Murni,2025-08-24 11:48,2025-08-24 13:48,False,+62-095-877-8559
+M0633,Prasetyo  Sihombing,Kinestetik,Offline,Pengantar AI,2025-08-12 00:55,2025-08-12 03:55,False,+62 (61) 573 7097
+M0634,Uda  Dabukke,Visual,Online,Matematika 2,2025-12-14 02:14,2025-12-14 05:14,True,+62-0352-904-9355
+M0635,Putri  Agustina,Kinestetik,Online,Aljabar Linier,2025-08-30 03:21,2025-08-30 06:21,False,+62 (005) 722 0726
+M0636,Joko  Wijayanti,Auditori,Online,Kalkulus 2,2025-09-28 02:27,2025-09-28 04:27,False,+62-069-061-8467
+M0637,Warsa  Hastuti,Auditori,Online,Kimia Murni,2025-11-03 17:19,2025-11-03 18:19,False,+62 (35) 983 2885
+M0638,Dalima  Nasyiah,Visual,Online,Logika Matematika,2025-08-15 01:05,2025-08-15 04:05,False,+62-0092-201-3177
+M0639,Zulaikha  Nainggolan,Auditori,Online,Kalkulus 2,2025-07-05 07:55,2025-07-05 10:55,False,+62 (05) 859-5549
+M0640,Taswir  Saputra,Kinestetik,Offline,Analisis Numerik,2025-07-16 04:33,2025-07-16 05:33,False,0866497969
+M0641,Salimah  Puspasari,Auditori,Online,Fisika Listrik,2025-12-19 07:19,2025-12-19 10:19,False,0829706029
+M0642,Hesti  Mandasari,Kinestetik,Offline,Fisika Dasar,2025-08-23 15:21,2025-08-23 17:21,False,+62 (822) 721 2379
+M0643,Prakosa  Mayasari,Auditori,Online,Struktur Data,2025-12-15 07:04,2025-12-15 08:04,True,(057) 237-9536
+M0644,Adikara  Mansur,Visual,Online,Kimia Murni,2025-09-07 17:36,2025-09-07 20:36,True,+62-09-778-7794
+M0645,Latika  Rahmawati,Visual,Online,Fisika Magnet,2025-10-21 21:37,2025-10-21 23:37,False,+62-037-732-8449
+M0646,Aditya  Santoso,Visual,Offline,Pengantar AI,2025-11-16 21:04,2025-11-16 22:04,False,+62 (755) 963-1334
+M0647,Carub  Pradipta,Visual,Online,Logika Matematika,2025-08-17 16:13,2025-08-17 19:13,True,+62-0408-766-0424
+M0648,Najib  Wacana,Visual,Offline,Dasar Pemrograman,2025-10-14 22:43,2025-10-15 01:43,True,(039) 832 9359
+M0649,Lintang  Natsir,Visual,Offline,Logika Matematika,2025-07-23 21:33,2025-07-23 22:33,False,+62-0796-076-3296
+M0650,Prima  Kurniawan,Visual,Online,Logika Matematika,2025-12-20 18:26,2025-12-20 20:26,True,(0330) 586 7071
+M0651,Wahyu  Sihotang,Kinestetik,Online,Basis Data,2025-12-16 19:06,2025-12-16 21:06,False,(0398) 269 7222
+M0652,Darmaji  Pradipta,Auditori,Offline,Kalkulus 2,2025-08-03 08:34,2025-08-03 11:34,False,(012) 911 6881
+M0653,Salman  Situmorang,Auditori,Online,Kimia Murni,2025-11-13 01:16,2025-11-13 03:16,False,+62-182-992-2984
+M0654,Violet  Widodo,Visual,Offline,Struktur Data,2025-08-19 21:36,2025-08-19 23:36,False,+62-923-705-5816
+M0655,Digdaya  Pangestu,Auditori,Offline,Fisika Listrik,2025-10-15 08:24,2025-10-15 09:24,False,+62 (12) 198 9017
+M0656,Aurora  Mardhiyah,Visual,Offline,Kalkulus 2,2025-12-02 06:45,2025-12-02 07:45,False,0875494431
+M0657,Vicky  Prakasa,Auditori,Online,Basis Data,2025-12-05 01:02,2025-12-05 04:02,False,+62 (032) 008-6395
+M0658,Zaenab  Aryani,Auditori,Online,Logika Matematika,2025-07-05 18:38,2025-07-05 19:38,False,+62 (968) 408 5121
+M0659,Mila  Purwanti,Visual,Offline,Logika Matematika,2025-12-05 06:56,2025-12-05 09:56,False,+62-0594-517-5068
+M0660,Kayun  Zulaika,Auditori,Offline,Metode Statistik,2025-08-05 14:02,2025-08-05 15:02,False,0856297374
+M0661,Ibun  Mandasari,Visual,Online,Analisis Numerik,2025-10-26 05:00,2025-10-26 06:00,True,0859155309
+M0662,Parman  Lazuardi,Auditori,Online,Pengantar AI,2025-09-28 16:29,2025-09-28 17:29,True,(058) 596 0045
+M0663,Galih  Yulianti,Kinestetik,Online,Fisika Dasar,2025-09-07 09:46,2025-09-07 10:46,False,+62 (16) 985-6310
+M0664,Cawuk  Uwais,Auditori,Offline,Probabilitas & Statistika,2025-11-29 18:56,2025-11-29 20:56,False,+62-079-454-8976
+M0665,Koko  Wijayanti,Auditori,Online,Analisis Numerik,2025-08-09 13:21,2025-08-09 15:21,False,(083) 797-1791
+M0666,Aswani  Siregar,Visual,Online,Struktur Data,2025-07-27 07:10,2025-07-27 09:10,False,+62 (83) 873 2871
+M0667,Eli  Simanjuntak,Auditori,Offline,Struktur Data,2025-09-26 05:19,2025-09-26 06:19,False,+62-0756-391-1502
+M0668,Saka  Tamba,Auditori,Offline,Fisika Magnet,2025-08-03 00:05,2025-08-03 01:05,True,(0733) 447 5142
+M0669,Anom  Puspita,Visual,Online,Kimia Murni,2025-07-19 15:01,2025-07-19 16:01,False,+62-62-941-0381
+M0670,Mustika  Irawan,Visual,Online,Analisis Numerik,2025-11-13 09:22,2025-11-13 10:22,False,(0437) 654 5947
+M0671,Widya  Dongoran,Auditori,Offline,Metode Statistik,2025-10-18 21:57,2025-10-18 22:57,False,(006) 403 4698
+M0672,Akarsana  Habibi,Kinestetik,Online,Matematika 2,2025-07-20 04:46,2025-07-20 07:46,False,+62 (0785) 766 0757
+M0673,Garda  Irawan,Auditori,Offline,Basis Data,2025-07-24 06:13,2025-07-24 09:13,False,+62-014-471-6262
+M0674,Darmana  Saptono,Auditori,Online,Kimia Murni,2025-07-24 21:00,2025-07-24 22:00,False,+62-63-792-5433
+M0675,Rachel  Hidayat,Visual,Offline,Probabilitas & Statistika,2025-12-14 17:44,2025-12-14 20:44,False,+62 (10) 565 7220
+M0676,Eli  Agustina,Visual,Offline,Fisika Listrik,2025-11-24 06:53,2025-11-24 09:53,False,+62 (53) 342-1249
+M0677,Ellis  Prasasta,Auditori,Online,Fisika Dasar,2025-12-05 10:05,2025-12-05 12:05,False,+62 (0958) 197-5846
+M0678,Aisyah  Pranowo,Auditori,Online,Aljabar Linier,2025-08-04 04:30,2025-08-04 07:30,False,+62 (030) 762-3260
+M0679,Dacin  Palastri,Auditori,Offline,Analisis Numerik,2025-09-28 17:21,2025-09-28 18:21,True,(033) 877 6255
+M0680,Raditya  Habibi,Kinestetik,Online,Kimia Murni,2025-12-24 19:56,2025-12-24 20:56,True,+62 (649) 989 0929
+M0681,Mustofa  Hariyah,Visual,Offline,Probabilitas & Statistika,2025-08-11 09:02,2025-08-11 10:02,True,086 515 0310
+M0682,Gasti  Saputra,Auditori,Online,Kimia Murni,2025-12-20 16:33,2025-12-20 19:33,False,(0504) 901-2170
+M0683,Talia  Nababan,Kinestetik,Offline,Dasar Pemrograman,2025-12-24 17:39,2025-12-24 20:39,False,+62 (029) 509-1091
+M0684,Aris  Halim,Auditori,Offline,Fisika Magnet,2025-09-17 22:10,2025-09-17 23:10,False,+62-0399-439-1609
+M0685,Cengkir  Simbolon,Auditori,Offline,Probabilitas & Statistika,2025-10-15 22:05,2025-10-15 23:05,False,+62-43-232-6854
+M0686,Violet  Maheswara,Auditori,Online,Fisika Listrik,2025-12-13 16:10,2025-12-13 17:10,False,+62 (51) 858 8530
+M0687,Manah  Budiyanto,Auditori,Online,Probabilitas & Statistika,2025-08-28 08:39,2025-08-28 10:39,False,(0988) 934 5721
+M0688,Gaiman  Damanik,Visual,Online,Dasar Pemrograman,2025-09-23 06:06,2025-09-23 08:06,False,084 081 5336
+M0689,Usman  Winarno,Visual,Offline,Probabilitas & Statistika,2025-08-14 12:39,2025-08-14 14:39,False,(0578) 803-4359
+M0690,Syahrini  Laksmiwati,Auditori,Offline,Matematika 2,2025-08-19 07:22,2025-08-19 10:22,True,(0576) 546-0234
+M0691,Eman  Budiman,Visual,Offline,Probabilitas & Statistika,2025-12-17 15:34,2025-12-17 17:34,False,+62 (0262) 053 1187
+M0692,Luthfi  Fujiati,Kinestetik,Offline,Kalkulus 2,2025-08-27 17:07,2025-08-27 18:07,False,+62-84-376-8129
+M0693,Danu  Laksmiwati,Visual,Online,Fisika Magnet,2025-09-18 19:34,2025-09-18 21:34,False,+62 (072) 699 0354
+M0694,Ade  Wulandari,Auditori,Offline,Fisika Listrik,2025-10-01 05:49,2025-10-01 08:49,False,+62 (36) 173-8812
+M0695,Ifa  Wahyuni,Auditori,Online,Kalkulus 2,2025-07-01 15:19,2025-07-01 17:19,True,(0315) 665-2080
+M0696,Vega  Hidayat,Auditori,Offline,Dasar Pemrograman,2025-10-22 03:57,2025-10-22 05:57,True,+62 (03) 447-8639
+M0697,Margana  Aryani,Kinestetik,Offline,Fisika Magnet,2025-12-01 21:44,2025-12-02 00:44,False,(091) 253 8668
+M0698,Zulfa  Melani,Visual,Offline,Fisika Listrik,2025-08-28 08:11,2025-08-28 10:11,True,0872133948
+M0699,Tomi  Pradipta,Auditori,Offline,Probabilitas & Statistika,2025-07-23 03:58,2025-07-23 05:58,True,(097) 026 4040
+M0700,Putri  Januar,Kinestetik,Online,Aljabar Linier,2025-10-30 14:47,2025-10-30 15:47,False,(0595) 288-8225
+M0701,Maman  Iswahyudi,Visual,Online,Analisis Numerik,2025-08-04 11:34,2025-08-04 12:34,False,+62-58-340-2974
+M0702,Elon  Thamrin,Auditori,Online,Kimia Murni,2025-08-06 15:59,2025-08-06 18:59,False,+62 (0248) 028-6788
+M0703,Padma  Nainggolan,Kinestetik,Online,Kimia Murni,2025-07-09 01:36,2025-07-09 03:36,False,+62-35-763-3255
+M0704,Kayla  Situmorang,Auditori,Offline,Fisika Listrik,2025-07-30 16:59,2025-07-30 18:59,False,+62 (063) 317 2604
+M0705,Farah  Jailani,Kinestetik,Online,Probabilitas & Statistika,2025-10-05 23:06,2025-10-06 01:06,False,+62 (83) 006-7868
+M0706,Genta  Fujiati,Kinestetik,Offline,Struktur Data,2025-11-14 00:19,2025-11-14 03:19,False,+62 (25) 267 0104
+M0707,Yance  Lailasari,Auditori,Online,Struktur Data,2025-08-21 13:17,2025-08-21 16:17,True,+62 (0530) 846-1630
+M0708,Kadir  Usamah,Kinestetik,Offline,Kalkulus 2,2025-11-29 06:31,2025-11-29 07:31,True,+62-0585-951-6966
+M0709,Raihan  Usada,Auditori,Offline,Probabilitas & Statistika,2025-11-19 04:09,2025-11-19 05:09,True,(0556) 450-7148
+M0710,Capa  Tampubolon,Kinestetik,Online,Matematika 2,2025-12-16 07:50,2025-12-16 10:50,True,(036) 308-4237
+M0711,Cahyadi  Zulkarnain,Kinestetik,Offline,Probabilitas & Statistika,2025-07-06 14:34,2025-07-06 17:34,True,081 139 2482
+M0712,Opan  Sihombing,Kinestetik,Offline,Pengantar AI,2025-09-04 03:55,2025-09-04 06:55,False,+62 (90) 287-7958
+M0713,Reksa  Halim,Kinestetik,Offline,Aljabar Linier,2025-10-03 20:06,2025-10-03 23:06,False,+62 (0252) 908-5237
+M0714,Sidiq  Hutapea,Kinestetik,Offline,Logika Matematika,2025-10-26 13:09,2025-10-26 16:09,False,+62 (996) 721 1558
+M0715,Jabal  Januar,Kinestetik,Online,Fisika Listrik,2025-12-02 22:52,2025-12-03 01:52,False,+62 (71) 173 4541
+M0716,Tirtayasa  Hariyah,Auditori,Offline,Kalkulus 2,2025-11-05 14:09,2025-11-05 17:09,False,+62-071-073-6705
+M0717,Upik  Narpati,Kinestetik,Offline,Struktur Data,2025-11-25 12:01,2025-11-25 13:01,False,+62 (53) 654-5311
+M0718,Jayadi  Nugroho,Kinestetik,Offline,Probabilitas & Statistika,2025-09-11 22:27,2025-09-11 23:27,True,+62 (024) 140-7706
+M0719,Wage  Wibowo,Kinestetik,Online,Dasar Pemrograman,2025-10-27 09:42,2025-10-27 12:42,False,+62 (768) 223 6197
+M0720,Virman  Astuti,Visual,Online,Dasar Pemrograman,2025-08-12 01:23,2025-08-12 02:23,False,(002) 388 7077
+M0721,Cornelia  Dabukke,Kinestetik,Offline,Matematika 2,2025-11-03 21:32,2025-11-03 22:32,False,0869189884
+M0722,Cahya  Widiastuti,Auditori,Offline,Fisika Magnet,2025-07-30 17:57,2025-07-30 18:57,False,0820082559
+M0723,Kasiyah  Habibi,Visual,Online,Fisika Magnet,2025-09-12 19:33,2025-09-12 22:33,False,+62 (0131) 743-2121
+M0724,Laswi  Napitupulu,Kinestetik,Online,Metode Statistik,2025-12-30 15:44,2025-12-30 16:44,True,+62 (0127) 938 2514
+M0725,Nardi  Samosir,Kinestetik,Offline,Logika Matematika,2025-10-05 15:42,2025-10-05 17:42,False,+62 (093) 543 6064
+M0726,Jayadi  Prakasa,Visual,Offline,Basis Data,2025-12-26 14:14,2025-12-26 15:14,True,+62 (0585) 620 5062
+M0727,Lukman  Saputra,Visual,Online,Analisis Numerik,2025-10-05 02:17,2025-10-05 03:17,False,(0107) 094 9245
+M0728,Pranata  Nurdiyanti,Auditori,Offline,Aljabar Linier,2025-09-11 10:42,2025-09-11 12:42,True,+62 (0027) 509-3510
+M0729,Rusman  Prasetya,Kinestetik,Online,Pengantar AI,2025-08-17 13:43,2025-08-17 16:43,False,+62 (070) 153-2533
+M0730,Oskar  Pudjiastuti,Visual,Offline,Fisika Magnet,2025-11-02 01:22,2025-11-02 02:22,False,+62 (0299) 817 9010
+M0731,Dadi  Utami,Auditori,Offline,Analisis Numerik,2025-09-20 20:28,2025-09-20 21:28,False,+62 (606) 754-5417
+M0732,Jane  Saragih,Visual,Offline,Pengantar AI,2025-10-19 16:07,2025-10-19 17:07,False,(022) 075-7506
+M0733,Carub  Suryatmi,Visual,Offline,Aljabar Linier,2025-07-19 02:00,2025-07-19 03:00,False,+62 (0631) 533-7401
+M0734,Kiandra  Gunarto,Kinestetik,Offline,Kalkulus 2,2025-10-10 15:19,2025-10-10 16:19,False,+62 (021) 896 9803
+M0735,Kayla  Prayoga,Visual,Offline,Struktur Data,2025-07-22 17:54,2025-07-22 18:54,False,+62 (43) 043-7651
+M0736,Caraka  Hassanah,Visual,Offline,Fisika Magnet,2025-07-09 08:25,2025-07-09 10:25,False,084 021 4451
+M0737,Sari  Permata,Kinestetik,Online,Struktur Data,2025-07-06 15:03,2025-07-06 18:03,False,+62 (012) 674-7749
+M0738,Drajat  Sitorus,Kinestetik,Online,Probabilitas & Statistika,2025-09-26 01:55,2025-09-26 04:55,False,086 685 4043
+M0739,Ani  Maheswara,Auditori,Offline,Fisika Listrik,2025-12-08 08:31,2025-12-08 11:31,False,+62 (0823) 054-3555
+M0740,Bakijan  Pranowo,Kinestetik,Online,Fisika Listrik,2025-08-15 22:53,2025-08-16 00:53,False,+62-094-677-6797
+M0741,Makuta  Padmasari,Auditori,Offline,Fisika Dasar,2025-08-17 08:07,2025-08-17 11:07,False,(036) 991-7177
+M0742,Putri  Wahyudin,Auditori,Online,Analisis Numerik,2025-07-09 14:05,2025-07-09 16:05,False,+62 (0146) 894 9454
+M0743,Darman  Prayoga,Auditori,Offline,Metode Statistik,2025-09-19 13:13,2025-09-19 16:13,False,+62 (065) 198-8771
+M0744,Puji  Usada,Visual,Online,Probabilitas & Statistika,2025-11-26 05:05,2025-11-26 06:05,False,+62-075-948-7869
+M0745,Gabriella  Hutapea,Visual,Online,Kalkulus 2,2025-09-20 23:24,2025-09-21 00:24,False,(055) 688-5911
+M0746,Cornelia  Utami,Kinestetik,Online,Matematika 2,2025-10-22 23:01,2025-10-23 02:01,False,(0659) 036 4575
+M0747,Keisha  Fujiati,Kinestetik,Offline,Aljabar Linier,2025-09-29 13:33,2025-09-29 14:33,True,+62 (95) 595 7176
+M0748,Lili  Simbolon,Visual,Offline,Pengantar AI,2025-07-16 19:55,2025-07-16 22:55,True,084 512 8372
+M0749,Galih  Damanik,Kinestetik,Online,Fisika Listrik,2025-12-10 05:52,2025-12-10 06:52,False,0834946785
+M0750,Galuh  Susanti,Auditori,Offline,Kalkulus 2,2025-10-09 00:12,2025-10-09 03:12,False,085 307 1883
+M0751,Raden  Purwanti,Auditori,Offline,Pengantar AI,2025-09-13 06:16,2025-09-13 08:16,False,081 656 0837
+M0752,Vinsen  Lailasari,Visual,Online,Fisika Dasar,2025-07-30 17:02,2025-07-30 19:02,True,+62 (428) 902-4019
+M0753,Balapati  Firgantoro,Visual,Online,Fisika Listrik,2025-07-11 06:06,2025-07-11 09:06,True,+62 (055) 717-3716
+M0754,Jumadi  Wacana,Auditori,Online,Analisis Numerik,2025-12-17 16:53,2025-12-17 17:53,True,+62-059-259-4685
+M0755,Kani  Pratama,Visual,Online,Probabilitas & Statistika,2025-08-09 12:55,2025-08-09 15:55,False,+62-478-671-1815
+M0756,Jaga  Habibi,Visual,Offline,Kalkulus 2,2025-08-23 12:51,2025-08-23 15:51,False,+62 (0611) 137-7687
+M0757,Agnes  Laksita,Visual,Online,Aljabar Linier,2025-09-16 03:10,2025-09-16 05:10,True,085 692 5296
+M0758,Lembah  Puspita,Kinestetik,Offline,Basis Data,2025-12-23 04:18,2025-12-23 07:18,False,+62-080-447-3828
+M0759,Balijan  Safitri,Visual,Offline,Kimia Murni,2025-09-29 04:16,2025-09-29 05:16,False,(0398) 654-2884
+M0760,Warta  Palastri,Kinestetik,Online,Pengantar AI,2025-09-03 16:27,2025-09-03 19:27,False,+62-335-672-5863
+M0761,Yance  Prasetyo,Visual,Offline,Kimia Murni,2025-09-20 21:14,2025-09-20 23:14,True,+62 (0640) 311-3056
+M0762,Kamaria  Permadi,Kinestetik,Offline,Struktur Data,2025-10-22 00:56,2025-10-22 03:56,True,+62-0226-659-4977
+M0763,Sarah  Purwanti,Visual,Offline,Kalkulus 2,2025-11-01 23:35,2025-11-02 01:35,False,+62 (507) 110 0178
+M0764,Cahyo  Saptono,Visual,Online,Basis Data,2025-08-14 09:08,2025-08-14 10:08,False,+62 (594) 866 7908
+M0765,Hasta  Permata,Visual,Offline,Fisika Magnet,2025-09-14 19:02,2025-09-14 22:02,False,+62-048-572-8891
+M0766,Almira  Uwais,Kinestetik,Offline,Fisika Magnet,2025-07-01 09:58,2025-07-01 11:58,False,(0433) 411-3786
+M0767,Darsirah  Damanik,Kinestetik,Online,Kimia Murni,2025-12-16 09:44,2025-12-16 12:44,False,+62 (023) 285-3753
+M0768,Clara  Rajasa,Kinestetik,Online,Kimia Murni,2025-12-01 09:49,2025-12-01 12:49,False,+62-70-711-6296
+M0769,Saka  Prasetyo,Auditori,Online,Metode Statistik,2025-09-05 10:18,2025-09-05 13:18,False,+62-0324-879-8810
+M0770,Panji  Wijayanti,Kinestetik,Offline,Basis Data,2025-10-13 12:20,2025-10-13 15:20,False,+62 (379) 656 1337
+M0771,Garang  Agustina,Auditori,Offline,Basis Data,2025-10-10 15:26,2025-10-10 17:26,True,+62 (86) 442-0796
+M0772,Sabar  Nainggolan,Auditori,Online,Matematika 2,2025-12-23 07:58,2025-12-23 10:58,False,+62-0740-304-1594
+M0773,Satya  Saefullah,Auditori,Online,Logika Matematika,2025-08-11 23:45,2025-08-12 00:45,True,+62-96-218-2069
+M0774,Aris  Pratiwi,Visual,Offline,Probabilitas & Statistika,2025-11-11 01:31,2025-11-11 03:31,True,+62 (0486) 594 5049
+M0775,Garan  Prabowo,Kinestetik,Offline,Analisis Numerik,2025-08-19 19:59,2025-08-19 22:59,False,+62-39-104-9398
+M0776,Pangeran  Mangunsong,Auditori,Offline,Kimia Murni,2025-11-10 02:27,2025-11-10 03:27,True,+62-069-970-1435
+M0777,Eka  Kuswandari,Visual,Offline,Logika Matematika,2025-08-18 15:59,2025-08-18 17:59,False,+62 (0801) 653 2646
+M0778,Latif  Gunarto,Kinestetik,Offline,Kimia Murni,2025-07-26 04:49,2025-07-26 05:49,False,081 266 5270
+M0779,Ibun  Sitorus,Kinestetik,Online,Dasar Pemrograman,2025-12-10 22:07,2025-12-11 00:07,False,+62-0139-285-8669
+M0780,Teguh  Sihombing,Auditori,Online,Pengantar AI,2025-10-14 14:58,2025-10-14 15:58,False,(086) 497-4661
+M0781,Respati  Tamba,Kinestetik,Online,Analisis Numerik,2025-07-19 07:44,2025-07-19 10:44,False,+62 (48) 069 3582
+M0782,Kamal  Hidayat,Kinestetik,Online,Analisis Numerik,2025-08-18 13:43,2025-08-18 16:43,False,+62-976-657-7624
+M0783,Kunthara  Halim,Kinestetik,Offline,Fisika Dasar,2025-12-15 09:23,2025-12-15 12:23,False,083 480 4918
+M0784,Mumpuni  Sihombing,Auditori,Offline,Metode Statistik,2025-09-24 07:20,2025-09-24 10:20,False,+62-065-885-0871
+M0785,Ella  Saefullah,Kinestetik,Online,Probabilitas & Statistika,2025-08-07 23:23,2025-08-08 02:23,True,+62 (0193) 692-6720
+M0786,Karna  Simbolon,Kinestetik,Offline,Aljabar Linier,2025-12-11 18:00,2025-12-11 19:00,False,+62-0465-293-1274
+M0787,Ella  Tamba,Kinestetik,Online,Fisika Listrik,2025-09-12 21:24,2025-09-12 22:24,False,+62 (431) 790-8163
+M0788,Jarwadi  Samosir,Visual,Online,Basis Data,2025-10-21 04:32,2025-10-21 06:32,False,0876798829
+M0789,Budi  Permata,Kinestetik,Online,Dasar Pemrograman,2025-08-28 01:48,2025-08-28 03:48,False,0830675342
+M0790,Kawaca  Tampubolon,Auditori,Offline,Matematika 2,2025-08-31 18:26,2025-08-31 20:26,True,+62-66-335-5795
+M0791,Himawan  Suwarno,Auditori,Offline,Probabilitas & Statistika,2025-11-26 06:44,2025-11-26 09:44,False,+62 (993) 177-1830
+M0792,Artanto  Setiawan,Auditori,Offline,Kimia Murni,2025-10-21 11:27,2025-10-21 14:27,False,+62-65-027-2995
+M0793,Okta  Safitri,Kinestetik,Online,Probabilitas & Statistika,2025-12-13 21:58,2025-12-13 23:58,True,(0840) 832-2211
+M0794,Daniswara  Budiyanto,Visual,Offline,Matematika 2,2025-08-28 01:44,2025-08-28 02:44,False,+62 (023) 564-6218
+M0795,Bancar  Megantara,Kinestetik,Offline,Kimia Murni,2025-07-31 17:27,2025-07-31 18:27,False,+62 (040) 854 9511
+M0796,Jarwa  Pudjiastuti,Auditori,Offline,Matematika 2,2025-09-07 03:36,2025-09-07 04:36,False,+62 (82) 109 1207
+M0797,Daliono  Budiyanto,Auditori,Online,Matematika 2,2025-07-28 14:36,2025-07-28 16:36,False,+62 (061) 943 8845
+M0798,Ulva  Suryono,Kinestetik,Offline,Analisis Numerik,2025-07-26 12:52,2025-07-26 13:52,False,(0921) 661-2215
+M0799,Latif  Novitasari,Kinestetik,Offline,Fisika Listrik,2025-07-07 23:19,2025-07-08 02:19,False,+62 (0266) 840 0759
+M0800,Uda  Halimah,Kinestetik,Online,Logika Matematika,2025-09-11 07:45,2025-09-11 09:45,False,+62 (955) 464-3320
+M0801,Balapati  Prakasa,Kinestetik,Offline,Kalkulus 2,2025-10-10 09:30,2025-10-10 10:30,False,+62 (048) 854-4362
+M0802,Omar  Wasita,Auditori,Online,Fisika Dasar,2025-07-14 23:21,2025-07-15 02:21,False,(0028) 077 2607
+M0803,Akarsana  Wibowo,Auditori,Online,Metode Statistik,2025-11-11 13:08,2025-11-11 14:08,False,+62 (46) 952 3704
+M0804,Faizah  Kuswoyo,Auditori,Offline,Metode Statistik,2025-12-23 00:33,2025-12-23 03:33,True,+62-052-870-4646
+M0805,Jumari  Tamba,Visual,Offline,Analisis Numerik,2025-07-29 19:29,2025-07-29 22:29,True,+62-051-308-6957
+M0806,Ganjaran  Rajasa,Visual,Online,Metode Statistik,2025-07-10 16:17,2025-07-10 19:17,False,+62 (0517) 642 8470
+M0807,Banara  Yuliarti,Auditori,Online,Probabilitas & Statistika,2025-09-21 12:22,2025-09-21 15:22,True,+62 (0437) 469 6862
+M0808,Dalimin  Hardiansyah,Auditori,Online,Dasar Pemrograman,2025-11-10 05:31,2025-11-10 08:31,False,+62 (0649) 814-3555
+M0809,Sakti  Pudjiastuti,Kinestetik,Online,Struktur Data,2025-11-03 19:17,2025-11-03 20:17,False,+62-0124-334-4125
+M0810,Daniswara  Tarihoran,Kinestetik,Offline,Dasar Pemrograman,2025-07-30 16:42,2025-07-30 17:42,True,(029) 258-1451
+M0811,Gangsar  Marbun,Kinestetik,Online,Pengantar AI,2025-10-26 15:20,2025-10-26 18:20,True,(0497) 136 9183
+M0812,Kanda  Prasetya,Auditori,Online,Fisika Listrik,2025-09-28 09:54,2025-09-28 12:54,False,(019) 999-4010
+M0813,Jindra  Situmorang,Auditori,Offline,Aljabar Linier,2025-07-19 11:19,2025-07-19 14:19,False,+62 (0170) 235 5544
+M0814,Galar  Kurniawan,Kinestetik,Online,Probabilitas & Statistika,2025-08-22 23:54,2025-08-23 01:54,True,(004) 395-4657
+M0815,Drajat  Thamrin,Visual,Offline,Probabilitas & Statistika,2025-07-12 15:39,2025-07-12 16:39,True,(0577) 612-0495
+M0816,Lutfan  Zulkarnain,Auditori,Offline,Fisika Dasar,2025-12-09 02:50,2025-12-09 04:50,False,+62-0844-788-3666
+M0817,Gilang  Putra,Visual,Online,Fisika Magnet,2025-09-25 04:53,2025-09-25 06:53,False,+62 (095) 093 7024
+M0818,Agnes  Maulana,Kinestetik,Offline,Fisika Dasar,2025-10-14 12:14,2025-10-14 13:14,True,(086) 295 1161
+M0819,Dalima  Hartati,Auditori,Online,Basis Data,2025-08-10 15:32,2025-08-10 18:32,True,(010) 560 7875
+M0820,Eli  Andriani,Visual,Online,Fisika Dasar,2025-11-26 23:14,2025-11-27 02:14,False,+62-028-288-2442
+M0821,Pangeran  Melani,Kinestetik,Online,Logika Matematika,2025-10-11 04:04,2025-10-11 06:04,False,(0094) 934-3049
+M0822,Dirja  Najmudin,Kinestetik,Online,Fisika Listrik,2025-08-16 16:46,2025-08-16 17:46,True,(077) 060 7890
+M0823,Hadi  Laksmiwati,Auditori,Online,Analisis Numerik,2025-10-24 00:36,2025-10-24 01:36,True,+62 (667) 643-3667
+M0824,Gangsa  Winarsih,Visual,Offline,Logika Matematika,2025-09-12 03:59,2025-09-12 06:59,False,+62-83-636-4368
+M0825,Irwan  Wijaya,Visual,Online,Kalkulus 2,2025-09-20 07:39,2025-09-20 08:39,False,+62-594-649-2754
+M0826,Clara  Mandala,Visual,Online,Analisis Numerik,2025-10-02 11:40,2025-10-02 13:40,False,+62 (018) 674 3410
+M0827,Atmaja  Pangestu,Auditori,Offline,Metode Statistik,2025-07-10 17:58,2025-07-10 20:58,False,+62 (0189) 896-2973
+M0828,Laila  Uyainah,Auditori,Offline,Fisika Magnet,2025-11-18 19:56,2025-11-18 21:56,False,+62-45-043-6890
+M0829,Edison  Siregar,Visual,Offline,Matematika 2,2025-11-30 03:07,2025-11-30 04:07,True,(0923) 632-2825
+M0830,Virman  Hariyah,Kinestetik,Online,Probabilitas & Statistika,2025-07-29 15:56,2025-07-29 18:56,False,+62 (082) 899 9981
+M0831,Rafi  Maulana,Auditori,Online,Aljabar Linier,2025-10-24 03:16,2025-10-24 04:16,False,+62-019-381-0470
+M0832,Cagak  Ramadan,Visual,Offline,Aljabar Linier,2025-07-26 03:55,2025-07-26 05:55,True,+62-413-069-5896
+M0833,Kunthara  Sudiati,Kinestetik,Online,Fisika Dasar,2025-07-19 14:08,2025-07-19 16:08,True,0889159589
+M0834,Purwa  Utama,Auditori,Offline,Fisika Magnet,2025-07-05 04:55,2025-07-05 07:55,False,+62 (083) 804 5620
+M0835,Harja  Suryono,Auditori,Offline,Analisis Numerik,2025-10-14 14:40,2025-10-14 16:40,False,(093) 978 7971
+M0836,Zulfa  Simanjuntak,Visual,Offline,Fisika Dasar,2025-09-27 10:35,2025-09-27 13:35,False,(018) 300 9153
+M0837,Uchita  Sihombing,Kinestetik,Online,Probabilitas & Statistika,2025-07-22 06:35,2025-07-22 08:35,True,+62-086-014-6295
+M0838,Keisha  Maryadi,Auditori,Offline,Dasar Pemrograman,2025-07-17 20:09,2025-07-17 23:09,True,0874311334
+M0839,Gangsa  Haryanti,Kinestetik,Online,Probabilitas & Statistika,2025-11-24 18:41,2025-11-24 20:41,True,+62 (069) 143 0776
+M0840,Putri  Damanik,Auditori,Online,Probabilitas & Statistika,2025-09-07 02:41,2025-09-07 04:41,False,+62 (061) 479 9145
+M0841,Tania  Sudiati,Auditori,Online,Kalkulus 2,2025-12-19 13:55,2025-12-19 15:55,False,+62-156-218-2617
+M0842,Latika  Wijaya,Kinestetik,Online,Analisis Numerik,2025-07-06 05:11,2025-07-06 07:11,True,+62-0563-460-4594
+M0843,Kambali  Kusmawati,Auditori,Offline,Analisis Numerik,2025-07-05 15:42,2025-07-05 17:42,False,+62-789-752-5262
+M0844,Siska  Jailani,Kinestetik,Offline,Probabilitas & Statistika,2025-09-10 21:20,2025-09-10 23:20,True,(015) 867-6428
+M0845,Marsito  Hidayat,Visual,Offline,Logika Matematika,2025-11-25 05:23,2025-11-25 06:23,False,+62 (689) 124 7735
+M0846,Vivi  Wulandari,Auditori,Online,Matematika 2,2025-12-11 19:54,2025-12-11 22:54,False,+62 (0330) 275 2410
+M0847,Calista  Sihombing,Auditori,Offline,Dasar Pemrograman,2025-11-27 21:15,2025-11-27 23:15,False,+62 (46) 551-1641
+M0848,Maman  Pertiwi,Kinestetik,Online,Logika Matematika,2025-10-06 02:00,2025-10-06 03:00,True,+62 (627) 585-8765
+M0849,Violet  Wahyudin,Visual,Offline,Fisika Listrik,2025-11-01 14:57,2025-11-01 16:57,False,+62 (055) 558 6334
+M0850,Gamblang  Laksmiwati,Kinestetik,Online,Fisika Listrik,2025-09-05 14:47,2025-09-05 16:47,False,+62-0767-924-5860
+M0851,Najwa  Handayani,Visual,Online,Fisika Magnet,2025-10-23 07:31,2025-10-23 08:31,True,+62 (0874) 021-4681
+M0852,Ajimat  Budiyanto,Visual,Online,Dasar Pemrograman,2025-11-23 15:12,2025-11-23 18:12,False,+62 (019) 901 3204
+M0853,Empluk  Waskita,Visual,Offline,Pengantar AI,2025-07-12 19:10,2025-07-12 20:10,True,+62 (440) 443-4075
+M0854,Arsipatra  Hastuti,Visual,Offline,Analisis Numerik,2025-07-05 05:23,2025-07-05 07:23,True,(0468) 831-1131
+M0855,Indra  Wulandari,Visual,Offline,Kimia Murni,2025-11-30 15:09,2025-11-30 18:09,True,+62 (0419) 462-0813
+M0856,Daryani  Andriani,Visual,Offline,Aljabar Linier,2025-09-04 06:15,2025-09-04 07:15,False,(0533) 010-2052
+M0857,Mulyono  Fujiati,Kinestetik,Online,Analisis Numerik,2025-12-21 13:11,2025-12-21 15:11,False,+62 (032) 577-4730
+M0858,Lidya  Saefullah,Kinestetik,Offline,Fisika Magnet,2025-08-27 13:32,2025-08-27 16:32,False,+62 (088) 707 4507
+M0859,Surya  Samosir,Kinestetik,Online,Kimia Murni,2025-07-06 09:12,2025-07-06 11:12,False,0834361930
+M0860,Elvin  Suryatmi,Auditori,Offline,Basis Data,2025-09-15 16:45,2025-09-15 18:45,False,+62 (32) 387-8315
+M0861,Digdaya  Marbun,Visual,Online,Probabilitas & Statistika,2025-10-22 18:08,2025-10-22 20:08,False,+62 (022) 345-2163
+M0862,Leo  Widodo,Kinestetik,Online,Dasar Pemrograman,2025-09-02 00:57,2025-09-02 03:57,False,(0035) 898-8077
+M0863,Viman  Tampubolon,Visual,Offline,Basis Data,2025-10-25 20:25,2025-10-25 23:25,False,+62 (0977) 734-8993
+M0864,Gasti  Wasita,Visual,Online,Kalkulus 2,2025-07-01 17:59,2025-07-01 18:59,False,+62 (809) 976-5872
+M0865,Wisnu  Mulyani,Visual,Offline,Basis Data,2025-07-04 15:18,2025-07-04 16:18,True,+62 (080) 542 6693
+M0866,Elisa  Waskita,Kinestetik,Online,Kalkulus 2,2025-12-24 04:17,2025-12-24 07:17,False,+62 (63) 066 8510
+M0867,Lalita  Hutapea,Kinestetik,Online,Pengantar AI,2025-10-12 18:02,2025-10-12 20:02,True,+62 (535) 379-7114
+M0868,Zelaya  Firmansyah,Visual,Offline,Kalkulus 2,2025-12-17 14:29,2025-12-17 15:29,False,+62-022-695-6544
+M0869,Anggabaya  Mandala,Kinestetik,Online,Struktur Data,2025-12-24 03:15,2025-12-24 06:15,False,(048) 841-4362
+M0870,Xanana  Kusumo,Visual,Online,Pengantar AI,2025-10-16 09:13,2025-10-16 10:13,False,(042) 951 7381
+M0871,Prasetyo  Prabowo,Kinestetik,Offline,Analisis Numerik,2025-07-05 21:28,2025-07-05 23:28,False,+62-920-153-1867
+M0872,Atmaja  Halim,Auditori,Online,Matematika 2,2025-12-19 09:38,2025-12-19 11:38,True,+62-09-740-4016
+M0873,Danu  Rajata,Kinestetik,Online,Kimia Murni,2025-08-06 07:28,2025-08-06 08:28,False,+62 (0293) 930-4028
+M0874,Sarah  Agustina,Auditori,Online,Basis Data,2025-11-17 19:10,2025-11-17 22:10,False,+62 (0137) 587 8102
+M0875,Natalia  Napitupulu,Auditori,Online,Fisika Listrik,2025-08-25 05:09,2025-08-25 06:09,False,(0787) 976-3457
+M0876,Ina  Samosir,Kinestetik,Offline,Logika Matematika,2025-12-04 13:11,2025-12-04 14:11,False,+62 (037) 858-0845
+M0877,Capa  Gunarto,Kinestetik,Offline,Aljabar Linier,2025-10-15 00:20,2025-10-15 03:20,True,+62 (177) 964-0590
+M0878,Aditya  Dabukke,Visual,Online,Aljabar Linier,2025-11-18 05:04,2025-11-18 07:04,True,+62-709-472-4161
+M0879,Okto  Nababan,Visual,Offline,Analisis Numerik,2025-08-29 21:18,2025-08-29 22:18,False,+62 (067) 619-8689
+M0880,Asirwanda  Anggriawan,Visual,Online,Aljabar Linier,2025-11-07 17:17,2025-11-07 18:17,True,+62 (243) 081-8285
+M0881,Zalindra  Latupono,Auditori,Offline,Kimia Murni,2025-11-12 02:19,2025-11-12 05:19,False,+62 (0562) 378 4541
+M0882,Irfan  Kurniawan,Auditori,Offline,Aljabar Linier,2025-07-09 01:17,2025-07-09 03:17,False,+62 (31) 525 8013
+M0883,Kenari  Sirait,Auditori,Offline,Logika Matematika,2025-11-07 18:46,2025-11-07 19:46,True,0804151678
+M0884,Mujur  Hasanah,Visual,Offline,Dasar Pemrograman,2025-10-24 01:11,2025-10-24 04:11,True,+62 (0925) 378 3788
+M0885,Rachel  Purwanti,Auditori,Online,Struktur Data,2025-09-21 06:35,2025-09-21 09:35,False,+62 (776) 101-3700
+M0886,Novi  Nasyidah,Auditori,Offline,Probabilitas & Statistika,2025-10-09 03:00,2025-10-09 05:00,False,+62 (029) 718-2135
+M0887,Putu  Zulaika,Kinestetik,Offline,Pengantar AI,2025-11-01 02:02,2025-11-01 05:02,False,+62 (40) 211 8154
+M0888,Bahuraksa  Iswahyudi,Kinestetik,Online,Struktur Data,2025-07-18 23:19,2025-07-19 02:19,False,+62 (0985) 324 0044
+M0889,Yulia  Halim,Auditori,Offline,Kalkulus 2,2025-07-27 01:13,2025-07-27 04:13,False,+62 (81) 696 6015
+M0890,Zelda  Nuraini,Visual,Online,Pengantar AI,2025-12-11 22:33,2025-12-12 01:33,True,(0099) 285-0544
+M0891,Estiono  Rajata,Kinestetik,Online,Basis Data,2025-11-12 19:48,2025-11-12 22:48,False,+62 (89) 426-9329
+M0892,Wirda  Sihotang,Auditori,Offline,Fisika Dasar,2025-10-16 08:11,2025-10-16 11:11,False,0822089077
+M0893,Qori  Maryati,Visual,Online,Struktur Data,2025-09-28 23:56,2025-09-29 01:56,False,089 733 9279
+M0894,Oni  Suryono,Kinestetik,Offline,Analisis Numerik,2025-07-06 04:26,2025-07-06 05:26,True,+62 (96) 364-9923
+M0895,Maryadi  Sihombing,Visual,Offline,Analisis Numerik,2025-10-05 00:23,2025-10-05 02:23,True,+62 (354) 899 6645
+M0896,Winda  Oktaviani,Kinestetik,Offline,Matematika 2,2025-08-07 15:57,2025-08-07 18:57,True,083 665 3772
+M0897,Mustika  Handayani,Kinestetik,Offline,Metode Statistik,2025-08-25 02:04,2025-08-25 03:04,True,+62 (0527) 008-2564
+M0898,Purwadi  Rajata,Auditori,Offline,Analisis Numerik,2025-08-21 18:45,2025-08-21 20:45,False,+62-083-246-1088
+M0899,Harsanto  Prabowo,Visual,Online,Fisika Magnet,2025-12-30 21:27,2025-12-31 00:27,False,+62 (088) 301 6898
+M0900,Praba  Permata,Kinestetik,Online,Pengantar AI,2025-07-03 11:27,2025-07-03 12:27,False,083 464 1141
+M0901,Elma  Hartati,Kinestetik,Online,Pengantar AI,2025-08-17 12:42,2025-08-17 15:42,False,+62-07-816-6867
+M0902,Karsa  Simbolon,Visual,Online,Analisis Numerik,2025-11-23 00:26,2025-11-23 02:26,False,0862770405
+M0903,Zelaya  Zulaika,Visual,Offline,Logika Matematika,2025-08-31 04:51,2025-08-31 07:51,False,+62-057-664-6561
+M0904,Rahmi  Siregar,Kinestetik,Offline,Aljabar Linier,2025-07-16 19:54,2025-07-16 22:54,True,+62 (048) 127 7009
+M0905,Kairav  Pertiwi,Auditori,Online,Kalkulus 2,2025-09-25 18:34,2025-09-25 20:34,False,+62-064-682-1917
+M0906,Koko  Zulkarnain,Visual,Offline,Aljabar Linier,2025-11-21 02:19,2025-11-21 03:19,False,+62-0800-873-4501
+M0907,Eluh  Winarno,Auditori,Offline,Metode Statistik,2025-12-18 16:32,2025-12-18 18:32,True,+62 (50) 942-5827
+M0908,Intan  Saptono,Visual,Offline,Metode Statistik,2025-08-10 21:54,2025-08-10 22:54,True,(071) 449-3582
+M0909,Raden  Sitompul,Kinestetik,Offline,Fisika Dasar,2025-08-26 15:49,2025-08-26 18:49,True,+62 (002) 827 0593
+M0910,Hari  Suryatmi,Kinestetik,Offline,Aljabar Linier,2025-09-06 22:09,2025-09-07 01:09,False,+62 (052) 579-7223
+M0911,Hardi  Pangestu,Visual,Offline,Fisika Dasar,2025-12-24 23:02,2025-12-25 01:02,False,+62-600-501-7463
+M0912,Putu  Irawan,Kinestetik,Online,Kalkulus 2,2025-11-10 23:30,2025-11-11 00:30,False,+62 (55) 624 8804
+M0913,Padmi  Hutapea,Kinestetik,Online,Struktur Data,2025-12-27 22:58,2025-12-28 00:58,True,+62 (090) 959 3257
+M0914,Sabri  Mansur,Auditori,Offline,Analisis Numerik,2025-12-15 17:27,2025-12-15 20:27,True,+62-084-082-0444
+M0915,Lili  Winarsih,Kinestetik,Online,Probabilitas & Statistika,2025-11-01 02:11,2025-11-01 04:11,True,+62-08-013-8997
+M0916,Dariati  Latupono,Auditori,Offline,Kalkulus 2,2025-08-03 11:32,2025-08-03 12:32,True,(0307) 266-5672
+M0917,Ihsan  Prasasta,Visual,Online,Basis Data,2025-08-13 21:51,2025-08-14 00:51,True,+62-52-518-6116
+M0918,Irsad  Suryatmi,Visual,Offline,Matematika 2,2025-11-04 10:57,2025-11-04 12:57,True,+62-0952-137-4108
+M0919,Dagel  Nuraini,Kinestetik,Online,Metode Statistik,2025-08-06 05:02,2025-08-06 06:02,False,+62 (0344) 861 3642
+M0920,Soleh  Ramadan,Visual,Offline,Fisika Dasar,2025-09-27 11:59,2025-09-27 14:59,False,+62 (0962) 716-7082
+M0921,Edward  Anggraini,Auditori,Offline,Metode Statistik,2025-11-28 07:53,2025-11-28 10:53,False,(0385) 433 0831
+M0922,Koko  Prastuti,Visual,Offline,Struktur Data,2025-09-18 03:49,2025-09-18 06:49,False,+62 (713) 120 0593
+M0923,Agnes  Maheswara,Kinestetik,Online,Probabilitas & Statistika,2025-12-02 03:40,2025-12-02 06:40,False,087 685 0650
+M0924,Viktor  Wahyudin,Visual,Offline,Dasar Pemrograman,2025-12-26 16:44,2025-12-26 18:44,False,+62-075-980-5392
+M0925,Najam  Fujiati,Visual,Offline,Probabilitas & Statistika,2025-08-21 15:04,2025-08-21 16:04,False,(0628) 173-0939
+M0926,Ami  Usamah,Auditori,Online,Dasar Pemrograman,2025-07-01 00:02,2025-07-01 02:02,False,+62-0425-851-8936
+M0927,Imam  Sitorus,Visual,Online,Fisika Magnet,2025-07-01 14:45,2025-07-01 15:45,False,+62 (91) 997-9074
+M0928,Paris  Mangunsong,Kinestetik,Offline,Fisika Magnet,2025-07-26 22:36,2025-07-27 01:36,False,+62 (0033) 020-2356
+M0929,Kani  Susanti,Kinestetik,Online,Kimia Murni,2025-10-16 19:37,2025-10-16 21:37,False,+62 (00) 869-6097
+M0930,Hilda  Suartini,Kinestetik,Offline,Analisis Numerik,2025-07-25 23:37,2025-07-26 02:37,False,+62 (24) 175-9449
+M0931,Aurora  Manullang,Visual,Online,Kimia Murni,2025-07-01 20:52,2025-07-01 23:52,True,(076) 525-6413
+M0932,Nadia  Budiyanto,Kinestetik,Offline,Pengantar AI,2025-12-05 12:47,2025-12-05 13:47,False,+62-0198-972-5562
+M0933,Unggul  Siregar,Visual,Online,Analisis Numerik,2025-12-21 10:15,2025-12-21 12:15,False,+62-40-985-5207
+M0934,Makara  Lailasari,Auditori,Online,Logika Matematika,2025-09-24 19:00,2025-09-24 22:00,True,+62-001-406-5030
+M0935,Mustika  Nainggolan,Kinestetik,Online,Fisika Listrik,2025-07-23 20:02,2025-07-23 21:02,False,(045) 361 5171
+M0936,Jati  Hidayanto,Kinestetik,Online,Fisika Listrik,2025-08-14 12:43,2025-08-14 13:43,True,+62 (0924) 227-9338
+M0937,Limar  Yuniar,Visual,Offline,Pengantar AI,2025-12-04 18:13,2025-12-04 21:13,False,(066) 210-5217
+M0938,Widya  Prayoga,Kinestetik,Offline,Matematika 2,2025-11-03 15:52,2025-11-03 17:52,False,082 121 8145
+M0939,Panca  Padmasari,Auditori,Online,Metode Statistik,2025-07-29 18:11,2025-07-29 21:11,True,(0988) 118 2205
+M0940,Bagya  Napitupulu,Kinestetik,Online,Fisika Listrik,2025-09-29 12:59,2025-09-29 13:59,False,+62-94-566-3396
+M0941,Adhiarja  Firgantoro,Visual,Online,Kimia Murni,2025-07-26 18:03,2025-07-26 19:03,True,+62 (0771) 719 3585
+M0942,Ivan  Wibisono,Visual,Online,Fisika Dasar,2025-08-10 12:27,2025-08-10 13:27,False,(0568) 622 3533
+M0943,Ajiman  Waskita,Auditori,Offline,Struktur Data,2025-08-14 16:48,2025-08-14 18:48,False,+62-035-639-3828
+M0944,Balijan  Prakasa,Visual,Online,Probabilitas & Statistika,2025-08-03 10:53,2025-08-03 11:53,False,+62-0578-817-4165
+M0945,Bakianto  Wasita,Auditori,Offline,Pengantar AI,2025-08-16 04:12,2025-08-16 07:12,False,+62 (61) 686 8309
+M0946,Wage  Puspita,Visual,Online,Analisis Numerik,2025-12-16 19:56,2025-12-16 20:56,True,+62 (030) 322-3768
+M0947,Lantar  Nainggolan,Auditori,Online,Dasar Pemrograman,2025-12-20 16:09,2025-12-20 19:09,False,+62 (792) 280 6580
+M0948,Ghani  Nuraini,Visual,Online,Fisika Magnet,2025-08-17 01:46,2025-08-17 02:46,False,(072) 513-0437
+M0949,Argono  Zulaika,Visual,Online,Fisika Listrik,2025-10-04 18:19,2025-10-04 21:19,False,+62 (0241) 620-1733
+M0950,Hani  Sihombing,Visual,Online,Metode Statistik,2025-07-11 09:55,2025-07-11 11:55,True,(009) 696 1806
+M0951,Kayun  Mahendra,Kinestetik,Offline,Matematika 2,2025-10-02 08:02,2025-10-02 10:02,False,+62 (0573) 818 5448
+M0952,Soleh  Megantara,Kinestetik,Online,Kalkulus 2,2025-09-22 14:59,2025-09-22 16:59,False,+62 (058) 551-1169
+M0953,Marsito  Prasasta,Visual,Offline,Metode Statistik,2025-08-05 14:23,2025-08-05 17:23,True,(0266) 591 9748
+M0954,Rahmat  Suwarno,Kinestetik,Online,Kimia Murni,2025-09-21 04:38,2025-09-21 06:38,True,+62-038-160-5595
+M0955,Kasim  Iswahyudi,Kinestetik,Offline,Fisika Magnet,2025-12-04 05:08,2025-12-04 07:08,False,+62-251-841-5305
+M0956,Tirtayasa  Uyainah,Auditori,Offline,Probabilitas & Statistika,2025-08-04 20:06,2025-08-04 22:06,False,(0440) 970-2500
+M0957,Bala  Widodo,Kinestetik,Online,Kimia Murni,2025-10-17 02:17,2025-10-17 03:17,False,(0784) 348-0979
+M0958,Hilda  Sihotang,Visual,Offline,Basis Data,2025-10-29 12:56,2025-10-29 13:56,False,+62 (001) 937 7911
+M0959,Yosef  Siregar,Auditori,Online,Metode Statistik,2025-08-31 05:02,2025-08-31 07:02,False,0869939871
+M0960,Okto  Nasyidah,Visual,Offline,Kimia Murni,2025-12-29 12:52,2025-12-29 13:52,True,+62 (94) 009-8841
+M0961,Zizi  Utami,Auditori,Offline,Aljabar Linier,2025-11-05 07:57,2025-11-05 08:57,True,080 798 3443
+M0962,Ajiman  Safitri,Visual,Offline,Pengantar AI,2025-11-06 02:55,2025-11-06 04:55,False,+62 (39) 249 0923
+M0963,Eka  Suwarno,Visual,Online,Pengantar AI,2025-10-17 18:47,2025-10-17 20:47,True,0899784014
+M0964,Jatmiko  Hidayat,Kinestetik,Online,Kalkulus 2,2025-09-06 11:35,2025-09-06 13:35,True,(053) 971-8802
+M0965,Ade  Dabukke,Kinestetik,Online,Fisika Dasar,2025-11-28 10:13,2025-11-28 11:13,True,+62 (068) 054 6031
+M0966,Dewi  Setiawan,Visual,Offline,Struktur Data,2025-11-11 10:37,2025-11-11 13:37,False,+62 (262) 725 8067
+M0967,Bakidin  Dongoran,Auditori,Offline,Pengantar AI,2025-10-24 19:10,2025-10-24 20:10,False,+62-0333-290-4035
+M0968,Ridwan  Agustina,Visual,Online,Analisis Numerik,2025-10-18 19:28,2025-10-18 20:28,True,086 226 8825
+M0969,Kajen  Mangunsong,Auditori,Online,Fisika Dasar,2025-09-17 09:28,2025-09-17 12:28,False,+62 (897) 140 2527
+M0970,Dadi  Mayasari,Visual,Offline,Pengantar AI,2025-11-17 06:20,2025-11-17 07:20,False,+62 (17) 907 8710
+M0971,Prabu  Utami,Visual,Offline,Fisika Dasar,2025-12-12 05:56,2025-12-12 08:56,False,080 341 8681
+M0972,Pandu  Saragih,Kinestetik,Offline,Logika Matematika,2025-11-03 21:32,2025-11-03 23:32,False,+62-873-533-8490
+M0973,Vera  Gunarto,Visual,Offline,Probabilitas & Statistika,2025-10-05 09:56,2025-10-05 12:56,True,+62 (081) 232-2216
+M0974,Radika  Hassanah,Kinestetik,Online,Kalkulus 2,2025-12-11 02:58,2025-12-11 03:58,False,+62 (087) 113-4342
+M0975,Shania  Yulianti,Visual,Offline,Logika Matematika,2025-11-21 19:04,2025-11-21 20:04,False,+62-19-409-8216
+M0976,Salman  Marbun,Visual,Offline,Metode Statistik,2025-11-17 20:45,2025-11-17 23:45,True,(0826) 057-0496
+M0977,Kamila  Kuswandari,Auditori,Online,Pengantar AI,2025-10-18 03:29,2025-10-18 05:29,True,+62 (083) 719 3739
+M0978,Tantri  Farida,Kinestetik,Offline,Matematika 2,2025-09-09 11:33,2025-09-09 14:33,False,+62 (03) 640-9996
+M0979,Balijan  Dabukke,Visual,Online,Probabilitas & Statistika,2025-07-29 00:02,2025-07-29 02:02,False,(078) 658 7958
+M0980,Intan  Yuliarti,Auditori,Online,Kimia Murni,2025-12-05 07:36,2025-12-05 09:36,True,+62 (479) 492 2078
+M0981,Ami  Hariyah,Visual,Offline,Matematika 2,2025-09-27 21:55,2025-09-27 23:55,False,+62-0447-160-9538
+M0982,Budi  Kuswoyo,Visual,Online,Analisis Numerik,2025-08-16 11:56,2025-08-16 12:56,True,(098) 305 6060
+M0983,Ganjaran  Hidayanto,Auditori,Online,Dasar Pemrograman,2025-10-10 22:51,2025-10-10 23:51,True,+62 (051) 399-7257
+M0984,Pangestu  Hutasoit,Kinestetik,Online,Kalkulus 2,2025-10-18 13:51,2025-10-18 16:51,False,(064) 877-7026
+M0985,Vanya  Siregar,Auditori,Offline,Fisika Listrik,2025-08-22 12:05,2025-08-22 13:05,False,+62 (027) 888 7877
+M0986,Rahmat  Adriansyah,Kinestetik,Offline,Analisis Numerik,2025-08-14 06:18,2025-08-14 08:18,False,0888145744
+M0987,Atmaja  Gunarto,Kinestetik,Online,Matematika 2,2025-08-04 16:55,2025-08-04 17:55,False,+62-0137-468-0627
+M0988,Muni  Tamba,Visual,Offline,Fisika Magnet,2025-12-21 03:25,2025-12-21 06:25,False,(0704) 257-0216
+M0989,Elisa  Novitasari,Kinestetik,Online,Dasar Pemrograman,2025-11-19 04:38,2025-11-19 05:38,True,0898214114
+M0990,Vera  Nashiruddin,Kinestetik,Offline,Fisika Listrik,2025-12-30 12:56,2025-12-30 15:56,False,+62 (0873) 350 1238
+M0991,Siti  Kusmawati,Kinestetik,Offline,Fisika Listrik,2025-08-19 17:44,2025-08-19 19:44,False,+62 (025) 712 5681
+M0992,Gina  Rahmawati,Kinestetik,Online,Pengantar AI,2025-08-16 17:15,2025-08-16 18:15,False,(092) 645 9924
+M0993,Jaiman  Ardianto,Visual,Offline,Struktur Data,2025-07-10 13:53,2025-07-10 14:53,False,+62-206-921-1828
+M0994,Tomi  Mandasari,Visual,Online,Metode Statistik,2025-10-05 20:00,2025-10-05 23:00,False,+62 (232) 225 9689
+M0995,Prayitna  Haryanti,Auditori,Offline,Logika Matematika,2025-08-06 14:01,2025-08-06 16:01,False,(0748) 471 8704
+M0996,Hilda  Halimah,Auditori,Online,Probabilitas & Statistika,2025-07-19 17:19,2025-07-19 20:19,False,(0153) 288 1978
+M0997,Dono  Latupono,Visual,Online,Fisika Listrik,2025-11-22 04:43,2025-11-22 06:43,False,+62-63-090-8943
+M0998,Yosef  Yulianti,Kinestetik,Online,Logika Matematika,2025-07-03 13:27,2025-07-03 16:27,False,+62-74-387-5379
+M0999,Tugiman  Salahudin,Kinestetik,Offline,Analisis Numerik,2025-11-15 00:23,2025-11-15 02:23,False,+62 (99) 677 5851
+M1000,Kenzie  Rajasa,Visual,Offline,Fisika Dasar,2025-11-19 03:39,2025-11-19 05:39,True,(026) 375 3980
