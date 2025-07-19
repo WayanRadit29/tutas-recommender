@@ -115,8 +115,9 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
     # 1. hitung jumlah positif & negatif
     num_pos = int(total_row * pos_ratio)
     num_neg = total_row - num_pos
-    num_neg_all = num_neg // 2
-    num_neg_time = num_neg - num_neg_all
+    num_neg_all = num_neg // 3
+    num_neg_time = num_neg // 3
+    num_neg_time_but_flex = num_neg // 3
 
     # 2. buat interaksi positif
     pos_count = 0
@@ -186,7 +187,7 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
 
     # 3b. buat interaksi negatif: fitur match tapi waktu mismatch & tidak fleksibel
     neg_time_count = 0
-    while neg_time_count < num_neg_time:
+    while neg_time_count < num_neg_time_but_flex:
         murid = df_murid.sample(1).iloc[0]
         tutor = df_tutor.sample(1).iloc[0]
 
@@ -222,5 +223,45 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
             'label':              0
         })
         neg_time_count += 1
+
+    #3c. Waktu mismatch tetapi fleksibel
+    neg_time_but_flex_count = 0
+    while neg_time_but_flex_count < num_neg_time:
+        murid = df_murid.sample(1).iloc[0]
+        tutor = df_tutor.sample(1).iloc[0]
+
+        # fitur harus match
+        if not (
+            murid['preferensi_topik'] == tutor['keahlian_topik'] and
+            murid['gaya_belajar']       == tutor['gaya_belajar'] and
+            murid['metode_belajar']     == tutor['metode_belajar']
+        ):
+            continue
+
+        # parse waktu
+        m_start = datetime.strptime(murid['available_start'], "%Y-%m-%d %H:%M")
+        m_end   = datetime.strptime(murid['available_end'],   "%Y-%m-%d %H:%M")
+        t_start = datetime.strptime(tutor['available_start'], "%Y-%m-%d %H:%M")
+        t_end   = datetime.strptime(tutor['available_end'],   "%Y-%m-%d %H:%M")
+
+        # harus mismatch waktu & salah satu atau keduanya fleksibel
+        if has_overlap(m_start, m_end, t_start, t_end):
+            continue
+        if not murid['is_flexible'] and not tutor['is_flexible']:
+            continue
+
+        rows.append({
+            'id_murid':           murid['id_murid'],
+            'id_tutor':           tutor['id_tutor'],
+            'topik_match':        True,
+            'gaya_match':         True,
+            'metode_match':       True,
+            'time_overlap':       False,
+            'murid_flexible':     murid['is_flexible'],
+            'tutor_flexible':     tutor['is_flexible'],
+            'label':              0
+        })
+        neg_time_but_flex_count += 1
+
 
     return pd.DataFrame(rows)
