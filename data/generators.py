@@ -156,7 +156,8 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
             'time_overlap':       overlap,
             'murid_flexible':     murid['is_flexible'],
             'tutor_flexible':     tutor['is_flexible'],
-            'label':              1
+            'feedback_score': random.choices([4,5], weights=[0.4, 0.6])[0],
+            'label':  1 
         })
         pos_count += 1
 
@@ -178,9 +179,10 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
                 'topik_match':        False,
                 'gaya_match':         False,
                 'metode_match':       False,
-                'time_overlap':       None,
+                'time_overlap':       False,
                 'murid_flexible':     murid['is_flexible'],
                 'tutor_flexible':     tutor['is_flexible'],
+                'feedback_score': 0,
                 'label':              0
             })
             neg_all_count += 1
@@ -220,6 +222,7 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
             'time_overlap':       False,
             'murid_flexible':     False,
             'tutor_flexible':     False,
+            'feedback_score': 0,
             'label':              0
         })
         neg_time_count += 1
@@ -249,7 +252,7 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
             continue
         if not murid['is_flexible'] and not tutor['is_flexible']:
             continue
-
+        feedback_score = random.randint(1,5)
         rows.append({
             'id_murid':           murid['id_murid'],
             'id_tutor':           tutor['id_tutor'],
@@ -259,7 +262,8 @@ def generate_interaksi(df_murid, df_tutor, total_row=2000, pos_ratio=0.7):
             'time_overlap':       False,
             'murid_flexible':     murid['is_flexible'],
             'tutor_flexible':     tutor['is_flexible'],
-            'label':              0
+            'feedback_score': feedback_score,
+            'label':   1 if feedback_score >= 4 else 0
         })
         neg_time_but_flex_count += 1
 
