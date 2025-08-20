@@ -3,3 +3,8 @@ numpy
 faker
 google-cloud-bigquery
 pandas-gbq
+fsspec
+gcsfs
+tensorflow==2.15.0
+google-cloud-storage
+tensorflow-cloud
