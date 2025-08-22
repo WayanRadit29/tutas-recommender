@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # ========= Konfigurasi =========
-GCS_BUCKET = 'tutas-recommender-ml'   #cukup ini, sesuai bucket kamu
+GCS_BUCKET = 'tutas-recommender-machinelearning'   #cukup ini, sesuai bucket kamu
 DATA_PREFIX = 'processed'             #revisi: langsung "processed"
 LOG_PREFIX  = 'logs/tutas-v1'
 MODEL_PREFIX= 'models/tutas-v1'
