@@ -1,16 +1,29 @@
 from datetime import datetime
 
-NUM_DATA = 1000
-GAYA_BELAJAR = ['Visual', 'Auditori', 'Kinestetik']
+# Number of synthetic data records to generate
+NUM_DATA = 1000  
+
+# Categories of learning styles (student preference)
+GAYA_BELAJAR = ['Visual', 'Auditory', 'Kinesthetic']
+
+# Modes of learning delivery
 METODE_BELAJAR = ['Offline', 'Online']
+
+# Academic subjects to be included in the dataset
 TOPIK = [
-    'Kalkulus 2', 'Matematika 2', 'Dasar Pemrograman', 'Struktur Data',
-    'Fisika Listrik', 'Kimia Murni', 'Fisika Magnet', 'Probabilitas & Statistika',
-    'Aljabar Linier', 'Fisika Dasar', 'Logika Matematika', 'Pengantar AI',
-    'Basis Data', 'Analisis Numerik', 'Metode Statistik'
+    'Calculus II', 'Mathematics II', 'Introduction to Programming', 'Data Structures',
+    'Electricity Physics', 'Pure Chemistry', 'Magnetism Physics', 'Probability & Statistics',
+    'Linear Algebra', 'General Physics', 'Mathematical Logic', 'Introduction to AI',
+    'Databases', 'Numerical Analysis', 'Statistical Methods'
 ]
 
-LOCALE = 'id_ID' # ini untuk kode indonesia di library Faker, jadi nanti akan generate nama orang indonesia
-START_DT   = datetime(2025,7,1)
-END_DT     = datetime(2025,12,31)
-FLEX_RATE  = 0.3
+# Locale setting for Faker library
+# 'id_ID' ensures generated names follow Indonesian naming conventions
+LOCALE = 'id_ID'  
+
+# Date range for synthetic events (e.g., study sessions, interactions)
+START_DT = datetime(2025, 7, 1)
+END_DT   = datetime(2025, 12, 31)
+
+# Flexibility rate (e.g., proportion of records where time or preference is adjusted randomly)
+FLEX_RATE = 0.3
