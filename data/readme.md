@@ -38,7 +38,7 @@ All data is **synthetic** (using Faker + custom logic) and safe for demonstratio
 Run the main script to create student, tutor, and interaction datasets:
 ```bash
 python main.py
-
+```
 
 The output files will be saved in `dataset/unprocessed/`:
 
@@ -53,7 +53,7 @@ Use the provided Jupyter notebook inside `scripts/` to clean and split the data:
 
 ```bash
 scripts/preprocess.ipynb
-```
+
 
 This notebook takes the raw CSVs from `dataset/unprocessed/` and produces processed files in `dataset/processed/`:
 * `X_train.csv`, `X_test.csv`
