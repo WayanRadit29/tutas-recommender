@@ -29,6 +29,7 @@ All data is **synthetic** (using Faker + custom logic) and safe for demonstratio
 ├── utils.py                 # Helper functions (faker init, random windows, weighted choice, overlap check)
 └── readme.md                # Project documentation
 
+```
 
 ## 🚀 Usage
 
@@ -37,7 +38,7 @@ All data is **synthetic** (using Faker + custom logic) and safe for demonstratio
 Run the main script to create student, tutor, and interaction datasets:
 ```bash
 python main.py
-```
+
 
 The output files will be saved in `dataset/unprocessed/`:
 
