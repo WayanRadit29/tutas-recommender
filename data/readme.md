@@ -24,9 +24,42 @@ All data is **synthetic** (using Faker + custom logic) and safe for demonstratio
 │       └── y\_test.csv
 │
 ├── config.py                # Global configuration (constants, parameters)
-├── generators.py            # Functions to generate murid, tutor, and interaksi datasets
+├── generators.py            # Functions to generate murid/student, tutor, and interaksi/interaction datasets
 ├── main.py                  # Main entry point for dataset generation
 ├── utils.py                 # Helper functions (faker init, random windows, weighted choice, overlap check)
 └── readme.md                # Project documentation
 
+
+## 🚀 Usage
+
+### 1. Generate raw synthetic data
+
+Run the main script to create student, tutor, and interaction datasets:
+```bash
+python main.py
+```
+
+The output files will be saved in `dataset/unprocessed/`:
+
+* `murid.csv`
+* `tutor.csv`
+* `interaksi.csv`
+---
+
+### 2. Preprocess data for machine learning
+
+Use the provided Jupyter notebook inside `scripts/` to clean and split the data:
+
+```bash
+scripts/preprocess.ipynb
+```
+
+This notebook takes the raw CSVs from `dataset/unprocessed/` and produces processed files in `dataset/processed/`:
+* `X_train.csv`, `X_test.csv`
+* `y_train.csv`, `y_test.csv`
+
+---
+
+📌 **Note**: The preprocessing step includes feature engineering and train/test splitting,
+which prepares the data for ML model training.
 
