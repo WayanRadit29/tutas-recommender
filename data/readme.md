@@ -51,7 +51,6 @@ The output files will be saved in `dataset/unprocessed/`:
 
 Use the provided Jupyter notebook inside `scripts/` to clean and split the data:
 
-```bash
 scripts/preprocess.ipynb
 
 
