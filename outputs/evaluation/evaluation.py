@@ -1,6 +1,7 @@
 import tensorflow as tf
 import pandas as pd
 import numpy as np
+from sklearn.metrics import classification_report, confusion_matrix
 
 SAVEDMODEL_DIR = r"../models/tutas-v1"
 loaded = tf.saved_model.load(SAVEDMODEL_DIR)
@@ -20,7 +21,12 @@ pred = (probs >= 0.5).astype(np.int32)
 acc = (pred == y_test.astype(np.int32)).mean()
 
 print(f"Test Accuracy: {acc:.4f}")
-print(f"Example probs[:5]: {probs[:5]}")
+
+
+
+print(confusion_matrix(y_test, pred))
+print()
+print(classification_report(y_test, pred))
 
 
 
