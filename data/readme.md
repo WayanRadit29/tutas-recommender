@@ -31,7 +31,6 @@ All data is **synthetic** (using Faker + custom logic) and safe for demonstratio
 ├── utils.py                 # Helper functions (faker init, random windows, weighted choice, overlap check)
 └── readme.md                # Project documentation
 
-
 ```
 
 ## 🚀 Usage
