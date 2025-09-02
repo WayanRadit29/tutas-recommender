@@ -15,19 +15,22 @@ All data is **synthetic** (using Faker + custom logic) and safe for demonstratio
 │   │   ├── murid.csv
 │   │   ├── tutor.csv
 │   │   ├── interaksi.csv
-│   │   └── tutas_recommender_training_features.csv # This is the result from BigQuerry in Google Cloud Platform
 │   │
-│   └── processed/           # Preprocessed & split data for ML training
-│       ├── X\_train.csv
-│       ├── X\_test.csv
-│       ├── y\_train.csv
-│       └── y\_test.csv
+│   ├── processed_1/         # Processed dataset from BigQuery (feature-engineered)
+│   │   └── tutas_recommender_training_features.csv
+│   │
+│   └── processed_2/         # Processed dataset from scripts/preprocess.ipynb (train/test split)
+│       ├── X_train.csv
+│       ├── X_test.csv
+│       ├── y_train.csv
+│       └── y_test.csv
 │
 ├── config.py                # Global configuration (constants, parameters)
 ├── generators.py            # Functions to generate murid/student, tutor, and interaksi/interaction datasets
 ├── main.py                  # Main entry point for dataset generation
 ├── utils.py                 # Helper functions (faker init, random windows, weighted choice, overlap check)
 └── readme.md                # Project documentation
+
 
 ```
 
