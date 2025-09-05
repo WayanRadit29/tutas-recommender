@@ -49,7 +49,19 @@ The output files will be saved in `dataset/unprocessed/`:
 * `interaksi.csv`
 ---
 
-### 2. Preprocess data for machine learning
+### 2. Process data with BigQuery
+
+Upload the raw CSVs from `dataset/unprocessed/` into **Google Cloud BigQuery**.  
+Use SQL queries to perform **feature engineering and data transformation**, combining the student, tutor, and interaction datasets into a single training-ready table.
+
+Output:
+* `tutas_recommender_training_features.csv` → stored under `dataset/processed_1/`
+
+📌 Example BigQuery workflow:  
+![BigQuery Processing Screenshot](docs/processing_data_in_BigQueery/pictures/create_bucket_and_upload_dataset.png)
+
+
+### 3. Preprocess data for machine learning
 
 Use the provided Jupyter notebook inside `scripts/` to clean and split the data:
 
