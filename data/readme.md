@@ -89,6 +89,24 @@ This process is repeated for each dataset to ensure that all raw data is accessi
 Feature engineering in BigQuery is performed through a series of SQL queries.  
 Each query transforms or enriches the raw data into features that will be used for training the recommender model.
 
+**a. Validate Data Distribution**
+
+Before feature engineering, it is important to validate the quality and consistency of the raw interaction data.  
+This step checks the balance of labels, the distribution of feedback scores, and ensures no anomalies in the label–feedback relationship.
+
+📊 **Check distribution of labels (positive vs negative)**
+
+```sql
+SELECT label, COUNT(*) AS jumlah
+FROM `tutas_data.interaksi_data`
+GROUP BY label
+ORDER BY label;
+```
+
+This query counts how many records are labeled 0 (negative) and 1 (positive).
+It helps to identify if the dataset is balanced or skewed.
+![Label Distribution](../docs/processing_data_in_BigQuery/pictures/label_distribution.png)
+
 
 ### 3. Preprocess data for machine learning
 
