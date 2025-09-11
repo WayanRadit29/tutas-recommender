@@ -122,7 +122,6 @@ It ensures that the scoring system is consistent and covers the expected range.
 ![Feedback Score Distribution](../docs/processing_data_in_BigQuery/pictures/feedback_score_distribution.png)
 
 
-
 ⚠️ **Validate that `label = 1` only occurs when `feedback_score >= 4`**
 
 ```sql
