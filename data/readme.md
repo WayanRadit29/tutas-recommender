@@ -108,6 +108,38 @@ It helps to identify if the dataset is balanced or skewed.
 ![Label Distribution](../docs/processing_data_in_BigQuery/pictures/label_distribution.png)
 
 
+📊 **Check distribution of feedback\_score**
+
+```sql
+SELECT feedback_score, COUNT(*) AS jumlah
+FROM `tutas_data.interaksi_data`
+GROUP BY feedback_score
+ORDER BY feedback_score;
+```
+
+This query validates the spread of feedback scores across all interactions.
+It ensures that the scoring system is consistent and covers the expected range.
+![Feedback Score Distribution](../docs/processing_data_in_BigQuery/pictures/feedback_score_distribution.png)
+
+
+
+⚠️ **Validate that `label = 1` only occurs when `feedback_score >= 4`**
+
+```sql
+SELECT *
+FROM `tutas_data.interaksi_data`
+WHERE label = 1 AND feedback_score < 4;
+```
+
+This query checks for anomalies where a positive label (`label = 1`) is assigned even though the feedback score is below 4.
+No rows should be returned here — if results exist, it indicates data labeling errors.
+![Anomaly Check](../docs/processing_data_in_BigQuery/pictures/anomali_label_check.png)
+
+
+
+
+
+
 ### 3. Preprocess data for machine learning
 
 Use the provided Jupyter notebook inside `scripts/` to clean and split the data:
