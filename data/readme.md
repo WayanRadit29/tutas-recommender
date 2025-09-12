@@ -134,9 +134,90 @@ This query checks for anomalies where a positive label (`label = 1`) is assigned
 No rows should be returned here — if results exist, it indicates data labeling errors.
 ![Anomaly Check](../docs/processing_data_in_BigQuery/pictures/anomali_label_check.png)
 
+Sip bro, gue bikin bagian **b** dalam format markdown yang sama kayak contoh lo. Jadi terdiri dari 3 SQL query: bikin fitur `pernah_gagal`, join metadata tutor, dan cek insight failure.
+
+---
+
+📌 **b. Create Feature: `pernah_gagal` and Join Metadata**
+
+---
+
+📊 **Identify past failed pairs (feedback < 4) and add `pernah_gagal` flag**
+
+```sql
+-- Identify past failed pairs (feedback < 4)
+WITH gagal AS (
+  SELECT id_murid, id_tutor
+  FROM `tutas_data.interaksi_data`
+  WHERE feedback_score < 4
+)
+
+-- Join with main data to add 'pernah_gagal' flag
+SELECT
+  i.*,
+  IF(g.id_murid IS NOT NULL, TRUE, FALSE) AS pernah_gagal
+FROM
+  `tutas_data.interaksi_data` i
+LEFT JOIN
+  gagal g
+ON i.id_murid = g.id_murid AND i.id_tutor = g.id_tutor;
+```
+
+This query creates a new feature called **`pernah_gagal`** (ever failed).
+It flags student–tutor pairs that had at least one past interaction with `feedback_score < 4`.
+
+![Create Pernah Gagal Feature](../docs/processing_data_in_BigQuery/pictures/create_pernah_gagal_features.png)
 
 
+📊 **Join tutor metadata to enrich features**
 
+```sql
+-- Join tutor metadata to include rating and teaching hours
+WITH gagal AS (
+  SELECT id_murid, id_tutor
+  FROM `tutas_data.interaksi_data`
+  WHERE feedback_score < 4
+)
+
+SELECT
+  i.*,
+  t.rating,
+  t.total_jam_ngajar,
+  IF(g.id_murid IS NOT NULL, TRUE, FALSE) AS pernah_gagal
+FROM `tutas_data.interaksi_data` i
+LEFT JOIN `tutas_data.tutor_data` t
+  ON i.id_tutor = t.id_tutor
+LEFT JOIN gagal g
+  ON i.id_murid = g.id_murid AND i.id_tutor = g.id_tutor;
+```
+
+This query enriches the interaction dataset with tutor-level metadata:
+
+* **`rating`** → average tutor rating.
+* **`total_jam_ngajar`** → total hours of teaching experience.
+* **`pernah_gagal`** flag from the previous step.
+
+This prepares a more complete training dataset for the recommender system.
+
+
+📊 **Calculate failure rate (insight check)**
+
+```sql
+-- Calculate how many historical pairings failed
+SELECT
+  COUNT(*) AS total_interaksi,
+  COUNTIF(pernah_gagal) AS jumlah_gagal,
+  ROUND(COUNTIF(pernah_gagal)/COUNT(*) * 100, 2) AS persen_gagal
+FROM `tutas_data.training_features`;
+```
+
+This query provides insight into the failure rate of student–tutor pairings:
+
+* `total_interaksi` → total number of interactions.
+* `jumlah_gagal` → how many interactions are flagged as failed.
+* `persen_gagal` → percentage of failed interactions.
+
+This step validates whether the new feature **`pernah_gagal`** captures meaningful historical failure patterns in the dataset.
 
 
 ### 3. Preprocess data for machine learning
