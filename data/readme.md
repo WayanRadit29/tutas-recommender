@@ -136,11 +136,9 @@ No rows should be returned here — if results exist, it indicates data labeling
 
 Sip bro, gue bikin bagian **b** dalam format markdown yang sama kayak contoh lo. Jadi terdiri dari 3 SQL query: bikin fitur `pernah_gagal`, join metadata tutor, dan cek insight failure.
 
----
+
 
 📌 **b. Create Feature: `pernah_gagal` and Join Metadata**
-
----
 
 📊 **Identify past failed pairs (feedback < 4) and add `pernah_gagal` flag**
 
@@ -167,7 +165,6 @@ This query creates a new feature called **`pernah_gagal`** (ever failed).
 It flags student–tutor pairs that had at least one past interaction with `feedback_score < 4`.
 
 ![Create Pernah Gagal Feature](../docs/processing_data_in_BigQuery/pictures/create_pernah_gagal_features.png)
-
 
 📊 **Join tutor metadata to enrich features**
 
@@ -198,6 +195,9 @@ This query enriches the interaction dataset with tutor-level metadata:
 * **`pernah_gagal`** flag from the previous step.
 
 This prepares a more complete training dataset for the recommender system.
+
+![Join Tutor Metadata](../docs/processing_data_in_BigQuery/pictures/make_tutas_training_dataset.png)
+
 
 
 📊 **Calculate failure rate (insight check)**
