@@ -11,11 +11,8 @@ This project builds a machine learning-based tutor-student recommendation system
 - Serve as a personal portfolio to demonstrate ML & GCP proficiency
 
 ---
-
-```markdown
 ## 📂 Project Structure
 
-```
 .
 ├── data/                           # Data generation & preprocessing
 │   ├── dataset/
@@ -74,9 +71,6 @@ This project builds a machine learning-based tutor-student recommendation system
 ├── requirements.txt                 # Python dependencies
 ├── .gitignore
 └── readme.md                        # Main project documentation
-
-```
-```
 ---
 
 ## 🧱 Tech Stack
