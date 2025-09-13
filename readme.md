@@ -12,6 +12,73 @@ This project builds a machine learning-based tutor-student recommendation system
 
 ---
 
+```markdown
+## 📂 Project Structure
+
+```
+.
+├── data/                           # Data generation & preprocessing
+│   ├── dataset/
+│   │   ├── unprocessed/             # Raw synthetic data (output of main.py)
+│   │   │   ├── murid.csv
+│   │   │   ├── tutor.csv
+│   │   │   └── interaksi.csv
+│   │   ├── processed 1/             # BigQuery engineered dataset
+│   │   │   └── tutas\_recommender\_training\_features.csv
+│   │   └── processed 2/             # Preprocessed splits for ML model
+│   │       ├── X\_train.csv
+│   │       ├── X\_test.csv
+│   │       ├── y\_train.csv
+│   │       └── y\_test.csv
+│   ├── config.py
+│   ├── generators.py                # Synthetic data generators (student, tutor, interactions)
+│   ├── main.py                      # Entry point to generate unprocessed data
+│   ├── utils.py                     # Helper functions
+│   └── readme.md                    # Detailed data processing documentation
+│
+├── docs/                            # Documentation & figures
+│   ├── processing\_data\_in\_BigQuery/ # SQL scripts & explanations
+│   │   ├── bigquery\_sql/
+│   │   │   ├── 01\_validate\_distribution.sql
+│   │   │   ├── 02\_pernah\_gagal\_features.sql
+│   │   │   ├── 03\_training\_features\_join.sql
+│   │   │   └── 04\_insight\_pairing\_failures.sql
+│   │   ├── pictures/                # Supporting figures
+│   │   │   ├── create\_bucket\_and\_upload\_dataset.png
+│   │   │   ├── create\_table.png
+│   │   │   ├── label\_distribution.png
+│   │   │   ├── feedback\_score\_distribution.png
+│   │   │   ├── anomali\_label\_check.png
+│   │   │   ├── create\_pernah\_gagal\_features.png
+│   │   │   └── make\_tutas\_training\_dataset.png
+│   │   └── readme.md
+│   ├── training\_model\_in\_VertexAI/  # Vertex AI training setup & screenshots
+│   ├── deploying\_model/             # Deployment process & screenshots
+│   └── Inference\_test\_and\_Evaluation/ # Inference & evaluation figures
+│
+├── scripts/
+│   └── preprocess.ipynb             # Notebook for scaling & splitting data
+│
+├── training/
+│   └── train.py                     # Model training script (Keras/TensorFlow)
+│
+├── outputs/
+│   ├── evaluation/                  # Evaluation scripts
+│   │   └── evaluation.py
+│   ├── logs/                        # TensorBoard logs
+│   └── models/                      # Saved model checkpoints
+│       └── tutas-v1/
+│           ├── saved\_model.pb
+│           └── variables/
+│
+├── requirements.txt                 # Python dependencies
+├── .gitignore
+└── readme.md                        # Main project documentation
+
+```
+```
+---
+
 ## 🧱 Tech Stack
 - Python (for data generation)
 - Google BigQuery (data warehousing & feature engineering)
