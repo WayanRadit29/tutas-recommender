@@ -18,7 +18,7 @@ We first perform an online inference test directly on the deployed endpoint in *
 ```
 
 The model returns a prediction probability close to **1.0**, indicating a high likelihood of a successful tutor–student match.
-![Inference Test](../docs/Inference_test_and_Evaluation/inference_test_in_model.png)
+![Inference Test](../../docs/Inference_test_and_Evaluation/inference_test_in_model.png)
 ---
 
 ## 📈 Classification Report & Metrics
@@ -42,7 +42,7 @@ Results:
 
 This shows that the model correctly classified all test samples without error.
 
-![Model Evaluation](../docs/Inference_test_and_Evaluation/model_evaluation.png)
+![Model Evaluation](../../docs/Inference_test_and_Evaluation/model_evaluation.png)
 
 ---
 
