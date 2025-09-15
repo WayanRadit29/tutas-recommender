@@ -134,10 +134,6 @@ This query checks for anomalies where a positive label (`label = 1`) is assigned
 No rows should be returned here — if results exist, it indicates data labeling errors.
 ![Anomaly Check](../docs/processing_data_in_BigQuery/pictures/anomali_label_check.png)
 
-Sip bro, gue bikin bagian **b** dalam format markdown yang sama kayak contoh lo. Jadi terdiri dari 3 SQL query: bikin fitur `pernah_gagal`, join metadata tutor, dan cek insight failure.
-
-
-
 📌 **b. Create Feature: `pernah_gagal` and Join Metadata**
 
 📊 **Identify past failed pairs (feedback < 4) and add `pernah_gagal` flag**
@@ -219,7 +215,7 @@ This query provides insight into the failure rate of student–tutor pairings:
 
 This step validates whether the new feature **`pernah_gagal`** captures meaningful historical failure patterns in the dataset.
 
-
+---
 ### 3. Preprocess data for machine learning
 
 Use the provided Jupyter notebook inside `scripts/` to clean and split the data:
