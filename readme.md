@@ -74,6 +74,12 @@ This project builds a machine learning-based tutor-student recommendation system
 └── readme.md                        # Main project documentation
 
 ---
+## 📚 Detailed Documentation
+
+For a full walkthrough of **data preprocessing** and **feature engineering** (synthetic data → BigQuery → processed datasets), check the dedicated documentation here:
+
+👉 [Data Processing & Feature Engineering](data/readme.md)
+
 
 ## 🧱 Tech Stack
 - Python (for data generation)
