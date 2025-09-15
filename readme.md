@@ -74,13 +74,19 @@ This project builds a machine learning-based tutor-student recommendation system
 └── readme.md                        # Main project documentation
 
 ```
+
 ---
+
 ## 📚 Detailed Documentation
 
 For a full walkthrough of **data preprocessing** and **feature engineering** (synthetic data → BigQuery → processed datasets), check the dedicated documentation here:
 
 👉 [Data Processing & Feature Engineering](data/readme.md)
+👉 [Training Model in Vertex AI](training/readme.md)
+👉 [Deploying model in Vertex AI](outputs/Readme.md)
+👉 [Inference and Evaluation of Model](outputs//evaluation/readme.md)
 
+---
 
 ## 🧱 Tech Stack
 - Python (for data generation)
@@ -90,17 +96,67 @@ For a full walkthrough of **data preprocessing** and **feature engineering** (sy
 - Libraries: Faker, Pandas, Jupyter
 
 ---
+## 🚀 Usage
 
-## 📊 Dataset Overview
+Here’s the end-to-end workflow to run the **Tutas Recommender – AI Tutor Matching System**:
 
-### 📁 Datasets
-- `murid_data`: Student preferences, schedule, learning style
-- `tutor_data`: Tutor expertise, ratings, schedule, experience
-- `interaksi_data`: Match label, feedback score, joined feature set
+1. **📦 Generate Synthetic Data**
+   ```bash
+   python main.py
+   ```
 
-### 🧠 Training Features
-- `topik_match`, `gaya_match`, `metode_match`, `time_overlap`,  
-  `murid_flexible`, `tutor_flexible`, `pernah_gagal`, `rating`, `total_jam_ngajar`
+This creates raw synthetic datasets (`murid.csv`, `tutor.csv`, `interaksi.csv`) inside [`data/dataset/unprocessed/`](data/dataset/unprocessed/).
+
+2. **🗄️ Data Processing & Feature Engineering**
+
+   * Upload datasets to **Google BigQuery**.
+   * Run SQL scripts to validate, join, and create features like `pernah_gagal`.
+   * See detailed steps in:
+     👉 [`data/readme.md`](data/readme.md)
+     👉 [`docs/processing_data_in_BigQuery/readme.md`](docs/processing_data_in_BigQuery/readme.md)
+
+3. **⚙️ Preprocessing for ML**
+
+   * Split into train/test sets.
+   * Outputs stored in [`data/dataset/processed 2/`](data/dataset/processed%202/).
+     Example:
+
+     ```
+     X_train.csv | X_test.csv | y_train.csv | y_test.csv
+     ```
+
+4. **🤖 Train the Model (Vertex AI Workbench)**
+
+   ```bash
+   python training/train.py
+   ```
+
+   * Uses TensorFlow backend.
+   * Logs and checkpoints saved in `outputs/logs/`.
+   * Trained model exported to `models/tutas-v1/`.
+
+5. **🌐 Deploy & Inference (Vertex AI)**
+
+   * Deploy model to an endpoint via **Vertex AI**.
+   * Test with JSON requests:
+
+     ```json
+     {
+       "instances": [[1, 1, 1, 0, 1, 0, 0.771300, 0.672839, -1.018432, 0]]
+     }
+     ```
+   * Deployment steps: 👉 [`docs/deploying_model/`](docs/deploying_model/)
+
+6. **📈 Evaluate the Model**
+
+   ```bash
+   python outputs/evaluation/evaluation.py
+   ```
+
+   * Generates classification report & confusion matrix.
+   * See details: 👉 [`docs/Inference_test_and_Evaluation/`](docs/Inference_test_and_Evaluation/)
+
+
 
 ---
 
@@ -110,12 +166,6 @@ For a full walkthrough of **data preprocessing** and **feature engineering** (sy
 3. Feature engineering with SQL (`pernah_gagal`, join tutor info)
 4. Train AutoML model using Vertex AI
 5. Evaluate & (optionally) deploy the model
-
----
-
-## 📈 Results & Evaluation
-_(To be completed after AutoML training — include screenshots of metrics)_
-
 ---
 
 ## ✍️ Author
