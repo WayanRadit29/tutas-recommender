@@ -81,10 +81,10 @@ This project builds a machine learning-based tutor-student recommendation system
 
 For a full walkthrough of **data preprocessing** and **feature engineering** (synthetic data → BigQuery → processed datasets), check the dedicated documentation here:
 
-👉 [Data Processing & Feature Engineering](data/readme.md)
-👉 [Training Model in Vertex AI](training/readme.md)
-👉 [Deploying model in Vertex AI](outputs/Readme.md)
-👉 [Inference and Evaluation of Model](outputs//evaluation/readme.md)
+*👉 [Data Processing & Feature Engineering](data/readme.md)
+*👉 [Training Model in Vertex AI](training/readme.md)
+*👉 [Deploying model in Vertex AI](outputs/Readme.md)
+*👉 [Inference and Evaluation of Model](outputs//evaluation/readme.md)
 
 ---
 
